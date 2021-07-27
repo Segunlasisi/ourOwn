@@ -1,0 +1,1218 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["nativeadstemplates"],{"/2a1":function(t,e,i){"use strict";i.r(e),i.d(e,"MsnSlideshow",(function(){return L}));var o=i("D57K"),a=i("P4Ao"),n=i("3KaK"),s=i("oePG"),r=i("1aPi"),l=i("VRJB");const d='<svg width="44" height="42" viewBox="0 0 44 42" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_dd)"><rect x="4.5625" y="2.21094" width="35" height="34" rx="17" fill="white" fill-opacity="0.8"/>\n<path d="M15.8086 10.2109C14.8421 10.2109 14.0586 10.9944 14.0586 11.9609V26.4609C14.0586 27.4274 14.8421 28.2109 15.8086 28.2109H19.3086C20.2751 28.2109 21.0586 27.4274 21.0586 26.4609V11.9609C21.0586 10.9944 20.2751 10.2109 19.3086 10.2109H15.8086ZM15.5586 11.9609C15.5586 11.8229 15.6705 11.7109 15.8086 11.7109H19.3086C19.4467 11.7109 19.5586 11.8229 19.5586 11.9609V26.4609C19.5586 26.599 19.4467 26.7109 19.3086 26.7109H15.8086C15.6705 26.7109 15.5586 26.599 15.5586 26.4609V11.9609Z" fill="black" fill-opacity="0.83"/>\n<path d="M24.8086 10.2109C23.8421 10.2109 23.0586 10.9944 23.0586 11.9609V26.4609C23.0586 27.4274 23.8421 28.2109 24.8086 28.2109H28.3086C29.2751 28.2109 30.0586 27.4274 30.0586 26.4609V11.9609C30.0586 10.9944 29.2751 10.2109 28.3086 10.2109H24.8086ZM24.5586 11.9609C24.5586 11.8229 24.6705 11.7109 24.8086 11.7109H28.3086C28.4467 11.7109 28.5586 11.8229 28.5586 11.9609V26.4609C28.5586 26.599 28.4467 26.7109 28.3086 26.7109H24.8086C24.6705 26.7109 24.5586 26.599 24.5586 26.4609V11.9609Z" fill="black" fill-opacity="0.83"/></g><defs><filter id="filter0_dd" x="0.750736" y="0.0932908" width="42.6235" height="41.6235" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="1.69412"/><feGaussianBlur stdDeviation="1.90588"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.13 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="0.317647"/><feGaussianBlur stdDeviation="0.476471"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/><feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/></filter></defs>\n</svg>',c='<svg width="44" height="42" viewBox="0 0 44 42" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_dd)"><rect x="4.625" y="2.21094" width="35" height="34" rx="17" fill="black" fill-opacity="0.55"/>\n<path d="M15.8711 10.2109C14.9046 10.2109 14.1211 10.9944 14.1211 11.9609V26.4609C14.1211 27.4274 14.9046 28.2109 15.8711 28.2109H19.3711C20.3376 28.2109 21.1211 27.4274 21.1211 26.4609V11.9609C21.1211 10.9944 20.3376 10.2109 19.3711 10.2109H15.8711ZM15.6211 11.9609C15.6211 11.8229 15.733 11.7109 15.8711 11.7109H19.3711C19.5092 11.7109 19.6211 11.8229 19.6211 11.9609V26.4609C19.6211 26.599 19.5092 26.7109 19.3711 26.7109H15.8711C15.733 26.7109 15.6211 26.599 15.6211 26.4609V11.9609Z" fill="white" fill-opacity="0.8"/>\n<path d="M24.8711 10.2109C23.9046 10.2109 23.1211 10.9944 23.1211 11.9609V26.4609C23.1211 27.4274 23.9046 28.2109 24.8711 28.2109H28.3711C29.3376 28.2109 30.1211 27.4274 30.1211 26.4609V11.9609C30.1211 10.9944 29.3376 10.2109 28.3711 10.2109H24.8711ZM24.6211 11.9609C24.6211 11.8229 24.733 11.7109 24.8711 11.7109H28.3711C28.5092 11.7109 28.6211 11.8229 28.6211 11.9609V26.4609C28.6211 26.599 28.5092 26.7109 28.3711 26.7109H24.8711C24.733 26.7109 24.6211 26.599 24.6211 26.4609V11.9609Z" fill="white" fill-opacity="0.8"/></g><defs><filter id="filter0_dd" x="0.813236" y="0.0932908" width="42.6235" height="41.6235" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="1.69412"/><feGaussianBlur stdDeviation="1.90588"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.13 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="0.317647"/><feGaussianBlur stdDeviation="0.476471"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/><feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/></filter></defs>\n</svg>';class h extends a.a{constructor(){super(...arguments),this.activeTabIndex=0,this.prevActiveTabIndex=0,this.setActiveImage=()=>{const t=this.activeTabIndex===this.images.length?0:this.activeTabIndex,e=this.images[t],i=this.imageContainer,o=this.transitionImageContainer;i&&i.src&&e&&e.source&&(o.src=e.source,o.alt=e.altText,i.className="fadeOut",setTimeout((function(){i.src=e.source,i.alt=e.altText,i.className=""}),750))},this.setActiveTab=()=>{this.tabs.forEach((t,e)=>{if("tab"===t.slot){const i=()=>{t.setAttribute("tab-selected",this.activeTabIndex===e?"true":"false")};t.setAttribute("style",`min-width:${276/this.tabs.length-8}px`),t.setAttribute("tab-filled",this.activeTabIndex>e&&this.activeTabIndex>0?"true":"false"),0===this.activeTabIndex&&0===e?window.setTimeout(i,50):i(),t.addEventListener("click",this.handleTabClick)}})},this.handleTabClick=t=>{const e=t.currentTarget;1===e.nodeType&&(this.prevActiveTabIndex=this.activeTabIndex,this.activeTabIndex=this.tabs.indexOf(e),this.setComponent())}}connectedCallback(){super.connectedCallback(),this.autoScroll&&(this.setActiveTab(),this.handleUserScroll(),this.autoScrollHandler())}disconnectedCallback(){super.disconnectedCallback(),window.clearTimeout(this.timer),window.removeEventListener("scroll",this.userScrollStartCallback),window.removeEventListener("scroll",this.userScrollStopCallback)}handleUserScroll(){this.userScrollStartCallback=Object(r.a)(()=>{this.isUserScrolling=!0},400,{leading:!0,trailing:!1}),this.userScrollStopCallback=Object(r.a)(()=>{this.isUserScrolling=!1},400,{leading:!1,trailing:!0}),window.addEventListener("scroll",this.userScrollStartCallback),window.addEventListener("scroll",this.userScrollStopCallback)}autoScrollHandler(){this.timer=window.setTimeout(()=>{this.autoScroll&&!this.isUserScrolling&&this.adjust(),this.autoScrollHandler()},this.autoScrollIntervalMs||3e3)}get tabs(){return this.tabContainer&&this.tabContainer.children&&this.tabContainer.children.length?Array.from(this.tabContainer.children):[]}setComponent(){this.activeTabIndex!==this.prevActiveTabIndex&&(this.setActiveImage(),this.enableMediaControls&&this.setActiveTab())}adjust(){const t=this.enableMediaControls?this.images.length-1:this.images.length;this.prevActiveTabIndex=this.activeTabIndex,this.activeTabIndex=Object(l.b)(0,t,this.activeTabIndex+1),this.setComponent()}toggleMediaControls(){this.enableMediaControls&&(this.autoScroll?(this.autoScroll=!1,this.mediaContainer.innerHTML=Object(n.f)()?'<svg width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_dd)"><rect x="4.625" y="2.81641" width="35" height="34" rx="17" fill="black" fill-opacity="0.55"/>\n<path d="M17.7335 12.4303C17.2337 12.1584 16.625 12.5202 16.625 13.0891V26.5414C16.625 27.1103 17.2337 27.4721 17.7335 27.2002L30.095 20.474C30.6171 20.19 30.6171 19.4405 30.095 19.1564L17.7335 12.4303ZM15.125 13.0891C15.125 11.3823 16.9511 10.2969 18.4504 11.1127L30.812 17.8389C32.3781 18.691 32.3781 20.9394 30.812 21.7916L18.4504 28.5178C16.9511 29.3335 15.125 28.2482 15.125 26.5414V13.0891Z" fill="white"/></g><defs><filter id="filter0_dd" x="0.813236" y="0.69876" width="42.6235" height="41.6235" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="1.69412"/><feGaussianBlur stdDeviation="1.90588"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.13 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="0.317647"/><feGaussianBlur stdDeviation="0.476471"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/><feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/></filter></defs>\n</svg>':'<svg width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_dd)"><rect x="4.5625" y="2.81641" width="35" height="34" rx="17" fill="white" fill-opacity="0.8"/>\n<path d="M17.671 12.4313C17.1712 12.1594 16.5625 12.5211 16.5625 13.0901V26.5424C16.5625 27.1113 17.1712 27.4731 17.671 27.2012L30.0325 20.475C30.5546 20.191 30.5546 19.4415 30.0325 19.1574L17.671 12.4313ZM15.0625 13.0901C15.0625 11.3832 16.8886 10.2979 18.3879 11.1137L30.7495 17.8399C32.3156 18.692 32.3156 20.9404 30.7495 21.7926L18.3879 28.5188C16.8886 29.3345 15.0625 28.2492 15.0625 26.5424V13.0901Z" fill="#212121"/></g><defs><filter id="filter0_dd" x="0.750736" y="0.69876" width="42.6235" height="41.6235" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="1.69412"/><feGaussianBlur stdDeviation="1.90588"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.13 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="0.317647"/><feGaussianBlur stdDeviation="0.476471"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/><feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/></filter></defs>\n</svg>'):(this.autoScroll=!0,this.mediaContainer.innerHTML=Object(n.f)()?c:d))}handleCardLinkClick(t){return this.$emit("link-invoked",t),!0}}Object(o.e)([s.d],h.prototype,"autoScroll",void 0),Object(o.e)([s.d],h.prototype,"autoScrollIntervalMs",void 0),Object(o.e)([s.d],h.prototype,"images",void 0),Object(o.e)([s.d],h.prototype,"imageData",void 0),Object(o.e)([s.d],h.prototype,"enableMediaControls",void 0),Object(o.e)([s.d],h.prototype,"anchorTelemetryTag",void 0),Object(o.e)([s.d],h.prototype,"destinationUrl",void 0),Object(o.e)([s.d],h.prototype,"badge",void 0);var p=i("6BDD"),g=i("+53S"),b=i("6vBc"),u=i("UNqU"),v=i("FB4n");class f extends v.a{}var m=i("btax"),x=i("4X57"),y=i("j9Xn"),C=i("xY0q"),w=i("wHpb"),$=i("oqLQ"),O=i("kL0l");const j=x.a`
+${Object(C.a)("inline-flex")} :host {
+    box-sizing: border-box;
+    font-family: var(--body-font);
+    min-height: 4px;
+    background-color: ${O.E.var};
+    border-radius: 20px;
+    opacity: 0.4;
+    grid-row: 1;
+    z-index: 1;
+    margin: 2px 2px 8px;
+
+    background: ${Object(n.f)()?"linear-gradient(to right, #DEDDDD 50%, #7E7C7C 50%)":"linear-gradient(to right, #868383 50%, #E8E7E7 50%)"};
+    background-size: 200% 100%;
+    background-position: right;
+    transition-property: background-position;
+    transition-duration: 0s;
+}
+
+:host([tab-selected="true"]) {
+    opacity: 1;
+    background-position: left;
+    transition-duration: 3s;
+}
+
+:host([tab-filled="true"]) {
+    background: ${Object(n.f)()?"#DEDDDD":"#868383"};
+    opacity: 1;
+}
+
+:host(:active) {
+    background: ${Object(n.f)()?"#DEDDDD":"#868383"};
+    opacity: 1;
+}
+
+:host(:${w.a}) {
+    outline: none;
+    box-shadow: 0 0 0 calc((var(--focus-outline-width) - var(--outline-width)) * 1px)
+        rgba(0,0,0,1), 0 0 0 calc((var(--focus-outline-width) + var(--outline-width)) * 1px)
+        ${O.x.var};;
+}
+
+:host(:focus) {
+    outline: none;
+}
+`.withBehaviors(O.x,O.j,O.m,O.q,O.x,O.E,O.D,O.z,Object($.c)(x.a`
+            :host {
+                forced-color-adjust: none;
+                border-color: transparent;
+                color: ${y.a.ButtonText};
+                fill: ${y.a.ButtonText};
+            }
+            :host(:hover),
+            :host([tab-selected="true"]:hover) {
+                background: ${y.a.Highlight};
+                color: ${y.a.HighlightText};
+                fill: ${y.a.HighlightText};
+            }
+            :host([tab-selected="true"]) {
+                background: ${y.a.HighlightText};
+                color: ${y.a.Highlight};
+                fill: ${y.a.Highlight};
+            }
+            :host(:${w.a}) {
+                border-color: ${y.a.ButtonText};
+                box-shadow: none;
+            }
+        `));let k=class extends f{};k=Object(o.e)([Object(a.b)({name:"msn-slideshow-tab",template:m.a,styles:j})],k);var S=i("eUhr");i("Man2").a;const I=p.b`
+    <msn-slideshow-tab tab-filled="false" tab-selected="false"></msn-slideshow-tab>
+`,B=p.b`
+    <div class=${t=>!0===t.enableMediaControls?"heading-container":"heading-container no-media-controls"} part="heading-container">
+        <span
+            class="heading-wrapper"
+            part="heading-wrapper"
+            role="heading"
+            aria-level=3
+        >
+            <a
+                class="heading"
+                part="heading"
+                href=${t=>t.destinationUrl?t.destinationUrl:void 0}
+                target="_blank"
+                @click=${(t,e)=>t.handleCardLinkClick(e.event)}
+                ${Object(S.b)(t=>t.anchorTelemetryTag)}
+                >
+                <slot>
+                </slot>
+            </a>
+        </span>
+    </div>
+`,A=p.b`
+    <div class="footer" part="footer">
+        <span part="start-actions">
+            <slot name="start-actions"></slot>
+        </span>
+        <span part="end-actions" style="z-index: 2;">
+            <slot name="end-actions"></slot>
+        </span>
+    </div>
+`,T=()=>p.b`
+    <div slot="image-with-badge">
+        <img name="image-container" ${Object(g.b)("imageContainer")}"
+            src="${t=>t.images[0].source}"
+            alt="${t=>t.images[0].altText}"
+            width="${t=>t.imageData.imageWidth}"
+            height="${t=>t.imageData.imageHeight}"
+        />
+        <img name="transition-image-container" ${Object(g.b)("transitionImageContainer")}"
+            src="${t=>t.images[0].source}"
+            alt="${t=>t.images[0].altText}"
+            width="${t=>t.imageData.imageWidth}"
+            height="${t=>t.imageData.imageHeight}"
+        />
+    <div>
+`,z=p.b`
+    ${Object(b.a)(t=>t.badge,p.b`
+        <msn-image-badge-decorator badgeType=${t=>t.badge.type} text=${t=>t.badge.text}>
+            ${t=>T()}
+        </msn-image-badge-decorator>
+    `)}
+    ${Object(b.a)(t=>!t.badge,p.b`
+        ${t=>T()}
+    `)}
+    ${Object(b.a)(t=>!0===t.enableMediaControls,p.b`
+        <span class="media-container" ${Object(g.b)("mediaContainer")}
+            @click="${t=>t.toggleMediaControls()}">
+            ${Object(n.f)()?c:d}
+        </span>
+
+        <div class="tab-container" ${Object(g.b)("tabContainer")}>
+            ${Object(u.c)(t=>t.images,I)}
+        </div>
+    `)}
+
+    ${B}
+    <slot name="call-to-action"></slot>
+    ${A}
+`,M=x.a`
+
+    ${Object(C.a)("flex")} :host {
+        --icon-size: 24px;
+        position: relative;
+        width: auto;
+        box-sizing: border-box;
+        font-family: var(--body-font);
+        flex-direction: column;
+        outline: none;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    [name="image-container"] {
+        opacity: 1;
+        transition: opacity 0.5s linear;
+        position: absolute;
+    }
+
+    [name="image-container"].fadeOut {
+        opacity: 0;
+    }
+
+    .media-container {
+        position: absolute;
+        top: 111px;
+        right: 5.5px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .tab-container {
+        margin-left: 14px;
+        z-index: 2;
+    }
+
+    .footer {
+        padding-inline-start: var(--footer-start-padding, 16px);
+        padding-inline-end: var(--footer-start-padding, 16px);
+        padding-top: var(--footer-padding-top, 0);
+        padding-bottom: var(--footer-padding-bottom, 4px);
+        margin-top: auto;
+        font-size: var(--footer-font-size, var(--type-ramp-minus-1-font-size));
+        line-height: var(--footer-line-height, var(--type-ramp-minus-1-line-height));
+    }
+
+    .footer,
+    .start-actions,
+    .end-actions {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        color: ${O.B.var};
+        fill: ${O.B.var};
+    }
+
+    ::slotted([slot="start-actions"]),
+    ::slotted([slot="end-actions"]) {
+        z-index: 2;
+        display: grid;
+        gap: 5px;
+        align-items: center;
+        grid-auto-flow: column;
+    }
+
+    ::slotted(fluent-button[slot="start-actions"]),
+    ::slotted(fluent-button[slot="end-actions"]) {
+        color: ${O.B.var};
+        fill: ${O.B.var};
+    }
+
+    .heading-container {
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        padding-inline-start: var(--heading-start-padding, 16px);
+        padding-inline-end: var(--heading-end-padding, 16px);
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .heading-container.no-media-controls {
+        padding-top: 10px;
+    }
+
+    .heading-wrapper a:after {
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .heading {
+        text-decoration: none;
+        outline: none;
+        color: ${O.E.var};
+        font-size: var(--heading-font-size, var(--type-ramp-plus-1-font-size));
+        line-height: var(--heading-line-height, var(--type-ramp-plus-1-line-height));
+        font-weight: 600;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        white-space: initial;
+    }
+
+    .heading:hover,
+    .heading:${w.a} {
+        text-decoration: underline;
+    }
+
+    .heading::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    ::slotted([slot="call-to-action"]) {
+        width: calc(100% - 32px);
+        margin: 0 16px;
+    }
+
+`.withBehaviors(Object($.c)(x.a`
+            .heading {
+                color: ${y.a.LinkText};
+                background: ${y.a.ButtonFace};
+            }
+        `));let L=class extends h{};L=Object(o.e)([Object(a.b)({name:"msn-slideshow",template:z,styles:M,shadowOptions:{delegatesFocus:!0}})],L)},"5zHw":function(t,e,i){"use strict";i.r(e),i.d(e,"MsnPatternOverlayCard",(function(){return B}));var o=i("D57K"),a=i("P4Ao"),n=i("QBS5"),s=i("oePG");class r extends a.a{constructor(){super(...arguments),this.layout="landscape",this.shopNowText="Shop now",this.headinglevel=3}handleStartActionsContentChange(){this.startActionsContainer.classList.toggle("start-actions",this.startActions.assignedNodes().length>0),this.hasFooter=this.endActions.assignedNodes().length>0}handleEndActionsContentChange(){this.endActionsContainer.classList.toggle("end-actions",this.endActions.assignedNodes().length>0),this.hasFooter=this.endActions.assignedNodes().length>0}handleMediaContentChange(){this.mediaContainer.classList.toggle("media",this.media.assignedNodes().length>0)}handleBackgroundImageContentChange(){this.backgroundImageContainer.classList.toggle("background-image",this.backgroundImage.assignedNodes().length>0)}handlePatternOverlayCardLinkClick(t){return this.$emit("link-invoked",t),!0}}Object(o.e)([n.b],r.prototype,"layout",void 0),Object(o.e)([n.b],r.prototype,"shopNowText",void 0),Object(o.e)([n.b],r.prototype,"price",void 0),Object(o.e)([Object(n.b)({attribute:"heading-level",mode:"fromView",converter:n.d})],r.prototype,"headinglevel",void 0),Object(o.e)([Object(n.b)({mode:"fromView"})],r.prototype,"href",void 0),Object(o.e)([s.d],r.prototype,"anchorTelemetryTag",void 0),Object(o.e)([s.d],r.prototype,"mediaNodes",void 0),Object(o.e)([s.d],r.prototype,"hasFooter",void 0),Object(o.e)([s.d],r.prototype,"iconSlottedNodes",void 0),Object(o.e)([n.b],r.prototype,"target",void 0),Object(o.e)([s.d],r.prototype,"hoverActionsSlottedNodes",void 0);var l=i("6BDD"),d=i("+53S"),c=i("Nc2c"),h=i("Q5AN"),p=i("6vBc"),g=i("UauI"),b=i("eUhr");const u=l.b`
+    <div class="footer" part="footer" >
+        <span part="start-actions" ${Object(d.b)("startActionsContainer")}>
+            <slot
+                name="start-actions"
+                ${Object(d.b)("startActions")}
+                @slotchange=${t=>t.handleStartActionsContentChange()}
+            ></slot>
+        </span>
+        <span part="end-actions" ${Object(d.b)("endActionsContainer")}>
+            <slot
+                name="end-actions"
+                ${Object(d.b)("endActions")}
+                @slotchange=${t=>t.handleEndActionsContentChange()}
+            ></slot>
+        </span>
+    </div>
+`,v=l.b`
+    <span
+        class="heading-wrapper"
+        part="heading-wrapper"
+        role="heading"
+        aria-level=${t=>t.headinglevel}
+    >
+        <a
+            class="heading"
+            part="heading"
+            href=${t=>t.href?t.href:void 0}
+            target=${t=>t.target?t.target:void 0}
+            @click=${(t,e)=>t.handlePatternOverlayCardLinkClick(e.event)}
+            ${Object(b.b)(t=>t.anchorTelemetryTag)}
+            ><slot></slot>
+        </a>
+    </span>
+`,f=l.b`
+    <fluent-button class="shop-now" part="shop-now" appearance="stealth">
+        ${t=>t.shopNowText}
+    </fluent-button>
+`,m=l.b`
+    <template
+        ${Object(c.b)({property:"mediaNodes",filter:Object(h.b)("[slot='media']")})}
+    >
+        <span part="background-image" ${Object(d.b)("backgroundImageContainer")}>
+            <slot
+                name="background-image"
+                ${Object(d.b)("backgroundImage")}
+                @slotchange=${t=>t.handleBackgroundImageContentChange()}
+            ></slot>
+        </span>
+        <div class="mask" part="mask"></div>
+        <div class="footer-container" part="mask">
+            ${u}
+            ${Object(p.a)(t=>"landscape"===t.layout,v)}
+        </div>
+        <div class="body" part="body">
+            ${Object(p.a)(t=>{var e;return(null===(e=t.mediaNodes)||void 0===e?void 0:e.length)>0},l.b`
+                <div class="media-wrapper" part="media-wrapper">
+                    <div part="media" ${Object(d.b)("mediaContainer")}>
+                        <slot
+                            name="media"
+                            ${Object(d.b)("media")}
+                            @slotchange=${t=>t.handleMediaContentChange()}
+                        ></slot>
+                    </div>
+                </div>
+            `)}
+            <div class="heading-container" part="heading-container">
+                <slot name="attribution"></slot>
+                ${Object(p.a)(t=>"default"===t.layout,v)}
+                ${Object(p.a)(t=>"landscape"===t.layout,f)}
+            </div>
+        </div>
+        <slot name="call-to-action-one-line"></slot>
+        <slot name="call-to-action-two-lines"></slot>
+        <span
+            part="hover-actions"
+            class="${t=>t.hoverActionsSlottedNodes&&t.hoverActionsSlottedNodes.length?"hover-actions":"hover-actions_hidden"}"
+        >
+            <slot name="hover-actions" ${Object(g.b)("hoverActionsSlottedNodes")}></slot>
+        </span>
+    </template>
+`;var x=i("xY0q"),y=i("wHpb"),C=i("CzTk"),w=i("oqLQ"),$=i("kL0l"),O=i("4X57"),j=i("j9Xn");const k=O.a`
+    .hover-actions {
+        right: 8px;
+    }
+`,S=O.a`
+    .hover-actions {
+        left: 8px;
+    }
+`,I=O.a`
+    ${Object(x.a)("flex")} :host {
+        --mask-color: linear-gradient(312.48deg, ${$.m.var} 24.29%, ${$.j.var} 73.9%);
+        position: relative;
+        width: auto;
+        box-sizing: border-box;
+        font-family: var(--body-font);
+        flex-direction: column;
+        outline: none;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    :host(:hover) .hover-actions {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    :host(:hover) .background-image,
+    :host(:hover) .media {
+        filter: brightness(0.9);
+    }
+
+    :host .footer-container {
+        background: var(--mask-color);
+    }
+
+    :host([layout="default"]) .footer-container {
+        min-height: 64px;
+    }
+
+    :host([layout="landscape"]) .footer-container {
+        min-height: 110px;
+    }
+
+    .body {
+        display: block;
+        justify-content: center;
+        row-gap: 8px;
+        column-gap: 10px;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto;
+    }
+
+    .footer {
+        padding-inline-start: var(--footer-start-padding, 16px);
+        padding-inline-end: var(--footer-start-padding, 16px);
+        height: 32px;
+        font-size: var(--footer-font-size, var(--type-ramp-minus-1-font-size));
+        line-height: var(--footer-line-height, var(--type-ramp-minus-1-line-height));
+    }
+
+    .footer,
+    .start-actions,
+    .end-actions {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        color: ${$.B.var};
+        fill: ${$.B.var};
+    }
+
+    .footer__hidden {
+        display: none;
+    }
+
+    .hover-actions {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 8px;
+        z-index: 2;
+        opacity: 0;
+    }
+
+    .hover-actions_hidden {
+        display: none;
+    }
+
+    .hover-actions:focus-within {
+        opacity: 1;
+    }
+
+    .heading-container {
+        grid-row: 2;
+        grid-column: span 2;
+        flex-direction: column;
+        padding: 0;
+        height: 88px;
+        background: var(--mask-color);
+    }
+
+    :host([layout="default"]) .heading-container {
+        margin-top: -43px;
+    }
+
+    :host([layout="landscape"]) .heading-container {
+        margin-top: -33px;
+    }
+
+    .shop-now {
+        margin-top: 38px;
+        margin-left: 200px;
+        margin-right: 16px;
+        border-radius: 100px;
+        background-color: rgb(0, 0, 0, 40%);
+        color: white;
+    }
+
+    :host(:hover) .shop-now {
+        background-color: rgb(0, 0, 0, 30%);
+    }
+
+    .heading-wrapper a:after {
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .heading-wrapper a ::slotted(span) {
+        font-size: var(--abstract-font-size, 14px);
+    }
+
+    ::slotted([slot="attribution"]) {
+        margin-bottom: 6px
+    }
+
+    .media-wrapper {
+        grid-row: 1;
+        grid-column: 2;
+        margin-top: -40px;
+        clip-path: polygon(0px 17%, 100% 0%, 100% 82%, 0% 100%);
+        background-color: var(--background-color);
+    }
+
+    :host([layout="default"]) .media-wrapper {
+        height: 235px;
+    }
+
+    :host([layout="landscape"]) .media-wrapper {
+        height: 181px;
+    }
+
+    .media-wrapper::after {
+        content: "";
+        display: block;
+        height: 40px;
+        margin-top: 8px;
+        background: var(--mask-color);
+        clip-path: polygon(100% 0, 60% 100%, 100% 100%);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    :host([layout="default"]) .media-wrapper::after {
+        margin-top: -24px;
+    }
+
+    :host([layout="landscape"]) .media-wrapper::after {
+        margin-top: -21px;
+    }
+
+    .media {
+        display: flex;
+        position: relative;
+    }
+
+    :host([layout="default"]) .media {
+        height: 225px;
+    }
+
+    :host([layout="landscape"]) .media {
+        height: 174px;
+    }
+
+    ::slotted([slot="media"]) {
+        border-radius: 0px;
+        border-radius: calc(var(--content-card-corner-radius, 2) * 2px)
+    }
+
+    ::slotted([slot="start-actions"]),
+    ::slotted([slot="end-actions"]) {
+        z-index: 2;
+        display: grid;
+        gap: 5px;
+        align-items: center;
+        grid-auto-flow: column;
+    }
+
+    ::slotted(fluent-button[slot="start-actions"]),
+    ::slotted(fluent-button[slot="end-actions"]) {
+        color: ${$.B.var};
+        fill: ${$.B.var};
+    }
+    
+    ::slotted(fluent-button[appearance="stealth"]:not(:hover)), :slotted([slot="hover-actions"]:not(:hover)) {
+        background: transparent;
+    }
+
+    .heading {
+        text-decoration: none;
+        outline: none;
+        color: ${$.E.var};
+        font-size: var(--type-ramp-base-font-size, var(--type-ramp-plus-1-font-size));
+        line-height: var(--heading-line-height, var(--type-ramp-plus-1-line-height));
+        font-weight: 600;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        white-space: initial;
+        padding-right: 10px;
+        height: 50px;
+    }
+
+    :host([layout="default"]) .heading {
+        width: 168px;
+        padding-top: 30px;
+        padding-left: calc(50% - 168px/2 + 50px);
+        text-align: right;
+    }
+
+    :host([layout="landscape"]) .heading {
+        width: 200px;
+        padding-left: 16px;
+    }
+
+    .mask {
+        display: none;
+    }
+
+    .heading:hover,
+    .heading:${y.a} {
+        text-decoration: underline;
+    }
+
+    .heading::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .background-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .background-image ::slotted(img) {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    ::slotted([slot="call-to-action-one-line"]), 
+    ::slotted([slot="call-to-action-two-lines"]) {
+        position: absolute !important;
+        width: calc(100% - 32px);
+        grid-row: 3;
+        grid-column: 1 / span 2;
+        margin: 0 16px;
+    }
+    ::slotted([slot="call-to-action-one-line"]) {
+        bottom: 24px;
+    }
+    ::slotted([slot="call-to-action-two-lines"]) {
+        bottom: 14px;
+    }
+
+`.withBehaviors($.B,$.E,$.m,$.j,new C.a(k,S),Object(w.c)(O.a`
+            .heading {
+                color: ${j.a.LinkText};
+                background: ${j.a.ButtonFace};
+            }
+            .footer,
+            .start-actions,
+            .end-actions,
+            ::slotted([slot="start-actions"]),
+            ::slotted([slot="end-actions"]) {
+                background: ${j.a.ButtonFace};
+                color: ${j.a.ButtonText};
+                fill: currentcolor;
+            }
+            ::slotted(fluent-button[appearance="stealth"]:not(:hover)) {
+                background: ${j.a.ButtonFace};
+            }
+        `));let B=class extends r{};B=Object(o.e)([Object(a.b)({name:"msn-pattern-overlay-card",template:m,styles:I,shadowOptions:{delegatesFocus:!0}})],B)},Nnng:function(t,e,i){"use strict";i.r(e),i.d(e,"MsnAdCarousel",(function(){return y})),i.d(e,"MsnAdCarouselSlide",(function(){return O}));var o=i("D57K"),a=i("P4Ao"),n=i("3noN"),s=i("hqLi"),r=i("QBS5"),l=i("oePG");const d=(t,e,i)=>{const o=[];for(let a=0;a<t;a+=1)o.push({index:a,active:a===e,onSpotClick:i});return o};class c extends a.a{constructor(){super(...arguments),this.cardId="",this.carouselWidth="300",this.carouselHeight="180",this.slideWidth="120",this.isShowSlideControls=!0,this.activeIndex=0,this.visibleSlideCount="3",this.spots=[],this.hiddenControls=!0,this.onNextClick=()=>{this.activeIndex<this.totalSlideCount-1?this.activeIndex+=1:this.activeIndex=0,this.spots=d(this.totalSlideCount,this.activeIndex,this.onSpotClick),this.updateActiveIndex&&this.updateActiveIndex(this.cardId,this.activeIndex),Object(n.a)(this.carouselContent.assignedElements(),t=>{this.updateAttribute(t,{direction:"LTR",isInitial:"1",activeIndex:""+this.activeIndex})})},this.onPreviousClick=()=>{this.activeIndex>0?this.activeIndex-=1:this.activeIndex=this.totalSlideCount-1,this.spots=d(this.totalSlideCount,this.activeIndex,this.onSpotClick),this.updateActiveIndex&&this.updateActiveIndex(this.cardId,this.activeIndex),Object(n.a)(this.carouselContent.assignedElements(),t=>{this.updateAttribute(t,{direction:"RTL",isInitial:"1",activeIndex:""+this.activeIndex})})},this.onSpotClick=t=>{const e=this.activeIndex<t?"LTR":"RTL";this.activeIndex=t,this.spots=d(this.totalSlideCount,this.activeIndex,this.onSpotClick),this.updateActiveIndex&&this.updateActiveIndex(this.cardId,this.activeIndex),Object(n.a)(this.carouselContent.assignedElements(),t=>{this.updateAttribute(t,{direction:e,isInitial:"1",activeIndex:""+this.activeIndex})})}}connectedCallback(){super.connectedCallback(),this.totalSlideCount=this.carouselContent.assignedElements().length,Object(n.a)(this.carouselContent.assignedElements(),(t,e)=>{this.updateAttribute(t,{totalSlideCount:""+this.totalSlideCount,visibleSlideCount:""+this.visibleSlideCount,carouselWidth:""+this.carouselWidth,slideWidth:""+this.slideWidth,isInitial:"1",slideIndex:""+e,activeIndex:""+this.activeIndex})}),this.spots=d(this.totalSlideCount,this.activeIndex,this.onSpotClick),this.carouselContent&&(this.carouselContainer.addEventListener("mouseover",()=>{this.hiddenControls=!1}),this.carouselContainer.addEventListener("mouseleave",()=>{this.hiddenControls=!0}))}updateAttribute(t,e){t&&!Object(s.a)(e)&&Object.entries(e).map(([e,i])=>{t.setAttribute(e,i)})}}Object(o.e)([r.b],c.prototype,"cardId",void 0),Object(o.e)([r.b],c.prototype,"carouselWidth",void 0),Object(o.e)([r.b],c.prototype,"carouselHeight",void 0),Object(o.e)([r.b],c.prototype,"slideWidth",void 0),Object(o.e)([r.b],c.prototype,"isShowSlideControls",void 0),Object(o.e)([r.b],c.prototype,"updateActiveIndex",void 0),Object(o.e)([r.b],c.prototype,"activeIndex",void 0),Object(o.e)([r.b],c.prototype,"visibleSlideCount",void 0),Object(o.e)([l.d],c.prototype,"totalSlideCount",void 0),Object(o.e)([l.d],c.prototype,"spots",void 0),Object(o.e)([l.d],c.prototype,"hiddenControls",void 0);var h=i("4X57"),p=i("3KaK");const g=h.a`
+    .carousel-container{
+        display: flex;
+        position: relative;
+        border-radius: 8px;
+    }
+
+    .carousel-content{
+        position: relative;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    .previous{
+        left: 0px;
+    }
+
+    .next{
+        right: 0px;
+    }
+
+    .control-bg{
+        background: ${Object(p.f)()?"#FFFFFF":"#2E2E2E"};
+        opacity: 0.5;
+        height: 100%;
+        width: 100%;
+    }
+
+    .control-icon{
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        fill:  ${Object(p.f)()?"#2E2E2E":"#FFFFFF"};
+    }
+
+    .controls{
+        height: 56px;
+        width: 30px;
+        z-index:1;
+        cursor: pointer;
+        position: absolute;
+        top: 60px;
+    }
+
+    .spot-container{
+        height: 7px;
+        margin-top: 12px;
+        position: relative;
+    }
+
+    .spot-content{
+        height: 7px;
+        width: fit-content;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+    }
+
+    .spot{
+        width: 7px;
+        height: 7px;
+        background: ${Object(p.f)()?"#7B7B7B":" #DEDEDE"};
+        border-radius: 50%;
+        margin: 0px 2px;
+        cursor: pointer;
+    }
+
+    .spot.active{
+        background:  ${Object(p.f)()?"#DEDEDE":"#7E7E7E"};
+    }
+
+    .hidden {
+        opacity: 0;
+    }
+`;var b=i("6BDD"),u=i("+53S"),v=i("6vBc"),f=i("UNqU");const m=b.b`
+    <div class="spot ${t=>t.active?"active":""}"  @click="${t=>t.onSpotClick(t.index)}">  
+    </div>
+`,x=b.b`
+    <div style="width: ${t=>t.carouselWidth}px;" ${Object(u.b)("carouselContainer")}>
+        <div class="carousel-container" style="width: ${t=>t.carouselWidth}px; height: ${t=>t.carouselHeight}px;">
+            ${Object(v.a)(t=>t.isShowSlideControls,b.b`
+                <div class="previous controls ${t=>t.hiddenControls?"hidden":""}" @click="${t=>t.onPreviousClick()}">
+                    <div class="control-bg"></div>
+                    <div class="control-icon">${'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">\n<path d="M1443 2045L421 1024 1443 3l90 90-930 931 930 931-90 90z" />\n</svg>\n'}</div>
+                </div>`)}
+            <div class="carousel-content" style="width: ${t=>t.carouselWidth}px; height: ${t=>t.carouselHeight}px;">
+                <slot ${Object(u.b)("carouselContent")}></slot>
+            </div>
+            ${Object(v.a)(t=>t.isShowSlideControls,b.b`
+                <div class="next controls ${t=>t.hiddenControls?"hidden":""}" @click="${t=>t.onNextClick()}">
+                    <div class="control-bg"></div>
+                    <div class="control-icon">${'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">\n<path d="M515 1955l930-931L515 93l90-90 1022 1021L605 2045l-90-90z" />\n</svg>\n'}</div>
+                </div>`)} 
+        </div>
+        <div class="spot-container">
+            <div class="spot-content">
+                ${Object(f.c)(t=>t.spots,m)}
+            </div>
+        </div>
+    </div>
+`;let y=class extends c{};y=Object(o.e)([Object(a.b)({name:"msn-ad-carousel",template:x,styles:g})],y);class C extends a.a{constructor(){super(...arguments),this.isInitial="0",this.direction="LTR",this.visibleSlideCount="3",this.carouselWidth="300",this.slideWidth="120",this.updateSlideStyle=()=>{if(!this.slideIndex||!this.activeIndex||!this.totalSlideCount)return;const t=parseInt(this.totalSlideCount),e=parseInt(this.visibleSlideCount),i=parseInt(this.slideIndex),o=parseInt(this.activeIndex),a=Math.floor(t/2),n=a-o,s=parseInt(this.carouselWidth),r=parseInt(this.slideWidth),l=((t,e,i)=>{let o=t;return o=i>0?t<e-i?t+i:t+i-e:t>=-i?t+i:t+i+e,o})(i,t,n),d=((t,e,i,o,a,n,s)=>{const r=(n*s-a)/(s-1),l=((o-1)*(n-r)+n-a)/2;let d=0;d=o%2==0?i*(n-r)-(n-r)/2-l:i*(n-r)-l;let c="";return c=t===e?"transform: translateX("+d+"px) perspective(500px) translateZ(164px);":"transform: translateX("+d+"px) perspective(500px) translateZ(0px);",c})(i,o,l,t,s,r,e),c=((t,e,i)=>{let o="";return o=Math.abs(t-e)>Math.floor(i/2)?"visibility: hidden;":"visibility: visible;",o})(l,a,e),h=((t,e,i,o)=>{let a=0;return a=t-Math.abs(i-o)-1,"LTR"===e&&i<=o&&(a+=1),"RTL"===e&&i>=o&&(a+=1),`z-index: ${a};`})(t,this.direction,l,a),p="1"===this.isInitial?"transition: transform 500ms ease 0s, opacity 500ms ease 0s, visibility 500ms ease 0s;":"";const g=this.slideIndex===this.activeIndex?"box-shadow: 0px 0px 1px #888888;":"box-shadow: unset;";const b=((t,e)=>{let i="";return i=t===e?"opacity: 1;":"opacity: 0.6;",i})(i,o);this.slideStyle=d+c+h+p+g+b}}attributeChangedCallback(t,e,i){super.attributeChangedCallback(t,e,i),"activeindex"===t&&(this.activeIndex=i,this.updateSlideStyle())}}Object(o.e)([r.b],C.prototype,"isInitial",void 0),Object(o.e)([r.b],C.prototype,"slideIndex",void 0),Object(o.e)([r.b],C.prototype,"activeIndex",void 0),Object(o.e)([r.b],C.prototype,"direction",void 0),Object(o.e)([r.b],C.prototype,"totalSlideCount",void 0),Object(o.e)([r.b],C.prototype,"visibleSlideCount",void 0),Object(o.e)([r.b],C.prototype,"carouselWidth",void 0),Object(o.e)([r.b],C.prototype,"slideWidth",void 0),Object(o.e)([l.d],C.prototype,"slideStyle",void 0);const w=b.b`
+    <div 
+        class="carousel-slide" 
+        style=${t=>t.slideStyle}
+    >
+		<slot name="carousel-slide-content"/>
+	</div>
+`,$=h.a`
+    .carousel-slide {
+       position: absolute;
+       width: 120px; 
+       height: 120px; 
+       margin-top: 30px;
+       overflow: hidden;
+       object-fit：cover;
+       box-sizing: content-box;
+       border-radius: 8px;
+       left: 0px;
+    }
+`;let O=class extends C{};O=Object(o.e)([Object(a.b)({name:"msn-ad-carousel-slide",template:w,styles:$})],O)},gYRL:function(t,e,i){"use strict";i.r(e),i.d(e,"MsnAdCarouselCard",(function(){return I}));var o,a=i("D57K"),n=i("P4Ao"),s=i("QBS5"),r=i("oePG");!function(t){t.default="default"}(o||(o={}));class l extends n.a{constructor(){super(...arguments),this.layout=o.default,this.headinglevel=3}handleStartActionsContentChange(){this.startActionsContainer.classList.toggle("start-actions",this.startActions.assignedNodes().length>0),this.hasFooter=this.endActions.assignedNodes().length>0}handleEndActionsContentChange(){this.endActionsContainer.classList.toggle("end-actions",this.endActions.assignedNodes().length>0),this.hasFooter=this.endActions.assignedNodes().length>0}abstractChanged(){this.$fastController.isConnected&&(this.hasAbstract=this.abstract.length>0)}attributeChangedCallback(t,e,i){super.attributeChangedCallback(t,e,i),"title"===t&&e!==i&&this.headingContainer&&(this.headingContainer.classList.remove("heading-animation"),setTimeout(()=>{this.headingContainer.classList.add("heading-animation")},0))}handleMediaContentChange(){this.mediaContainer.classList.toggle("media",this.media.assignedNodes().length>0)}handleBackgroundImageContentChange(){this.backgroundImageContainer.classList.toggle("background-image",this.backgroundImage.assignedNodes().length>0)}handleContentCardLinkClick(t){return this.$emit("link-invoked",t),!0}}Object(a.e)([s.b],l.prototype,"layout",void 0),Object(a.e)([Object(s.b)({attribute:"heading-level",mode:"fromView",converter:s.d})],l.prototype,"headinglevel",void 0),Object(a.e)([Object(s.b)({mode:"fromView"})],l.prototype,"href",void 0),Object(a.e)([s.b],l.prototype,"title",void 0),Object(a.e)([r.d],l.prototype,"anchorTelemetryTag",void 0),Object(a.e)([r.d],l.prototype,"mediaNodes",void 0),Object(a.e)([r.d],l.prototype,"hasAbstract",void 0),Object(a.e)([r.d],l.prototype,"hasFooter",void 0),Object(a.e)([r.d],l.prototype,"abstract",void 0),Object(a.e)([r.d],l.prototype,"iconSlottedNodes",void 0),Object(a.e)([Object(s.b)({attribute:"image-priority",mode:"boolean"})],l.prototype,"imagePriority",void 0),Object(a.e)([s.b],l.prototype,"target",void 0),Object(a.e)([r.d],l.prototype,"hoverActionsSlottedNodes",void 0);var d=i("xY0q"),c=i("wHpb"),h=i("CzTk"),p=i("oqLQ"),g=i("kL0l"),b=i("4X57"),u=i("j9Xn");const v=b.a`
+    .hover-actions {
+        right: 8px;
+    }
+
+    .icon {
+        left: 0;
+    }
+`,f=b.a`
+    .hover-actions {
+        left: 8px;
+    }
+
+    .icon {
+        right: 0;
+    }
+`,m=b.a`
+    ${Object(d.a)("flex")} :host {
+        --icon-size: 24px;
+        position: relative;
+        width: auto;
+        box-sizing: border-box;
+        font-family: var(--body-font);
+        flex-direction: column;
+        outline: none;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    :host(:hover) .hover-actions {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    :host(:hover) .background-image,
+    :host(:hover) .media {
+        filter: brightness(0.9);
+    }
+
+    .body {
+        display: grid;
+        justify-content: center;
+        row-gap: 8px;
+        column-gap: 10px;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto;
+    }
+
+    .heading-container.heading-animation{
+        transition: all 0.5s linear;
+        opacity: 1;
+    }
+
+    :host([layout="default"]) .body .abstract {
+        display: none;
+    }
+
+    :host([layout="default"]) .body,
+    :host([layout="default"]) .body .has-abstract {
+        display: block;
+    }
+
+    :host([layout="default"]) .has-abstract .media-wrapper {
+        margin-inline-start: 16px;
+    }
+
+    :host([image-priority]) .has-abstract .media-wrapper {
+        margin-inline-start: 0;
+    }
+
+    .carousel-container-background{
+        height: 274px;
+        margin-top: 30px;
+        width: 300px;
+        left: 2px;
+        position: absolute;
+        border-radius: 8px;
+        box-shadow: 0 0 calc((var(--elevation) * 0.225px) + 2px) rgba(0, 0, 0, calc(0.11 * (2 - var(--background-luminance, 1)))), 0 calc(var(--elevation) * 0.4px) calc((var(--elevation) * 0.9px)) rgba(0, 0, 0, calc(0.13 * (2 - var(--background-luminance, 1))));
+    }
+
+    .footer {
+        padding-inline-start: var(--footer-start-padding, 16px);
+        padding-inline-end: var(--footer-start-padding, 16px);
+        padding-top: 10px;
+        padding-bottom: 16px;
+        margin-top: auto;
+        font-size: var(--footer-font-size, var(--type-ramp-minus-1-font-size));
+        line-height: var(--footer-line-height, var(--type-ramp-minus-1-line-height));
+    }
+
+    .footer,
+    .start-actions,
+    .end-actions {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        color: ${g.B.var};
+        fill: ${g.B.var};
+    }
+
+    .footer__hidden {
+        display: none;
+    }
+
+    .hover-actions {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 8px;
+        z-index: 2;
+        opacity: 0;
+    }
+
+    .hover-actions_hidden {
+        display: none;
+    }
+
+    .hover-actions:focus-within {
+        opacity: 1;
+    }
+
+    .heading-container {
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        padding-inline-start: var(--heading-start-padding, 16px);
+        padding-inline-end: var(--heading-end-padding, 16px);
+        padding-bottom: 0;
+        padding-top: 0;
+        position: relative;
+        margin-top: 12px;
+        opacity: 0;
+    }
+
+    .heading-wrapper a:after {
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .icon {
+        position: absolute;
+        display: inline-flex;
+        top: auto;
+        bottom: 0;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 4px 0;
+        margin-inline-start: 4px;
+    }
+
+    .icon_hidden {
+        display: none;
+    }
+
+    ::slotted([slot="icon"]) {
+        width: var(--icon-size);
+        height: var(--icon-size);
+        fill: #FFF;
+    }
+
+    ::slotted([slot="attribution"]) {
+        margin-bottom: 6px
+    }
+
+    ::slotted([slot="abstract"]) {
+        margin: 2px 0;
+    }
+
+    .media-wrapper {
+        grid-row: 1;
+        grid-column: 2;
+        margin: 0;
+    }
+
+    .media-wrapper a{
+        outline: none;
+    }
+
+    .media {
+        display: flex;
+        position: relative;
+    }
+
+    :host([image-priority]) {
+        --heading-max-lines: 2;
+    }
+
+    :host([image-priority]) .body {
+        grid-template-columns: 1;
+    }
+
+    :host([image-priority]) .media-wrapper {
+        grid-row: 1;
+        grid-column: span 2;
+        margin: 0;
+    }
+
+    :host([image-priority]) .heading-container {
+        grid-row: 2;
+        grid-column: span 2;
+        padding-top: 10px;
+        padding-inline-start: var(--heading-start-padding, 16px);
+    }
+
+    :host([image-priority]) ::slotted([slot="media"]) {
+        border-radius: 0px;
+    }
+
+    ::slotted([slot="call-to-action"]) {
+        width: calc(100% - 32px);
+        grid-row: 3;
+        z-index: 1;
+        grid-column: 1 / span 2;
+        margin: 0 16px;
+    }
+
+    ::slotted([slot="media"]) {
+        border-radius: calc(var(--content-card-corner-radius, 2) * 2px);
+        margin-left: 2px;
+    }
+
+    :host([layout="default"]) .has-abstract .abstract {
+        display: block;
+        padding: 0 16px 16px 16px;
+    }
+
+    .abstract {
+        position: relative;
+        margin: 0;
+        font-size: var(--abstract-font-size, var(--type-ramp-base-font-size));
+        line-height: var(--abstract-line-height, var(--type-ramp-base-line-height));
+        font-weight: 400;
+        grid-column: span 2;
+        box-sizing: content-box;
+        color: ${g.B.var};
+        padding: 0 16px;
+    }
+
+    ::slotted([slot="start-actions"]),
+    ::slotted([slot="end-actions"]) {
+        z-index: 2;
+        display: grid;
+        gap: 5px;
+        align-items: center;
+        grid-auto-flow: column;
+    }
+
+    ::slotted([slot="call-to-action"]) {
+        z-index: 2;
+    }
+
+    ::slotted(fluent-button[slot="start-actions"]),
+    ::slotted(fluent-button[slot="end-actions"]) {
+        color: ${g.B.var};
+        fill: ${g.B.var};
+    }
+    
+    ::slotted(fluent-button[appearance="stealth"]:not(:hover)), :slotted([slot="hover-actions"]:not(:hover)) {
+        background: transparent;
+    }
+
+    .heading {
+        text-decoration: none;
+        outline: none;
+        color: ${g.E.var};
+        font-size: var(--heading-font-size, var(--type-ramp-plus-1-font-size));
+        line-height: var(--heading-line-height, var(--type-ramp-plus-1-line-height));
+        font-weight: 600;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: var(--heading-max-lines, 3);
+        white-space: initial;
+        text-align: center;
+    }
+
+    .mask {
+        display: none;
+    }
+
+    .heading:hover,
+    .heading:${c.a} {
+        text-decoration: underline;
+    }
+
+    .heading::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .background-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .background-image ::slotted(img) {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+`.withBehaviors(g.B,g.E,new h.a(v,f),Object(p.c)(b.a`
+            .heading {
+                color: ${u.a.LinkText};
+                background: ${u.a.ButtonFace};
+            }
+            .abstract {
+                color: ${u.a.ButtonText};
+            }
+            .icon {
+                background-color: #000;
+                height: fit-content;
+            }
+            .footer,
+            .start-actions,
+            .end-actions,
+            ::slotted([slot="start-actions"]),
+            ::slotted([slot="end-actions"]) {
+                background: ${u.a.ButtonFace};
+                color: ${u.a.ButtonText};
+                fill: currentcolor;
+            }
+            ::slotted(fluent-button[appearance="stealth"]:not(:hover)) {
+                background: ${u.a.ButtonFace};
+            }
+        `));var x=i("6BDD"),y=i("+53S"),C=i("Nc2c"),w=i("Q5AN"),$=i("6vBc"),O=i("UauI"),j=i("eUhr");const k=x.b`
+    <div
+        class="footer ${t=>t.hasAbstract?"has-abstract-footer":""} ${t=>t.hasFooter?"":"footer__hidden"}"
+        part="footer"
+    >
+        <span part="start-actions" ${Object(y.b)("startActionsContainer")}>
+            <slot
+                name="start-actions"
+                ${Object(y.b)("startActions")}
+                @slotchange=${t=>t.handleStartActionsContentChange()}
+            ></slot>
+        </span>
+        <span part="end-actions" ${Object(y.b)("endActionsContainer")}>
+            <slot
+                name="end-actions"
+                ${Object(y.b)("endActions")}
+                @slotchange=${t=>t.handleEndActionsContentChange()}
+            ></slot>
+        </span>
+    </div>
+`,S=x.b`
+    <template
+        ${Object(C.b)({property:"mediaNodes",filter:Object(w.b)("[slot='media'], [slot='icon']")})}
+    >
+        <span part="background-image" ${Object(y.b)("backgroundImageContainer")}>
+            <slot
+                name="background-image"
+                ${Object(y.b)("backgroundImage")}
+                @slotchange=${t=>t.handleBackgroundImageContentChange()}
+            ></slot>
+        </span>
+        <div class="mask" part="mask"></div>
+        <div class="carousel-container-background"></div>
+        <div class="body ${t=>t.hasAbstract?"has-abstract":""}" part="body">
+            ${Object($.a)(t=>{var e;return(null===(e=t.mediaNodes)||void 0===e?void 0:e.length)>0},x.b` <div class="media-wrapper" part="media-wrapper">
+                    <div part="media" ${Object(y.b)("mediaContainer")}>
+                        <a
+                            href=${t=>t.href?t.href:void 0}
+                            target=${t=>t.target?t.target:void 0}
+                            @click=${(t,e)=>t.handleContentCardLinkClick(e.event)}
+                            ${Object(j.b)(t=>t.anchorTelemetryTag)}
+                        >
+                            <slot
+                                name="media"
+                                ${Object(y.b)("media")}
+                                @slotchange=${t=>t.handleMediaContentChange()}
+                            ></slot>
+                        </a>
+                        <span
+                            part="icon"
+                            ${Object(y.b)("iconContainer")}
+                            class="${t=>t.iconSlottedNodes&&t.iconSlottedNodes.length?"icon":"icon_hidden"}"
+                        >
+                            <slot
+                                name="icon"
+                                ${Object(y.b)("icon")}
+                                ${Object(O.b)("iconSlottedNodes")}
+                            ></slot>
+                        </span>
+                    </div>
+                </div>`)}
+            <div class="heading-animation heading-container" part="heading-container" ${Object(y.b)("headingContainer")}>
+                <slot name="attribution"></slot>
+                <span
+                    class="heading-wrapper"
+                    part="heading-wrapper"
+                    role="heading"
+                    aria-level=${t=>t.headinglevel}
+                >
+                <a
+                    class="heading"
+                    part="heading"
+                    href=${t=>t.href?t.href:void 0}
+                    target=${t=>t.target?t.target:void 0}
+                    @click=${(t,e)=>t.handleContentCardLinkClick(e.event)}
+                    ${Object(j.b)(t=>t.anchorTelemetryTag)}
+                    ><slot></slot
+                ></a>
+                </span>
+            </div>
+            <div class="abstract">
+                <slot name="abstract" ${Object(O.b)("abstract")}></slot>
+            </div>
+            <slot name="call-to-action"></slot>
+        </div>
+        ${k}
+        <span
+            part="hover-actions"
+            class="${t=>t.hoverActionsSlottedNodes&&t.hoverActionsSlottedNodes.length?"hover-actions":"hover-actions_hidden"}"
+        >
+            <slot name="hover-actions" ${Object(O.b)("hoverActionsSlottedNodes")}></slot>
+        </span>
+    </template>
+`;let I=class extends l{};I=Object(a.e)([Object(n.b)({name:"msn-ad-carousel-card",template:S,styles:m,shadowOptions:{delegatesFocus:!0}})],I)}}]);

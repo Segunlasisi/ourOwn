@@ -1,0 +1,40 @@
+body{
+    background-color: turquoise;
+}
+.formbox{
+    background-color: white;
+    height: 450px;
+    margin: 200px;
+    width: 500px;
+    margin-left: 500px;
+}
+.box{
+   
+
+
+}
+
+.user{  
+margin-top: 60px;
+}
+
+
+.pass{
+    margin-top: 250px;
+    margin-left: 150px;
+    
+}
+button{
+  background-color:green;
+  color: white;
+  width: 164px;
+  margin-top: 10px;
+  margin-left: 152px;
+    
+}
+
+
+.register{
+    margin-left: 152px;
+    
+}

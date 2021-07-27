@@ -1,0 +1,827 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["social-bar-wc"],{"860H":function(t,e,o){"use strict";o.d(e,"a",(function(){return n}));var n={};o.r(n),o.d(n,"sendContentReaction",(function(){return a}));var i=o("HAaN");const a=(t,e,o,n)=>{o?i.b.resetRating(i.a.contents,t,n):i.b.rate(i.a.contents,t,e,!0,n)}},"9y7U":function(t,e,o){"use strict";o.d(e,"a",(function(){return n}));const n={selectPpeParameter:"oneservice_enable_ppe",externalUrls:{api:"https://assets.msn.com/service/community/",cnApi:"https://assets.msn.cn/service/community/",ppeApi:"https://ppe-api.msn.com/community/",guidelinePage:"https://www.msn.com/en-us/community/guideline",profilePage:"https://www.msn.com/en-us/community/profile/",privacySettings:"https://www.msn.com/en-us/settings",profileSettings:"https://account.microsoft.com/profile",feedbackForm:"https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-V3gf69zQlBm1dJVuXA8mtURVI4UlFHMDRIR0VCWDFWNUQyQU5HVzJJQi4u",copyrightReportForm:"https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRziAYhqL1o9IrEi_GLF4l4hUQVFUVldIVFRCSzQ3NEVOTURNQ01BTE9YSi4u",moderationEmail:"Appealsprocessor@microsoft.com",newPost:"https://www.msn.com/en-us/community/post/new"},userStateType:{existingUser:"existingUser",anonymous:"anonymous",newUser:"newUser"},userNameStatusType:{normal:"Normal",notAllow:"NotAllow",inReview:"InReview",unknown:"Unknown"},userAvatarStatusType:{normal:"Normal",notAllow:"NotAllow",inReview:"InReview",unknown:"Unknown"},userAgeGroup:{under18:"Under18",above18:"Above18"},activityType:{follow:"Follow",reply:"Reply",reaction:"Reaction",badge:"Achievement",moderation:"Moderation",commentDeleteAlert:"CommentDeleteAlert",profileBannedAlert:"ProfileBannedAlert",profileErrorAlert:"ProfileErrorAlert"},moderationErrorType:{takedown:"Takedown",ban:"Ban",notAllowName:"NotAllowName",notAllowPicture:"NotAllowPicture",approveUserAppeal:"ApproveUserAppeal",rejectUserAppeal:"RejectUserAppeal",approveProfilePicAppeal:"ApproveProfilePicAppeal",rejectProfilePicAppeal:"RejectProfilePicAppeal",approveCommentAppeal:"ApproveCommentAppeal",rejectCommentAppeal:"RejectCommentAppeal"},visibleStatusType:{Normal:"Normal",DeletedByUser:"DeletedByUser",DeletedByAI:"DeletedByAI",DeletedByHI:"DeletedByHI",InReview:"InReview"},visibleStatusMap:{DeletedByUser:"VisibleStatusDeletedByUser",DeletedByAI:"VisibleStatusDeletedByAI",DeletedByHI:"VisibleStatusDeletedByHI",InReview:"VisibleStatusInReview",Default:"VisibleStatusOther"},commentReportMap:{Spam:"ReportOptSpam",Profanity:"ReportOptProfanity",Abuse:"ReportOptAbuse",RiskyLowAuthority:"ReportOptRiskyLowAuthority",TechnicalAttack:"ReportOptTechnicalAttack",Copyright:"ReportOptCopyright",Trademark:"ReportOptTrademark",ChildRelated:"ReportOptChildRelated",Violent:"ReportOptViolent",Danger:"ReportOptDanger",PublicThreats:"ReportOptPublicThreats",Illegal:"ReportOptIllegal",Terrorism:"ReportOptTerrorism",Privacy:"ReportOptPrivacy",Inappropriate:"ReportOptInappropriate"},userNameReportMap:{Spam:"ReportOptSpam",Profanity:"ReportOptProfanity",Abuse:"ReportOptAbuse",RiskyLowAuthority:"ReportOptRiskyLowAuthority",TechnicalAttack:"ReportOptTechnicalAttack",Trademark:"ReportOptTrademark",ChildRelated:"ReportOptChildRelated",Violent:"ReportOptViolent",Danger:"ReportOptDanger",PublicThreats:"ReportOptPublicThreats",Illegal:"ReportOptIllegal",Terrorism:"ReportOptTerrorism",Privacy:"ReportOptPrivacy",Inappropriate:"ReportOptInappropriate"},userPictureReportMap:{Spam:"ReportOptSpam",Profanity:"ReportOptProfanity",Abuse:"ReportOptAbuse",RiskyLowAuthority:"ReportOptRiskyLowAuthority",TechnicalAttack:"ReportOptTechnicalAttack",Copyright:"ReportOptCopyright",Trademark:"ReportOptTrademark",ChildRelated:"ReportOptChildRelated",Violent:"ReportOptViolent",Danger:"ReportOptDanger",PublicThreats:"ReportOptPublicThreats",Illegal:"ReportOptIllegal",Terrorism:"ReportOptTerrorism",Privacy:"ReportOptPrivacy",Nudity:"ReportOptNudity",NonConsensualIntimateImagery:"ReportOptNonConsensualIntimateImagery",Inappropriate:"ReportOptInappropriate"},reactionOrder:["like","love","surprised","thinking","sad","angry"],profileReportItemMap:{UserName:"ReportUserName",ProfilePicture:"ReportProfilePicture"},profilePageEmptyStates:{NoUser:"NoUser",NotSocialUser:"NotSocialUser"},reactionIconMap:{like:"emj_like",love:"emj_love",thinking:"emj_thinking",surprised:"emj_surprised",sad:"emj_sad",angry:"emj_angry"},reactions:{like:"like",love:"love",thinking:"thinking",surprised:"surprised",sad:"sad",angry:"angry"},responsiveLevels:{L0:"cwtl-0",MobilePopup:"cwt-mobile-popup"},newCommentErrorCodeMap:{400:"NewPostDeniedMsg",403:"NewPostSessionExpiredMsg",500:"NewPostWentWrongMsg",bodyTooLong:"NewPostTooLongMsg",other:"NewPostWentWrongMsg",0:"NewPostWentWrongMsg",1:"NewPostSessionExpiredMsg",4:"NewPostDeniedMsg",6:"NewPostWentWrongMsg",7:"NewPostWentWrongMsg",8:"NewPostWentWrongMsg",9:"NewPostWentWrongMsg",10:"NewPostWentWrongMsg",11:"NewPostWentWrongMsg",12:"NewPostTooManyCommentsMsg",20:"NewPostTooLongMsg",21:"NewPostMentionMsg",22:"NewPostWentWrongMsg",23:"NewPostWentWrongMsg",24:"NewPostDeniedMsg",25:"NewPostWentWrongMsg",26:"NewPostWentWrongMsg",27:"NewPostWentWrongMsg",28:"NewPostDeniedMsg",29:"NewPostDeniedMsg",30:"NewPostDeniedMsg",31:"NewPostDeniedMsg",32:{1:"NewPostDuplicatedMsg",2:"NewPostDeniedMsg",3:"NewPostDeniedMsg",4:"NewPostDeniedMsg",5:"NewPostDeniedMsg",6:"NewPostDeniedMsg",7:"NewPostDeniedMsg",8:"NewPostDeniedMsg",9:"NewPostDeniedMsg",10:"NewPostDeniedMsg",11:"NewPostDeniedMsg",12:"NewPostDeniedMsg",13:"NewPostDeniedMsg",14:"NewPostDeniedMsg",15:"NewPostDeniedMsg",16:"NewPostDeniedMsg",17:"NewPostLanguageErrorMsg",18:"NewPostURLMsg"}},theme:{default:{name:"default",disabledComponents:[]},superappBase:{name:"superapp",disabledComponents:[]},windowsBase:{name:"windows",disabledComponents:[]},superappEmbed:{name:"superapp-embed",disabledComponents:["profilepage","multiloginpage","reactionbreakdowncomment","reactionbreakdowncontent","onboardingpage","onboardingthirdpartypage","onboardingunderagepage","notificationtray"]},superappFullpage:{name:"superapp-fullpage",disabledComponents:["profilepage"]}}}},AvGy:function(t,e,o){"use strict";o.r(e),o.d(e,"ToolingInfo",(function(){return Gt})),o.d(e,"SocialBarWC",(function(){return x})),o.d(e,"SocialBarWCTemplate",(function(){return Vt})),o.d(e,"SocialBarWCStyles",(function(){return Yt}));var n=o("A03o"),i=o("akWC"),a=o("C49W"),r=o("Zn5T");const s=Object(n.a)(r.a.socialBarWC,"Social Bar WC",Object.assign(Object.assign(Object.assign(Object.assign({},Object(i.a)({JustNow:"Localization for socialbar Just Now",NumberYearsAgo:"Localization for socialbar years",NumberYearAgo:"Localization for socialbar year",NumberMonthsAgo:"Localization for socialbar months",NumberMonthAgo:"Localization for socialbar month",NumberWeeksAgo:"Localization for socialbar weeks",NumberWeekAgo:"Localization for socialbar week",NumberDaysAgo:"Localization for socialbar {0} days ago",NumberDayAgo:"Localization for socialbar {0} day ago",NumberHourAgo:"Localization for socialbar {0} hour ago",NumberMinuteAgo:"Localization for socialbar {0} minute ago",NumberHoursAgo:"Localization for socialbar {0}h ago",NumberMinutesAgo:"Localization for socialbar {0}m ago",emojiLabellike:"Localization for socialbar Like",emojiLabellove:"Localization for socialbar Love",emojiLabelsurprised:"Localization for socialbar Surprised",emojiLabelthinking:"Localization for socialbar Thinking",emojiLabelsad:"Localization for socialbar Sad",emojiLabelangry:"Localization for socialbar Angry",emojiLabelreact:"Localization for socialbar React",thousandsShort:"Localization for socialbar {number}k",topCommentTitle:"Localization for socialbar TOP COMMENT",topCommentReplyCountText:"Localization for socialbar {number} replies",topCommentReadMoreButtonText:"Localization for socialbar Keep reading",reactionMenuAriaLabel:"Localization for socialbar reactions",ariaLabelShowReactions:"Localization for socialbar Show reactions",ariaLabelReactionButtonSingular:"Localization for socialbar {number} reaction",ariaLabelReactionButtonPlural:"Localization for socialbar {number} reactions",ariaLabelCommentsCount:"Localization for socialbar See {0} comments"})),Object(a.c)("likeButtonShowWhenHoverReaction","Enable like button show only when hover reaction")),Object(a.c)("enableReactionEmojiButton","Enable replacing the like button with thumb up to an add-reaction emoji button")),Object(a.c)("visibleOnlyReactions","Only show reaction counts")));var c=o("D57K"),l=o("860H"),u=o("WO7E"),d=o("HAaN"),m=o("TRvk"),p=o("Am8i"),h=o("u5KZ"),b=o("JnE6"),g=o("dMmp"),y=o("6BDD");function v(t,e,o="{number}k",n=!1){return t?t<1e3?""+t:t<9900?g.String.Format(o,{number:(i=t/1e3,i.toLocaleString(e,{minimumFractionDigits:1,maximumFractionDigits:1}))}):g.String.Format(o+"{plus}",{number:9,plus:n?"+":""}):void 0;var i}function f(t){return t&&t.length>0?`${t[0].toUpperCase()}${t.slice(1)}`:t}function C(t){let e,o=t;const n=t.getBoundingClientRect();for(;!e;){if(o.parentElement)o=o.parentElement;else{if(!o.getRootNode().host)return;o=o.getRootNode().host}const t=o.getBoundingClientRect();t.width>=n.width&&t.height>=n.height&&(e=o)}return e}function w(t,e){return y.b`<div class="emoji-icon ${e||"noMask"}" data-type=${t}></div>`}const T=t=>{h.a&&t&&h.a.sendContentViewEvent(t,b.b.View)},k=(t,e)=>{const o=function(t){const e=t?t.split("_"):[];return e.length>0?e[0]:t}(e);if(!t)return;const n=t.addOrUpdateChild({name:"Socialbar",type:p.f.Undefined}),i=n.addOrUpdateChild({name:"ReactionsPopup",behavior:p.c.Show,content:{id:o,headline:"ReactionsPopup"},type:p.f.DropDown}),a=n.addOrUpdateChild({name:"Comments",behavior:p.c.Navigate,content:{id:o,headline:"Comments",type:p.d.Article},type:p.f.ActionButton}),r=n.addOrUpdateChild({name:"Reactions",behavior:p.c.Navigate,content:{id:o,headline:"Reactions",type:p.d.Article},type:p.f.ActionButton}),s=n.addOrUpdateChild({name:"Reaction",behavior:p.c.Show,content:{id:o,headline:t.contract&&t.contract.content&&t.contract.content.headline},type:p.f.ActionButton}),c=Object.values(u.a).reduce((t,e)=>{const n=f(e);return t[e]=s.addOrUpdateChild({name:n,behavior:R[e],content:{id:o,headline:n},action:p.b.Click,type:p.f.ActionButton}),t},{}),l=Object.values(u.a).reduce((t,e)=>{const n="Undo "+f(e);return t[e]=s.addOrUpdateChild({name:n,behavior:R[e],action:p.b.Click,content:{id:o,headline:n},type:p.f.ActionButton}),t},{}),d=n.addOrUpdateChild({name:"TopCommentIcon",behavior:p.c.Show,action:p.b.Hover,content:{headline:"TopCommentIcon"},type:p.f.ActionButton}),m=(t=>{if(!t)return;const e=t.addOrUpdateChild({name:"TopComment",action:p.b.Click,behavior:p.c.Navigate,content:{headline:"TopComment"},type:p.f.ActionButton});return{componentRoot:t,topComment:e}})(t).topComment;return{componentRoot:t,socialBar:n,reactionMenu:i,reactionsParent:s,reactionTelemetryObjects:c,undoReactionTelemetryObjects:l,commentsButton:a,reactionsCountButton:r,topCommentIcon:d,topCommentTelemetryContext:m}},R={[u.a.angry]:p.c.Angry,[u.a.like]:p.c.Like,[u.a.love]:p.c.Love,[u.a.sad]:p.c.Sad,[u.a.surprised]:p.c.Surprised,[u.a.thinking]:p.c.Thinking},O={reactionMenuLoaded:t=>{h.a&&t&&h.a.sendContentViewEvent(t,b.b.View)},genericClick:(t,e,o)=>{h.a&&t&&h.a.sendActionEvent(t,e||p.b.Click,o)},reactionMenuTriggerMouseEnter:t=>{O.genericClick(t,p.b.Hover,p.c.Show)}};var j=o("QBS5"),S=o("oePG"),M=o("IqCT");class x extends M.a{constructor(){super(...arguments),this.onReaction=(t,e,o)=>{l.a.sendContentReaction(t,u.a[e.toLowerCase()],o)}}experienceConnected(){}getExperienceType(){return r.a.socialBarWC}shadowDomPopulated(){this.contentId&&!this.socialMetadata&&this.fetchContentData()}fetchContentData(){d.b.getContentById(this.contentId,this.locale).then(t=>{const{id:e,reactionCounts:o,totalCommentCount:n}=t;this.contentId=e.indexOf("_")>0?e.split("_")[0]:e;const i=e&&m.a.getLocalContentReaction(e);this.selfFetchedSocialBarData={id:e,myReaction:i,reactionCounts:o,totalCommentsCount:n}})}get socialBarData(){if(!this.contentId||!this.locale)return null;const{myReaction:t,reactionSummary:e,commentSummary:o,topComments:n}=this.socialMetadata||{};return m.a.mapFeedResponseToSocialBarData(`${this.contentId}_${this.locale}`,t,e,o,n)}get telemetryContext(){if(this.rootTelemetryObject&&this.contentId&&this.locale)return this._telemetryContext||(this._telemetryContext=this.rootTelemetryObject&&k(this.rootTelemetryObject,`${this.contentId}_${this.locale}`)),this._telemetryContext}}Object(c.e)([j.b],x.prototype,"destinationUrl",void 0),Object(c.e)([j.b],x.prototype,"contentId",void 0),Object(c.e)([j.b],x.prototype,"locale",void 0),Object(c.e)([S.d],x.prototype,"socialMetadata",void 0),Object(c.e)([S.d],x.prototype,"selfFetchedSocialBarData",void 0),Object(c.e)([S.d],x.prototype,"rootTelemetryObject",void 0),Object(c.e)([j.b],x.prototype,"likeButtonAlwaysVisible",void 0),Object(c.e)([j.b],x.prototype,"hideComments",void 0),Object(c.e)([j.b],x.prototype,"theme",void 0);var E=o("6vBc"),A=o("+53S"),P=o("Nc2c"),L=o("UNqU");const B=y.b`<svg xmlns="http://www.w3.org/2000/svg" class="cwt-icon-vector" viewBox="0 0 16 16"><path fill="currentColor" d="M0 3.857A2.857 2.857 0 012.857 1h10.286A2.857 2.857 0 0116 3.857v5.714a2.857 2.857 0 01-2.857 2.858H8.786l-3.5 3.062c-.724.634-1.857.12-1.857-.843v-2.22h-.572A2.857 2.857 0 010 9.572V3.857zm2.857-1.714c-.947 0-1.714.767-1.714 1.714v5.714c0 .947.767 1.715 1.714 1.715h1.714v3.312l3.786-3.312h4.786c.947 0 1.714-.768 1.714-1.715V3.857c0-.947-.767-1.714-1.714-1.714H2.857z"/></svg>`,D=(y.b`<svg width="16" height="16" class="cwt-icon-vector" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M3.5 2A2.5 2.5 0 001 4.5v5A2.5 2.5 0 003.5 12H4v1.942a.98.98 0 001.625.738L8.688 12H12.5A2.5 2.5 0 0015 9.5v-5A2.5 2.5 0 0012.5 2h-9z"/></svg>`,y.b`<svg width="16" height="16" class="cwt-icon-vector" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.853 2.049a.28.28 0 01.033.02.9.9 0 01.209.224l.004.006.005.006c.167.223.232.621-.033 1.32-.15.383-.333.75-.548 1.1a7.76 7.76 0 01-.083.11c-.143.191-.325.433-.458.767-.037.091-.07.182-.101.273-.144.434-.013.836.24 1.117.239.265.581.425.923.476.31.046.615.11.92.193h.003c.58.156.957.333 1.18.509.205.163.254.3.254.427a.941.941 0 01-.082.374c-.071.15-.087.327-.083.45.002.07.012.158.04.248.021.067.067.185.172.286.1.145.146.313.136.485l-.001.015v.015a.18.18 0 01-.072.118l-.006.004a.903.903 0 01-.021.016c-.291.22-.461.65-.261 1.05a.766.766 0 01-.002.434.965.965 0 01-.063.108c-.042.061-.088.12-.12.16-.128.097-.252.221-.351.365a1.137 1.137 0 00-.214.637v.24a.223.223 0 01-.03.088.995.995 0 01-.123.142l-.077.083c-.078.084-.138.148-.205.208a.483.483 0 01-.179.112 9.079 9.079 0 01-.555.136.372.372 0 01-.049.007c-.267.022-1.358.107-2.08.103-1.18-.008-1.966-.02-2.883-.24l-.003-.002c-.476-.11-.87-.205-1.195-.297a1.62 1.62 0 00-.44-.062H2.78c-.22 0-.373-.13-.412-.282a36.972 36.972 0 01-.043-.164c-.18-.703-.248-1.091-.275-1.801-.032-.827-.007-1.277.185-2.057.029-.115.15-.223.323-.223h1.515a1.59 1.59 0 001.312-.703c.21-.31.44-.634.68-.97.361-.506.664-.91.912-1.217.25-.31.425-.497.537-.59A60.799 60.799 0 009.069 4.63l.006-.006.006-.005c.373-.332.635-.57.843-.808.219-.25.37-.492.547-.824.093-.174.138-.352.168-.479a1.26 1.26 0 01.214-.46zm-.788-.68A.994.994 0 0110.828 1c.487 0 .858.33 1.112.687.482.648.416 1.484.101 2.31l-.001.004c-.175.448-.39.877-.643 1.285l-.009.015-.01.014c-.052.073-.098.134-.139.19-.13.174-.214.287-.292.483a3.772 3.772 0 00-.08.214c-.008.027-.006.04-.005.044a.125.125 0 00.032.05c.052.058.16.123.303.144.348.052.694.123 1.04.218.639.171 1.171.394 1.553.696.399.315.65.732.65 1.243a1.98 1.98 0 01-.15.748c.242.34.353.742.332 1.142a1.204 1.204 0 01-.406.865c.106.343.097.7.005 1.023-.045.163-.14.314-.201.406a3.245 3.245 0 01-.204.271.59.59 0 01-.138.127.562.562 0 00-.135.135.225.225 0 00-.03.057v.294l-.004.028c-.049.446-.277.687-.414.832a2.53 2.53 0 00-.07.076 4.246 4.246 0 01-.3.302 1.501 1.501 0 01-.583.332c-.257.073-.511.13-.622.153-.061.013-.12.021-.18.026-.26.021-1.396.111-2.17.106-1.171-.008-2.071-.016-3.12-.269-.472-.11-.889-.21-1.238-.308a.583.583 0 00-.158-.023H2.78c-.629 0-1.243-.39-1.418-1.06l-.044-.168c-.194-.759-.276-1.221-.307-2.019-.034-.898-.006-1.449.215-2.346.156-.632.736-1.014 1.332-1.014h1.515a.55.55 0 00.452-.246c.218-.321.453-.654.694-.991.367-.514.683-.937.949-1.266.26-.323.492-.58.69-.744l.006-.004.005-.005a60.176 60.176 0 001.527-1.22c.378-.337.587-.53.743-.71.148-.169.257-.336.414-.63a.964.964 0 00.073-.227 2.3 2.3 0 01.428-.89l.005-.005.005-.006z"/></svg>`),N=y.b`<svg width="16" height="16" class="cwt-icon-vector" xmlns="http://www.w3.org/2000/svg"><path d="M8 5l4 4H4l4-4z" fill="currentColor"/></svg>`,F=y.b`<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+  <path fill="currentColor" d="M9 1C13.4183 1 17 4.58172 17 9C17 9.19805 16.9928 9.39442 16.9787 9.58886C16.6673 9.4314 16.3389 9.30268 15.997 9.20619C15.999 9.1377 16 9.06897 16 9C16 5.13401 12.866 2 9 2C5.13401 2 2 5.13401 2 9C2 12.866 5.13401 16 9 16C9.06897 16 9.1377 15.999 9.20619 15.997C9.30268 16.3389 9.4314 16.6673 9.58886 16.9787C9.39442 16.9928 9.19805 17 9 17C4.58172 17 1 13.4183 1 9C1 4.58172 4.58172 1 9 1Z"/>
+  <path fill="currentColor" d="M6.15467 11.4273C7.02454 12.3027 8.19797 12.6929 9.33847 12.5969C9.33008 12.6191 9.32188 12.6415 9.31387 12.6641C9.20621 12.9682 9.12455 13.2846 9.07154 13.6106C7.76002 13.6292 6.44289 13.136 5.44533 12.1322C5.25069 11.9363 5.25169 11.6197 5.44757 11.4251C5.64344 11.2304 5.96002 11.2314 6.15467 11.4273Z"/>
+  <path fill="currentColor" d="M11.5 6.5C12.0523 6.5 12.5 6.94772 12.5 7.5C12.5 8.05228 12.0523 8.5 11.5 8.5C10.9477 8.5 10.5 8.05228 10.5 7.5C10.5 6.94772 10.9477 6.5 11.5 6.5Z"/>
+  <path fill="currentColor" d="M6.5 6.5C7.05228 6.5 7.5 6.94772 7.5 7.5C7.5 8.05228 7.05228 8.5 6.5 8.5C5.94772 8.5 5.5 8.05228 5.5 7.5C5.5 6.94772 5.94772 6.5 6.5 6.5Z"/>
+  <path fill="currentColor" d="M19 14.5C19 16.9853 16.9853 19 14.5 19C12.0147 19 10 16.9853 10 14.5C10 12.0147 12.0147 10 14.5 10C16.9853 10 19 12.0147 19 14.5ZM15 12.5C15 12.2239 14.7761 12 14.5 12C14.2239 12 14 12.2239 14 12.5V14H12.5C12.2239 14 12 14.2239 12 14.5C12 14.7761 12.2239 15 12.5 15H14V16.5C14 16.7761 14.2239 17 14.5 17C14.7761 17 15 16.7761 15 16.5V15H16.5C16.7761 15 17 14.7761 17 14.5C17 14.2239 16.7761 14 16.5 14H15V12.5Z"/>
+</svg>`;var I=o("m1Vi");const $="data:image/png;base64,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",U=(t,e)=>`.${e} > div.emoji-icon {\n    background-image: url("${$}");\n    width: ${t}px;\n    height: ${1.125*t}px;\n    background-size: ${t*Object.keys(u.a).length}px auto;\n    background-repeat: no-repeat;\n}\n${Object.keys(u.a).map((o,n)=>`.${e} > [data-type="${o}"] { background-position: -${t*n}px 0;}`).join("\n")}`,H=(t,e)=>`url('data:image/svg+xml,%3Csvg width="${e}" height="${e}" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" ${{likeMaskImage:'d="M2.7 28H28V0H1L.3 2.3l-.4 1v5.9l1.2.3c1.5.4 2.6.9 3.4 1.5.8.7 1.3 1.5 1.3 2.5a4.2 4.2 0 01-.4 1.7 1 1 0 000 .3c.6.8.9 1.6.8 2.5a2.3 2.3 0 01-1 1.8v.4c.3.7.3 1.4.1 2.1a3 3 0 01-1 1.7c-.5.3-.7.6-.7.9v.7c0 1-.4 1.9-1 2.4z" fill="%23FFC700"',loveMaskImage:'d="M0 23.2V28h28V0H0v.3a10.7 10.7 0 017.8 12.4 16 16 0 01-5.7 8.8L0 23.2z" fill="%23FFC700"',circleMaskImage:'d="M1.3 28H28V0H1.3l1.4 1.3C6.2 4.6 8 9.3 8 14a17.2 17.2 0 01-6.7 14z" fill="%23FFC700"',likeMaskImageRTL:'d="M28 13.4432V0H0V28H28V27.9606H24.6812C23.9528 27.9606 23.2572 27.5051 23.0133 26.7486C22.8826 26.3432 22.7714 25.9262 22.6904 25.4899C22.258 23.965 22.0436 22.36 22.0005 20.8064L22 20.7898L22.0004 20.7732C22.043 19.0186 22.171 17.2069 22.4727 15.4315L22.4786 15.397L22.6553 14.7781C22.8814 13.9867 23.5867 13.4432 24.3877 13.4432H28Z" fill="%23FFC700"',loveMaskImageRTL:'d="M28 0H0V28H28V24.0646C26.6312 23.0066 25.2744 21.9085 23.9784 20.7129L23.9768 20.7114C21.7049 18.6011 19.7588 15.9392 19.1724 12.7661L19.1717 12.7619C18.635 9.73528 19.3673 6.65994 21.221 4.15415L21.2256 4.14796C22.8656 1.9878 25.2984 0.558465 28 0.13032V0Z" fill="%23FFC700"',circleMaskImageRTL:'d="M26.6749 0H0V28H26.6429C26.1637 27.6039 25.7043 27.1811 25.2673 26.7327C21.8516 23.4034 19.9163 18.7723 20.0028 14C19.9163 9.22999 21.8499 4.5982 25.2673 1.31048C25.7146 0.845747 26.1846 0.408516 26.6749 0Z" fill="%23FFC700"'}[t]} /%3E%3C/svg%3E')`;var z=o("P4Ao");class W extends z.a{reactionCountsChanged(){this.updateState()}maxNumberOfEmojisChanged(){this.updateState()}updateState(){this.mostReactions=this.extractMostReactionsFromReactionCounts(this.reactionCounts,this.maxNumberOfEmojis)}extractMostReactionsFromReactionCounts(t,e){return t?Object.entries(t).filter(t=>t[1]>0).sort((t,e)=>e[1]-t[1]).map(t=>t[0]).slice(0,e||3):[]}}Object(c.e)([S.d],W.prototype,"reactionCounts",void 0),Object(c.e)([S.d],W.prototype,"maxNumberOfEmojis",void 0),Object(c.e)([j.b],W.prototype,"mostReactions",void 0);var V=o("CzTk"),Y=o("4X57");const G={angry:"circleMask",like:"likeMask",love:"loveMask",sad:"circleMask",surprised:"circleMask",thinking:"circleMask"},Z=U(16,"msn-social-most-reactions"),q=Y.a`
+    .msn-social-most-reactions .emoji-icon:not(:first-child) {
+        margin-left: -3px;
+    }
+    .msn-social-most-reactions > .likeMask {
+        -webkit-mask-image: ${H("likeMaskImage",16)};
+    }
+    .msn-social-most-reactions > .loveMask {
+        -webkit-mask-image: ${H("loveMaskImage",16)};
+    }
+    .msn-social-most-reactions > .circleMask {
+        -webkit-mask-image: ${H("circleMaskImage",16)};
+    }
+`,X=Y.a`
+    .msn-social-most-reactions .emoji-icon:not(:first-child) {
+        margin-right: -3px;
+    }
+    .msn-social-most-reactions > .likeMask {
+        -webkit-mask-image: ${H("likeMaskImageRTL",16)};
+    }
+    .msn-social-most-reactions > .loveMask {
+        -webkit-mask-image: ${H("loveMaskImageRTL",16)};
+    }
+    .msn-social-most-reactions > .circleMask {
+        -webkit-mask-image: ${H("circleMaskImageRTL",16)};
+    }
+`,Q=Y.a`
+    .msn-social-most-reactions {
+        display: flex;
+    }
+    ${Z}
+    .msn-social-most-reactions > .emoji-icon:nth-child(1) {
+        z-index: 2;
+    }
+    .msn-social-most-reactions > .emoji-icon:nth-child(2) {
+        z-index: 1;
+    }
+    .msn-social-most-reactions > .emoji-icon:nth-child(3) {
+        z-index: 0;
+    }
+`.withBehaviors(new V.a(q,X));function J(t,e){const o=e.indexOf(t);if(!(o<1))return e[o-1]}const K=y.b`
+    <div class="msn-social-most-reactions">
+        ${Object(L.c)(t=>t.mostReactions,y.b`
+            ${(t,e)=>{return o=t,n=J(t,e.parent.mostReactions)?G[J(t,e.parent.mostReactions)]:"noMask",y.b`<div class="emoji-icon ${n||"noMask"}" data-type=${o}></div>`;var o,n}}
+        `)}
+    </div>
+`;let _=class extends W{};_=Object(c.e)([Object(z.b)({name:"msn-social-most-reactions",template:K,styles:Q})],_);const tt=U,et={[u.a.like]:"#FF9637",[u.a.love]:"#FF5952",[u.a.surprised]:"#FF9637",[u.a.thinking]:"#FF9637",[u.a.sad]:"#FF9637",[u.a.angry]:"#FF5952"},ot="default",nt="redesign",it="superappDefault",at="superappCarouselCard",rt="superappListCard",st="topStories",ct="noBackPlate";var lt=o("eUhr");I.b;const ut=y.b`
+    <div class="button-container ${t=>t.showLikeButton?"like-visible":""}" part="like-button-container" ${Object(lt.b)(t=>t.enableReactionEmojiButton?null:t.reactionsParentTelemetryTag)}>
+        <button
+            part="button-bg"
+            tab-index=0
+            title=""
+            aria-pressed="false"
+            class="icon-button ${t=>t.enableReactionEmojiButton?"reaction-emoji-button":"like-button"} button-bg ${t=>t.showAccessibilityButton?"":"button-bg-last-of-type"} ${t=>t.showLikeButton&&"width-transition-enter"} ${t=>t.reactionMenuVisible&&"highlight"} accessibility-outline"
+            @click=${(t,e)=>t.enableReactionEmojiButton?t.triggerShowReactionMenu():t.onReactionClickHandler(u.a.like,e.event)}
+            @mouseenter=${(t,e)=>e.event&&t.reactionMenuTriggerMouseEnterHandler(e.event.currentTarget)}
+            @mouseleave=${(t,e)=>t.hideReactionMenu(!0)}
+            @touchstart=${(t,e)=>e.event&&t.setupTouchSlideHandlerOnTouchStart(e.event)}
+            data-customhandled="1"
+            ${Object(lt.b)(t=>t.enableReactionEmojiButton?t.reactionsParentTelemetryTag:t.reactionTelemetryTags&&t.reactionTelemetryTags[u.a.like])}
+        >
+            ${t=>t.enableReactionEmojiButton?F:D}
+            ${Object(E.a)(t=>!t.enableReactionEmojiButton,y.b`<span class="icon-label">${t=>t.likeButtonLabel}</span>`)}
+        </button>
+        <button ${Object(A.b)("reactionPanelAccessButton")}
+                tab-index=0
+                role="button"
+                aria-pressed=${t=>t.reactionMenuVisible}
+                class="icon-button button-bg accessibility-button accessibility-outline ${t=>t.showAccessibilityButton?"accessibility-visible button-bg-last-of-type":""} ${t=>t.reactionMenuVisible&&"highlight"}"
+                part="button-bg"
+                title=""
+                aria-label="${t=>t.localizedStrings.ariaLabelShowReactions}"
+                @click=${(t,e)=>{t.accessToggleReactionMenu()}}
+            >
+            <span role="presentation" aria-hidden="true">
+                ${N}
+            </span>
+        </button>
+    </div>
+`,dt=y.b`
+    <div class="button-container active-reaction-visible" part="active-button-container" ${Object(lt.b)(t=>t.reactionsParentTelemetryTag)}>
+        <button
+            tab-index=0
+            aria-pressed="true"
+            class="icon-button active-reaction-button button-bg ${t=>t.showAccessibilityButton?"":"button-bg-last-of-type"} ${t=>t.reactionMenuVisible&&"highlight"} accessibility-outline"
+            part="button-bg"
+            @click=${(t,e)=>t.onReactionClickHandler(t.myReaction,e.event)}
+            @mouseenter=${(t,e)=>e.event&&t.reactionMenuTriggerMouseEnterHandler(e.event.currentTarget)}
+            @mouseleave=${(t,e)=>t.hideReactionMenu(!0)}
+            @touchstart=${(t,e)=>e.event&&t.setupTouchSlideHandlerOnTouchStart(e.event)}
+            data-customhandled="1"
+            ${Object(lt.b)(t=>t.undoReactionTelemetryTags&&t.undoReactionTelemetryTags[t.myReaction])}
+        >${t=>w(t.myReaction)}
+            <span class="icon-label" style="color: ${t=>et[t.myReaction]}">
+                ${t=>t.t["emojiLabel"+t.myReaction]}
+            </span></button><button ${Object(A.b)("reactionPanelAccessButton")}
+                tab-index=0
+                aria-pressed=${t=>t.reactionMenuVisible}
+                class="icon-button button-bg accessibility-button accessibility-outline ${t=>t.showAccessibilityButton?"accessibility-visible button-bg-last-of-type":""} ${t=>t.reactionMenuVisible&&"highlight"}"
+                part="button-bg"
+                title=""
+                aria-label="${t=>t.localizedStrings.ariaLabelShowReactions}"
+                @click=${(t,e)=>{t.accessToggleReactionMenu()}}
+            >
+                ${N}
+        </button>
+    </div>
+`,mt=y.b`<div ${Object(A.b)("reactionMenu")} ${Object(P.b)("reactionButtons")}
+        part="reaction-menu-container"
+        class="reaction-menu-container"
+        aria-label=${t=>t.t.reactionMenuAriaLabel}
+        title = ""
+        @mouseenter=${(t,e)=>t.triggerShowReactionMenu()}
+        @mouseleave=${(t,e)=>t.hideReactionMenu(!0)}
+        role="toolbar"
+        ${Object(lt.b)(t=>t.reactionMenuTelemetryTag)}
+    >${Object(L.c)(t=>Object.keys(u.a),y.b`<button
+                title=""
+                tab-index=0
+                aria-pressed="${(t,e)=>e.parent.myReaction==t}"
+                data-title="${(t,e)=>e.parent.t["emojiLabel"+t]||t}"
+                class="reaction-menu-emoji-button accessibility-outline"
+                @click=${(t,e)=>e.parent.onReactionClick(t,null==e?void 0:e.event)}
+                @keydown=${(t,e)=>e.parent.handleKeyPress(e)}
+                @mouseenter=${(t,e)=>{document.activeElement.blur(),e.parent.triggerMoveLabel(e.index),e.parent.emojiFocused(t)}}
+                @mouseleave=${(t,e)=>{e.parent.emojiFocused(null)}}
+                data-faded="${(t,e)=>e.parent.focusedEmojiKey&&e.parent.focusedEmojiKey!=t}"
+                ${Object(lt.b)((t,e)=>e.parent.myReaction==t?e.parent.undoReactionTelemetryTags&&e.parent.undoReactionTelemetryTags[t]:e.parent.reactionTelemetryTags&&e.parent.reactionTelemetryTags[t])}
+            >
+                <span class="emoji-label ${(t,e)=>e.parent.shouldLabelRenderBelow?"emoji-label-bottom":""}">
+                    ${(t,e)=>e.parent.t["emojiLabel"+t]}
+                </span>${t=>w(t)}
+            </button>`,{positioning:!0})}
+        </div>
+`,pt=y.b`<msn-social-most-reactions :reactionCounts=${t=>t.reactionCountsForMostReactionEmojis} :maxNumberOfEmojis="${t=>{return e=t.totalReactionsCountLabel,o=t.totalCommentsCountLabel,e&&o&&e.length+o.length>4?2:3;var e,o}}"/>`,ht=y.b`<a 
+        href=${t=>t.destinationUrl}
+        target="_blank"
+        part="reactions-count-button"
+        class="icon-button reactions-count-button accessibility-outline"
+        title=""
+        role="link"
+        aria-label="${t=>{return e=t.localizedStrings,(o=t.totalReactionsCount)<=0||!e||!e.ariaLabelReactionButtonSingular||!e.ariaLabelReactionButtonPlural?"":1===o?g.String.Format(e.ariaLabelReactionButtonSingular,{number:o}):g.String.Format(e.ariaLabelReactionButtonPlural,{number:o});var e,o}}"
+        ${Object(lt.b)(t=>t.reactionsCountButtonTelemetryTag)}
+    >${Object(E.a)(t=>!t.myReaction||1==t.totalReactionsCount,pt)}
+    <span part="reaction-count" class="icon-label ${t=>t.myReaction&&1!=t.totalReactionsCount?"has-plus":""}">${t=>t.totalReactionsCountLabel}</span>
+    </a>
+`,bt=y.b`<a 
+        href=${t=>t.getCommentsUrl()}
+        target="_blank"
+        class="icon-button comments-count-button accessibility-outline"
+        part="comments-count-button"
+        title=""
+        aria-live="polite"
+        aria-label="${t=>{return e=t.localizedStrings,o=t.totalCommentsCountLabel,g.String.Format(e.ariaLabelCommentsCount,o);var e,o}}"
+        @mouseenter=${(t,e)=>e.event&&t.renderTopComment(e.event.currentTarget)}
+        ${Object(lt.b)(t=>t.hasTopComment?t.topCommentIconTelemetryTag:t.commentsButtonTelemetryTag)}
+    ><div class="icon-wrapper ${t=>t.hasTopComment?"has-top-comment-marker":""}">${B}</div>
+        <span class="icon-label">${t=>t.totalCommentsCountLabel}</span>
+    </a>${t=>t.hasTopComment&&t.showAccessibilityButton?y.b`<button
+    id="topCommentAccessButton_${t=>t.socialBarData.id}"
+    tab-index=0
+    aria-pressed="false"
+    class="icon-button button-bg accessibility-button accessibility-outline ${t=>t.showAccessibilityButton?"accessibility-visible button-bg-last-of-type":""} ${t=>t.reactionMenuVisible&&"highlight"}"
+    part="button-bg"
+    title=""
+    @click=${(t,e)=>{t.topCommentVisible?t.removeTopComment():e.event&&t.renderTopComment(e.event.currentTarget)}}
+    >${N}</button>`:""}
+`,gt=y.b`<div
+        class="social-bar no-select ${t=>t.showAccessibilityButton?"accessibility-visible":""} ${t=>t.theme||""}"
+        part="social-bar"
+        @mouseenter=${(t,e)=>t.handleHoverOnReaction()}
+        @mouseleave=${(t,e)=>t.handleHoverOnReaction(!1)}
+        ${Object(lt.b)(t=>t.socialBarTelemetryTag)}
+    >
+        ${Object(E.a)(t=>!t.visibleOnlyReactions,y.b`
+            ${Object(E.a)(t=>!t.hideReactions&&t.myReaction,dt)}
+            ${Object(E.a)(t=>!t.hideReactions&&!t.myReaction,ut)}
+            ${Object(E.a)(t=>!t.hideReactions&&t.reactionMenuVisible,mt)}
+            ${Object(E.a)(t=>!t.hideReactions&&t.showReactionsCount,ht)}
+            ${Object(E.a)(t=>!t.hideComments&&t.showCommentsCount,bt)}
+        `)}
+        ${Object(E.a)(t=>t.visibleOnlyReactions,ht)}
+    </div>
+`;var yt=o("vjdx");class vt extends z.a{constructor(){super(...arguments),this.topCommentContentViewEventHandler=t=>{T(t.target)}}get shouldRenderReplyCount(){return this.showReplyCount&&this.data.replyCount>0}get shouldRenderMostReactions(){return this.showMostReactions&&Object.values(this.data.reactionCounts).reduce((t,e)=>t+e,0)>0}get shouldRenderProfileImage(){return!this.hideProfileImage}get agoText(){const{market:t,createDatetime:e}=this.data;return Object(yt.a)(new Date(e),t,this.localizedStrings)}connectedCallback(){if(super.connectedCallback(),this.enableFocusAssist){const t=this.shadowRoot.querySelectorAll(".accessible-item");t&&t.length>0&&setTimeout(()=>{t[0].focus()},75)}}}Object(c.e)([S.d],vt.prototype,"data",void 0),Object(c.e)([S.d],vt.prototype,"localizedStrings",void 0),Object(c.e)([j.b],vt.prototype,"showReplyCount",void 0),Object(c.e)([j.b],vt.prototype,"showMostReactions",void 0),Object(c.e)([S.d],vt.prototype,"topCommentTelemetryTag",void 0),Object(c.e)([j.b],vt.prototype,"enableFocusAssist",void 0),Object(c.e)([Object(j.b)({attribute:"hideprofileimage",mode:"boolean"})],vt.prototype,"hideProfileImage",void 0);var ft=o("kL0l");const Ct=Y.a`
+    .profile-avatar {
+        margin-right: 6px;
+    }
+
+    .stats .reaction-counts > msn-social-most-reactions {
+        transform-origin: center right;
+    }
+`,wt=Y.a`
+    .profile-avatar {
+        margin-left: 6px;
+    }
+
+    .stats .reaction-counts > msn-social-most-reactions {
+        transform-origin: center left;
+    }
+`,Tt="0px 3.2px 7.2px rgba(0, 0, 0, 0.13), 0px 0.6px 1.8px rgba(0, 0, 0, 0.1)",kt=Y.a`
+    .top-comment-card {
+        max-width: var(--card-width, 300px);
+        background: var(--card-background, ${ft.F.var});
+        border-radius: var(--card-border-radius, 4px);
+        -webkit-box-shadow: var(--card-box-shadow, ${Tt});
+        -moz-box-shadow: var(--card-box-shadow, ${Tt});
+        box-shadow: var(--card-box-shadow, ${Tt});
+        margin: var(--card-margin, 0);
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: var(--header-padding, 8px 12px 4px);
+        font-size: var(--header-font-size, 10px);
+        font-weight: var(--header-font-weight, 600);
+        color: ${ft.M.var}
+    }
+
+    .stats, .stats .reaction-counts {
+        display: flex;
+        align-items: center;
+    }
+    .stats .reply-count {
+        margin: 0 6px;
+    }
+    .stats .reaction-counts > msn-social-most-reactions {
+        transform: scale(calc(14/16));
+    }
+
+    .stats .reaction-counts .icon-label {
+        margin: 0 3px;
+    }
+
+    .header .title {
+        text-transform: uppercase;
+    }
+
+    a.card-body-link {
+        display: flex;
+        padding: var(--body-padding, 4px 12px 12px);
+        margin: var(--body-margin, 0);
+        font-size: 12px;
+        text-decoration: none;
+        border-radius: var(--body-border-radius, 0);
+        background: var(--body-background, none);
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .card-body-link:hover {
+        background: var(--body-hover-background, ${ft.s.var})
+    }
+
+    .profile-avatar {
+        height: 20px;
+        min-width: 20px;
+        max-width: 20px;
+        border-radius: 50%;
+    }
+
+    .comment-header {
+        display: flex;
+        align-items: center;
+        min-height: 20px;
+    }
+
+    .accent-text {
+        color: var(--accent-text-color, ${ft.h.var});
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .ago-text {
+        color: var(--ago-text-color, ${ft.C.var});
+        text-decoration: none;
+        padding: 0 8px;
+    }
+
+    .comment-body {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: var(--body-max-lines, 4);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: var(--body-text-font-size, 12px);
+        line-height: var(--body-text-line-height, 16px);
+        max-height: 64px;
+        margin: 2px 0;
+        color: var(--body-text-color, ${ft.E.var});
+        opacity: .85;
+    }
+
+    .read-more-link{
+        font-size: 11px;
+        font-weight: normal;
+    }
+`.withBehaviors(ft.F,ft.M,ft.h,ft.N,ft.E,ft.s,ft.C,new V.a(Ct,wt)),Rt="https://assets.msn.com/staticsb/statics/latest/community/img/avatar-placeholder.svg",Ot=y.b`
+    <div class="top-comment-card" title="">
+        <header class="header">
+            <span class="title">${t=>t.localizedStrings.topCommentTitle}</span>
+            <div class="stats">
+                ${Object(E.a)(t=>t.shouldRenderReplyCount,y.b`
+    <span class="reply-count">${t=>g.String.Format(t.localizedStrings.topCommentReplyCountText,{number:t.data.replyCount})}</span>
+`)}
+                ${Object(E.a)(t=>t.shouldRenderMostReactions,y.b`
+    <div class="reaction-counts">
+        ${t=>{return e=t.data.reactionCounts,y.b`
+    <msn-social-most-reactions :reactionCounts=${t=>e} />
+`;var e}}
+        <span class="icon-label">
+            ${t=>Object.keys(t.data.reactionCounts).map(e=>t.data.reactionCounts[e]).reduce((t,e)=>t+e)}
+        </span>
+    </div>
+`)}
+            </div>
+        </header>
+        <a
+            class="card-body-link accessible-item"
+            href="${t=>t.data.commentUrl}"
+            target="_blank"
+            title=""
+            @mouseenter=${(t,e)=>t.topCommentContentViewEventHandler(e.event)}
+            ${Object(lt.b)(t=>t.topCommentTelemetryTag)}
+            tab-index=0
+            aria-label="${t=>t.localizedStrings.topCommentReadMoreButtonText}">
+            <div class="column">
+                ${Object(E.a)(t=>t.shouldRenderProfileImage,y.b`
+    <img alt="Profile Picture" class="profile-avatar" src="${t=>t.data.avatarUrl||Rt}" width="20" height="20" onerror="this.onerror=null; this.src = '${Rt}';"/>
+`)}
+            </div>
+
+            <div class="column">
+                <div class="comment-header">
+                    <span class="accent-text">
+                        ${t=>t.data.username}
+                    </span>
+                    <span class="ago-text">${t=>t.agoText}</span>
+                </div>
+                <div class="comment-body">${t=>t.data.commentBody}</div>
+                <span class="accent-text read-more-link">
+                    ${t=>t.localizedStrings.topCommentReadMoreButtonText}
+                </span>
+            </div>
+        </a>
+    </div>
+`;let jt=class extends vt{};jt=Object(c.e)([Object(z.b)({name:"msn-top-comment",template:Ot,styles:kt})],jt);var St=o("uHPB");class Mt{static removeSingleInstance(){Mt.popoverInstance&&Mt.popoverInstance.remove()}static renderPopover(t,e){const o=e&&e.callbacks,n=e&&e.parentSelector&&""!=e.parentSelector.trim()||"fluent-design-system-provider",i=e&&e.hideOnOutsideClick,a=e&&e.alignParentSelectors;Mt.removeSingleInstance();const r=document.createElement("div");Mt.popoverInstance=r,r.style.visibility="hidden",r.style.position="absolute",r.style.zIndex="900",o&&o.onMount&&o.onMount(r);const s=n?xt(n,t):document.body;s.insertAdjacentElement("afterbegin",r);const c=a.length>0?a.map(e=>xt(e,t)).filter(t=>!!t):null,l=(c&&c.length>0?c[0]:s).getBoundingClientRect(),u=s.getBoundingClientRect(),d=t.getBoundingClientRect(),m=r.getBoundingClientRect(),p=d.bottom-m.top-1,h=u.bottom>p+m.bottom&&document.documentElement.clientHeight>p+m.bottom?p:d.top-m.bottom+1,b=d.left-m.left,g=l.right-m.right,y=l.right>b+m.right?b:g;r.style.transform=`translateX(${y}px) translateY(${h}px)`,r.style.visibility="visible";const v=()=>{r.remove(),o&&o.onDismiss&&o.onDismiss()};i?Mt.attachDismissOnOutsideClick(r,v):Mt.attachDismissOnLeave([t,r,s],v),Mt.attachDismissOnKeyPress(v)}static attachDismissOnLeave(t,e){const o=o=>{const n=setTimeout(()=>e(o),25);t.map(t=>t.addEventListener("mouseenter",()=>clearTimeout(n),{once:!0}))};t.map(t=>t.addEventListener("mouseleave",o,{once:!0}))}static attachDismissOnOutsideClick(t,e){const o=n=>{n.currentTarget!=t&&(e(n),window.removeEventListener("click",o,{capture:!0}))};window.addEventListener("click",o,{capture:!0})}static attachDismissOnKeyPress(t){const e=o=>{"Escape"!=o.key&&"Tab"!=o.key||(t(o),window.removeEventListener("keyup",e,{capture:!0}))};window.addEventListener("keyup",e,{capture:!0})}}function xt(t,e=this,o=((e,n=e&&e.closest(t))=>!(!e||e===document||e===window)&&(n||o(e.getRootNode().host)))){return o(e)}var Et,At=o("9RHM"),Pt=o("rvYQ");!function(t){t.labelReact="prg-rc_labelr",t.minReactions="prg-rc_min",t.minReactionPercentage="prg-rc_per"}(Et||(Et={}));class Lt{static isFlightEnabled(t,e){return t in this.enabledFligths||(this.enabledFligths[t]=!!this.getFlight(t,e)),this.enabledFligths[t]}static applyFlights(t){const e={[Et.labelReact]:()=>{this.isFlightEnabled(Et.labelReact,!1)&&(t.likeButtonLabel=t.t.emojiLabelreact||t.t.emojiLabellike)},[Et.minReactions]:()=>{if(this.isFlightEnabled(Et.minReactions,!0))try{const e=+this.getFlight(Et.minReactions,!0).split(Et.minReactions)[1];t.showReactionsCount=t.totalReactionsCount>e}catch(t){}},[Et.minReactionPercentage]:()=>{var e;if(!this.isFlightEnabled(Et.minReactionPercentage,!0))return;const o={};try{const n=+this.getFlight(Et.minReactionPercentage,!0).split(Et.minReactionPercentage)[1];(null===(e=t.socialBarData)||void 0===e?void 0:e.reactionCounts)&&Object.keys(t.socialBarData.reactionCounts).forEach(e=>{t.socialBarData.reactionCounts[e]/t.totalReactionsCount>n/100&&(o[e]=t.socialBarData.reactionCounts[e])}),t.reactionCountsForMostReactionEmojis=o}catch(t){}}};Object.values(Et).forEach(t=>e[t]&&e[t]())}static getFlight(t,e=!1){if(Pt.b.CurrentRequestTargetScope&&Pt.b.CurrentRequestTargetScope.pageExperiments&&t){const o=Pt.b.CurrentRequestTargetScope.pageExperiments;return e?o.find(e=>e&&e.toLowerCase().startsWith(t.toLowerCase())):o.find(e=>e&&e.toLowerCase()==t.toLowerCase())}return null}}Lt.enabledFligths={};const Bt=y.b`<msn-top-comment
+    :data=${t=>t.data}
+    :localizedStrings=${t=>t.localizedStrings}
+    :showReplyCount=${t=>t.showReplyCount}
+    :showMostReactions=${t=>t.showMostReactions}
+    :topCommentTelemetryTag=${t=>t.topCommentTelemetryTag}
+    :enableFocusAssist=${t=>t.enableFocusAssist}
+/>`;class Dt extends z.a{constructor(){super(...arguments),this.reactionMenuPositionFixed=!1,this.myReaction=null,this.reactionMenuCloseTimer=null,this.reactionMenuOpenTimer=null,this.shouldLabelRenderBelow=!1,this.accessReactionPanelFocus=!1,this.shouldShowLikeButton=!1,this.likeButtonShowWhenHoverReaction=!1,this.enableReactionEmojiButton=!1,this.hideReactions=!1,this.showLikeButton=!1,this.reactionMenuVisible=!1,this.showAccessibilityButton=!1,this.overwriteShowLikeButton=!1,this.visibleOnlyReactions=!1,this.hideComments=!1,this.topCommentVisible=!1,this.hasTopComment=!1,this.topCommentPopoverRef=null,this.theme=ot,this.getCommentsUrl=()=>this.destinationUrl?this.destinationUrl+"#comments":"#",this.onReactionClickHandler=(t,e)=>{O.genericClick(e.target),this.onReactionClick(t,e)},this.onReactionClick=(t,e)=>{const o=this.socialBarData,n=this.myReaction;o.reactionCounts=o.reactionCounts||{};const{id:i}=o,a=n===t;if(this.hideReactionMenu(),n==t)o.myReaction=null,o.reactionCounts[t]=o.reactionCounts[t]?o.reactionCounts[t]-1:0;else{o.myReaction=t;const e=o.reactionCounts[t]||0;if(o.reactionCounts[t]=(e||0)+1,n){const t=o.reactionCounts[this.myReaction];o.reactionCounts[n]=(t||1)-1}}this.socialBarData=Object(At.a)(o),this.$emit("on-reaction",{id:i,reactionType:t,reset:a,event:e}),e&&!e.isTrusted&&this.reactionPanelAccessButton&&setTimeout(()=>{var t;null===(t=this.reactionPanelAccessButton)||void 0===t||t.focus()},75)},this.reactionMenuTriggerMouseEnterHandler=(t,e=!0)=>{O.reactionMenuTriggerMouseEnter(t),this.triggerShowReactionMenu(e)},this.topCommentTriggerMouseEnterHandler=t=>{O.reactionMenuTriggerMouseEnter(t)},this.showReactionMenu=()=>{this.reactionMenuVisible||(this.reactionMenuPositionFixed=!1,this.shouldLabelRenderBelow=!1,this.watchReactionMenu(),setTimeout(()=>{const t=this.shadowRoot.firstChild.getElementsByClassName("reaction-menu-container");t[0]&&(this.shouldLabelRenderBelow=function(t,e){if(!t)return;const o=t.getBoundingClientRect(),n=e.elementFromPoint(o.left+32,o.top-19);return n!==t&&!t.contains(n)}(t[0],this.shadowRoot))},50),this.$emit("show-menu"),this.reactionMenuVisible=!0,this.reactionMenuOpenTimer=setTimeout(()=>{this.accessOnloadReactionPanel()},50))},this.triggerMoveLabel=t=>{const e=this.reactionButtons.filter(t=>"BUTTON"==t.nodeName);e[t]&&function(t,e){if(!t)return;if(!C(e))return;const o=t.getBoundingClientRect(),n=e.getBoundingClientRect(),i=C(e).getBoundingClientRect(),a=o.left-n.left,r=o.right-n.right;if(i.left>o.left||i.right<o.right){const e=(a<0?a:0)+(r>0?r:0);if(0==Math.round(e))return;t.style.transform=`translateX(${-e}px)`}}(e[t].getElementsByClassName("emoji-label")[0],this.reactionMenu)},this.emojiFocused=t=>{this.focusedEmojiKey=t},this.handleHoverOnReaction=(t=!0)=>{this.hoverOnReaction=t,this.updateState()},this.triggerShowReactionMenu=(t=!1)=>{this.reactionMenuCloseTimer&&clearTimeout(this.reactionMenuCloseTimer),t?this.reactionMenuOpenTimer=setTimeout(()=>this.showReactionMenu(),450):this.showReactionMenu()},this.hideReactionMenu=(t=!1)=>{this.emojiFocused(null),this.reactionMenuOpenTimer&&clearTimeout(this.reactionMenuOpenTimer),t?this.reactionMenuCloseTimer=setTimeout(()=>this.reactionMenuVisible=!1,200):this.reactionMenuVisible=!1}}marketChanged(){this.updateState()}socialBarDataChanged(){this.updateState()}localizedStringsChanged(){this.updateState()}overwriteShowLikeButtonChanged(){this.updateState()}get t(){return this.localizedStrings||{}}updateState(){if(!this.socialBarData||!this.market||!this.localizedStrings)return;var t;this.myReaction=this.socialBarData.myReaction,this.totalReactionsCount=(t=this.socialBarData.reactionCounts)?Object.values(t).reduce((t,e)=>t+e,0):0,this.totalReactionsCountLabel=this.myReaction&&this.totalReactionsCount>1?"+ "+v(this.totalReactionsCount,this.market,this.localizedStrings.thousandsShort):v(this.totalReactionsCount,this.market,this.localizedStrings.thousandsShort,!0),this.showReactionsCount=this.totalReactionsCount>0,this.reactionCountsForMostReactionEmojis=this.socialBarData.reactionCounts;const e=!this.showReactionsCount||!this.likeButtonShowWhenHoverReaction||this.hoverOnReaction;this.showLikeButton=e&&(!this.showReactionsCount||this.shouldShowLikeButton||this.overwriteShowLikeButton||this.topCommentVisible),this.showCommentsCount=this.socialBarData.totalCommentsCount>0,this.totalCommentsCountLabel=v(this.socialBarData.totalCommentsCount,this.market,this.localizedStrings.thousandsShort,!0),this.likeButtonLabel=this.t.emojiLabellike,this.hasTopComment=this.socialBarData.topComments&&this.socialBarData.topComments.length>0,this.topCommentLocalizedStrings=Object.assign({},this.t),Lt.applyFlights(this)}watchReactionMenu(t=20){if(!this.reactionMenuPositionFixed)if(this.reactionMenu)this.reactionMenuPositionFixed=!0,function(t){if(!t)return;const e=t.getBoundingClientRect();if(!C(t))return void t.setAttribute("data-show","true");const o=C(t).getBoundingClientRect();if(o.width>=e.width&&o.height>=e.height){const n=e.left-o.left,i=e.right-o.right,a=(n<0?n:0)+(i>0?i:0);t.style.transform=`translateX(${-a}px)`}t.setAttribute("data-show","true")}(this.reactionMenu),this.touchSlideHandler&&this.touchSlideHandler.setReactionMenuContainer(this.reactionMenu),O.reactionMenuLoaded(this.reactionMenu&&this.reactionMenu.parentElement);else{if(t<1)return;setTimeout(()=>this.watchReactionMenu(--t),25)}}setupTouchSlideHandlerOnTouchStart(t){this.touchSlideHandler||(this.touchSlideHandler=new St.a({onLongpress:t=>this.reactionMenuTriggerMouseEnterHandler(t,!1),onLongpressEnd:()=>this.hideReactionMenu(),onSlideStart:t=>this.reactionMenuTriggerMouseEnterHandler(t,!1),onSlideEnd:()=>this.hideReactionMenu()},{onEmojiFocus:t=>t.classList.add("touchFocused"),onEmojiBlur:t=>t.classList.remove("touchFocused")},".reaction-menu-emoji-button",{slideDisabled:this.reactionSlideSelectDisabled})),this.touchSlideHandler.setupTriggerAtTouchStart(t)}accessToggleReactionMenu(){!this.reactionMenuVisible?(this.accessReactionPanelFocus=!0,this.triggerShowReactionMenu(!1)):this.hideReactionMenu()}handleKeyPress(t){var e;const o=t.event,n=t.index;let i=n;const a=this.reactionButtons.filter(t=>"BUTTON"==t.nodeName),r=Object.keys(u.a);37==o.keyCode?(i=(n-1+r.length)%r.length,a[i].focus()):39==o.keyCode?(i=(n+1)%r.length,a[i].focus()):27==o.keyCode||9==o.keyCode?(this.shadowRoot.activeElement.blur(),null===(e=this.reactionPanelAccessButton)||void 0===e||e.focus(),this.reactionMenuVisible=!1):13!=o.keyCode&&32!=o.keyCode||a[n].click()}accessOnloadReactionPanel(){if(this.accessReactionPanelFocus){const t=this.reactionButtons.find(t=>"BUTTON"==t.nodeName);t&&(t.focus(),this.shouldShowLikeButton=!0),this.accessReactionPanelFocus=!1}}connectedCallback(){var t,e;super.connectedCallback(),this.parentComponent=function(t,e=this){const o={},n=function t(e){var n;return e&&e!==window&&e!==document?e instanceof ShadowRoot?t(null===(n=e.getRootNode())||void 0===n?void 0:n.host):(o[e.tagName]||(o[e.tagName]=e),t(e=e.parentNode),o):o}(e);for(let e=0;e<t.length;e++)if(n[t[e]])return n[t[e]];return null}(Dt.parentTags,this),this.parentComponent||(this.parentComponent=this),Dt.registerSocialFocusManager(this),null===(t=this.parentComponent)||void 0===t||t.addEventListener("mouseenter",this.handleSocialMouseEnter),null===(e=this.parentComponent)||void 0===e||e.addEventListener("mouseleave",this.handleSocialMouseLeave)}disconnectedCallback(){var t,e;super.disconnectedCallback(),Dt.destroySocialFocusManager(this.parentComponent),null===(t=this.parentComponent)||void 0===t||t.removeEventListener("mouseenter",this.handleSocialMouseEnter),null===(e=this.parentComponent)||void 0===e||e.removeEventListener("mouseleave",this.handleSocialMouseLeave)}showLikeAndAccess(){this.shouldShowLikeButton=!0,this.showAccessibilityButton=!0,this.updateState()}hideLikeAndAccess(){this.shouldShowLikeButton=!1,this.showAccessibilityButton=!1,this.updateState()}showLikeButtonHideAccess(){this.shouldShowLikeButton=!0,this.showAccessibilityButton=!1,this.updateState()}handleSocialMouseEnter(){var t;null===(t=Dt.parentFunctionMap.get(this))||void 0===t||t.showLikeButtonHideAccess()}handleSocialMouseLeave(){var t;null===(t=Dt.parentFunctionMap.get(this))||void 0===t||t.hideLikeAndAccess()}getTopComment(){return Object(c.b)(this,void 0,void 0,(function*(){return new Promise((t,e)=>{this.hasTopComment?this.socialBarData.topComments[0].id&&d.b.getCommentById(this.socialBarData.topComments[0].id).then(t=>m.a.convertComment(t||null)).then(e=>{this.topCommentData=m.a.convertCommentToTopCommentData(e||null,this.destinationUrl,this.market),t(null)}).catch(()=>e()):e()})}))}renderTopComment(t){const e=()=>{Mt.renderPopover(t,{callbacks:{onMount:t=>{this.topCommentVisible=!0,this.topCommentPopoverRef=Bt.render({data:this.topCommentData,localizedStrings:this.topCommentLocalizedStrings,showReplyCount:!0,showMostReactions:!0,topCommentTelemetryTag:this.topCommentTelemetryTag,enableFocusAssist:this.showAccessibilityButton},t)},onDismiss:()=>{this.topCommentVisible=!1,this.updateState()}},alignParentSelectors:Dt.parentTags})};this.topCommentTriggerMouseEnterHandler(t),this.topCommentData?e():this.getTopComment().then(e).catch(()=>null)}removeTopComment(){const t=this.shadowRoot.getElementById("topCommentAccessButton_"+this.socialBarData.id);t&&setTimeout(()=>{t.focus()},75),this.topCommentPopoverRef.remove(),this.topCommentVisible=!1}static registerSocialFocusManager(t){0==Dt.parentFunctionMap.size&&document.addEventListener("keyup",Dt.socialFocusManagerHandler,!1),Dt.parentFunctionMap.has(t.parentComponent)||Dt.parentFunctionMap.set(t.parentComponent,t)}static destroySocialFocusManager(t){Dt.parentFunctionMap.has(t),Dt.parentFunctionMap.delete(t),Dt.lastFocusedParent==t&&(Dt.lastFocusedParent=void 0),0==Dt.parentFunctionMap.size&&document.removeEventListener("keyup",this.socialFocusManagerHandler,!1)}static socialFocusManagerHandler(t){var e,o;if("Tab"==t.key){const n=t.composedPath();let i;for(i=0;i<n.length;i++)if(Dt.parentFunctionMap.has(n[i])){if(n[i]==Dt.lastFocusedParent)break;Dt.parentFunctionMap.get(n[i]).showLikeAndAccess(),null===(e=Dt.parentFunctionMap.get(Dt.lastFocusedParent))||void 0===e||e.hideLikeAndAccess(),Dt.lastFocusedParent=n[i];break}i==n.length&&(null===(o=Dt.parentFunctionMap.get(Dt.lastFocusedParent))||void 0===o||o.hideLikeAndAccess(),Dt.lastFocusedParent=void 0)}}}Dt.parentFunctionMap=new Map,Dt.parentTags=["MSFT-INFO-PANE-SLIDE","MSFT-CONTENT-CARD","MSFT-ARTICLE-CARD","MSFT-ARTICLE"],Object(c.e)([S.d],Dt.prototype,"market",void 0),Object(c.e)([S.d],Dt.prototype,"socialBarData",void 0),Object(c.e)([S.d],Dt.prototype,"localizedStrings",void 0),Object(c.e)([S.d],Dt.prototype,"telemetryContext",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"reactionMenuPositionFixed",void 0),Object(c.e)([j.b],Dt.prototype,"myReaction",void 0),Object(c.e)([j.b],Dt.prototype,"reactionMenuCloseTimer",void 0),Object(c.e)([j.b],Dt.prototype,"reactionMenuOpenTimer",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"hoverOnReaction",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"showReactionsCount",void 0),Object(c.e)([j.b],Dt.prototype,"totalReactionsCount",void 0),Object(c.e)([j.b],Dt.prototype,"totalReactionsCountLabel",void 0),Object(c.e)([j.b],Dt.prototype,"focusedEmojiKey",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"shouldLabelRenderBelow",void 0),Object(c.e)([Object(j.b)({mode:"boolean",attribute:"show-comments-count"})],Dt.prototype,"showCommentsCount",void 0),Object(c.e)([j.b],Dt.prototype,"totalCommentsCountLabel",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"accessReactionPanelFocus",void 0),Object(c.e)([S.d],Dt.prototype,"destinationUrl",void 0),Object(c.e)([S.d],Dt.prototype,"socialBarTelemetryTag",void 0),Object(c.e)([S.d],Dt.prototype,"commentsButtonTelemetryTag",void 0),Object(c.e)([S.d],Dt.prototype,"reactionsCountButtonTelemetryTag",void 0),Object(c.e)([S.d],Dt.prototype,"reactionMenuTelemetryTag",void 0),Object(c.e)([S.d],Dt.prototype,"reactionsParentTelemetryTag",void 0),Object(c.e)([S.d],Dt.prototype,"reactionTelemetryTags",void 0),Object(c.e)([S.d],Dt.prototype,"undoReactionTelemetryTags",void 0),Object(c.e)([S.d],Dt.prototype,"topCommentIconTelemetryTag",void 0),Object(c.e)([S.d],Dt.prototype,"topCommentTelemetryTag",void 0),Object(c.e)([S.d],Dt.prototype,"reactionSlideSelectDisabled",void 0),Object(c.e)([S.d],Dt.prototype,"reactionButtons",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"likeButtonShowWhenHoverReaction",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"enableReactionEmojiButton",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"hideReactions",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"showLikeButton",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"reactionMenuVisible",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"showAccessibilityButton",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"overwriteShowLikeButton",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"visibleOnlyReactions",void 0),Object(c.e)([Object(j.b)({mode:"boolean"})],Dt.prototype,"hideComments",void 0),Object(c.e)([j.b],Dt.prototype,"topCommentData",void 0),Object(c.e)([j.b],Dt.prototype,"topCommentLocalizedStrings",void 0),Object(c.e)([j.b],Dt.prototype,"theme",void 0);const Nt=tt(28,"reaction-menu-emoji-button"),Ft=tt(16,"icon-button"),It="0px 3.2px 7.2px rgba(0, 0, 0, 0.13), 0px 0.6px 1.8px rgba(0, 0, 0, 0.1)",$t=Y.a`
+    .social-bar-root {
+        padding-left: 5px;
+    }
+    .like-button, 
+    .reaction-emoji-button {
+        margin-left: -200px;
+    }
+    .icon-label {
+        padding-left: 5px;
+    }
+    .icon-label.has-plus {
+        margin-left: -16px;
+    }
+    .reaction-menu-container {
+        left: 0;
+    }
+    .width-transition-enter {
+        margin-left: 0;
+    }
+    .cwt-icon-vector +.cwt-icon-vector + .icon-label {
+        padding-left: 2px;
+    }
+    .button-bg:first-of-type {
+        border-top-left-radius: var(--social-button-radius, 4px);
+        border-bottom-left-radius: var(--social-button-radius, 4px);
+    }
+    .button-bg-last-of-type {
+        border-top-right-radius: var(--social-button-radius, 4px);
+        border-bottom-right-radius: var(--social-button-radius, 4px);
+    }
+
+    .button-container.like-visible{
+        margin-left: -4px;
+        margin-right: 6px;
+        overflow: visible;
+    }
+    .button-container.active-reaction-visible{
+        margin-left: -4px;
+    }
+    .button-container.active-reaction-visible ~ .reactions-count-button {
+        margin-left: 14px;
+    }
+    .reactions-count-button {
+        margin-right: 4px;
+    }
+
+    /* THEME: SUPERAPP ListCard / CarouselCard */
+    .social-bar.${at} .button-container.like-visible ~ .reactions-count-button:before,
+    .social-bar.${rt} .button-container.like-visible ~ .reactions-count-button:before {
+        margin-left: -10px;
+    }
+
+    /* THEME: TOP STORIES */
+    .social-bar.${st} .reactions-count-button:last-child {
+        margin-right: 0;
+        padding-right: 4px;
+    }
+    .social-bar.${st} .button-container.active-reaction-visible ~ .reactions-count-button {
+        margin-left: 14px;
+    }
+`,Ut=Y.a`
+    .social-bar-root {
+        padding-right: 5px;
+    }
+    .like-button, 
+    .reaction-emoji-button {
+        margin-right: -200px;
+    }
+    .icon-label {
+        padding-right: 5px;
+    }
+    .icon-label.has-plus {
+        margin-right: -16px;
+    }
+    .reaction-menu-container {
+        right: 0;
+    }
+    .width-transition-enter {
+        margin-right: 0;
+    }
+    .cwt-icon-vector +.cwt-icon-vector + .icon-label {
+        padding-right: 2px;
+    }
+    .button-bg:first-of-type {
+        border-top-right-radius: var(--social-button-radius, 4px);
+        border-bottom-right-radius: var(--social-button-radius, 4px);
+    }
+    .button-bg-last-of-type {
+        border-top-left-radius: var(--social-button-radius, 4px);
+        border-bottom-left-radius: var(--social-button-radius, 4px);
+    }
+
+    .button-container.like-visible{
+        margin-right: -4px;
+        margin-left: 6px;
+        overflow: visible;
+    }
+    .button-container.active-reaction-visible{
+        margin-right: -4px;
+    }
+    .button-container.active-reaction-visible ~ .reactions-count-button {
+        margin-right: 14px;
+    }
+    
+    .reactions-count-button {
+        margin-left: 4px;
+    }
+
+    /* THEME: SUPERAPP ListCard / CarouselCard */
+    .social-bar.${at} .button-container.like-visible ~ .reactions-count-button:before,
+    .social-bar.${rt} .button-container.like-visible ~ .reactions-count-button:before {
+        margin-right: -10px;
+    }
+
+    /* THEME: TOP STORIES */
+    .social-bar.${st} .reactions-count-button:last-child {
+        margin-left: 0;
+        padding-left: 4px;
+    }
+    .social-bar.${st} .button-container.active-reaction-visible ~ .reactions-count-button {
+        margin-right: 14px;
+    }
+`,Ht=1e3,zt=Y.a`
+    .social-bar {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        font-family: "Segoe UI Bold", "Segoe WP Bold", "Segoe WP", "Segoe UI", Arial, Sans-Serif;
+    }
+    .social-bar *:focus-visible {
+        outline: 2px solid ${ft.E.var};
+        z-index: 2;
+    }
+    .button-container {
+        display: inline-flex;
+        overflow: hidden;
+        padding: 4px;
+        margin: -4px;
+        transition: all .2s;
+    }
+    .button-bg {
+        background: none;
+    }
+    .button-bg:hover, .button-bg.highlight, .comments-count-button:hover{
+        background-color: ${ft.t.var};
+        padding: ${"8px 8px 0"};
+    }
+    .no-mr, .icon-button.no-mr {
+        margin: 0;
+    }
+    .icon-button {
+        font-weight: normal;
+        cursor: pointer;
+        margin: 0;
+        border: none;
+        outline: none;
+        display: flex;
+        align-items: flex-start;
+        color: ${ft.E.var};
+        height: ${"32px"};
+        font-size: 16px;
+        padding: ${"8px 8px 0"};
+        box-sizing: border-box;
+        text-decoration: none;
+        transition: all .2s;
+        border-radius: var(--social-button-radius, 4px);
+    }
+    ${Ft}
+    .icon-label {
+        white-space: nowrap;
+        font-size: 12px;   
+        font-family: "Segoe UI Bold", "Segoe WP Bold", "Segoe WP", "Segoe UI", Arial, Sans-Serif;
+        line-height: 1.4;
+    }
+    a.icon-button .icon-label {
+        text-decoration: none;
+        line-height: 1.4;
+    }
+    .like-button {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        opacity: 0;
+        transition: all .2s;
+    }
+    .active-reaction-button {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        font-weight: 600;
+    }
+    .cwt-icon-vector {
+        font-size: inherit;
+        width: 16px;
+        color: inherit;
+        margin: 0;
+    }
+    .like-button {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        opacity: 0;
+        transition: all .2s;
+    }
+
+    .reactions-count-button {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .reaction-menu-container {
+        position: absolute;
+        top: -49px;
+        z-index: ${999..toString()};
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 6px 13px 0;
+        height: calc(${"28px"} + 14px);
+        background: ${ft.F.var};
+        border-radius: ${"28px"};
+        -webkit-box-shadow: ${It};
+        -moz-box-shadow: ${It};
+        box-shadow: ${It};
+        opacity: 0;
+    }
+    .reaction-menu-emoji-button {
+        cursor: pointer;
+        background: none;
+        border: none;
+        outline: none;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(${"28px"} + 8px);
+        margin: 0 0;
+        padding: 4px 5px;
+        font-size: ${"28px"};
+        transition: ease .2s; 
+    }
+    ${Nt}
+    .reaction-menu-emoji-button > .emoji-icon{
+        transition: ease .2s; 
+    }
+    .reaction-menu-emoji-button[data-faded] {
+        opacity: .4;
+    }
+    .reaction-menu-emoji-button:hover {
+        opacity: 1;
+    }
+    .reaction-menu-container[data-show] {
+        opacity: 1;
+        animation: reactionMenuFadeInOpacity .15s ease-out;
+    }
+    @keyframes reactionMenuFadeInOpacity {
+        0% {
+            opacity: 0;
+            top: -47px;
+        }
+        100% {
+            opacity: 1;
+            top: -49px;
+        }
+    }
+    .emoji-label {
+        position: absolute;
+        z-index: ${Ht.toString()};
+        top: -28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        height: 18px;
+        padding: 0 8px 1px;
+        font-size: 12px;
+        background: ${ft.E.var};
+        color: ${ft.F.var};
+        border-radius: 11px;
+        opacity: 0;
+    }
+
+    .emoji-label-bottom {
+        top: 45px;
+        pointer-events: none;
+    }
+
+    .reaction-menu-emoji-button:hover .emoji-label,
+    .reaction-menu-emoji-button:focus .emoji-label,
+    .reaction-menu-emoji-button.touchFocused .emoji-label{
+        opacity: 1;
+    }
+    .reaction-menu-emoji-button:hover .emoji-icon,
+    .reaction-menu-emoji-button.touchFocused .emoji-icon{
+        transform: scale(1.285) translateY(-4px);
+    }
+    .width-transition-enter {
+        opacity: 1;
+    }
+    .width-transition-enter > * {
+        opacity: 1;
+    }
+    .no-select {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none
+    }
+    .social-bar:not(.accessibility-visible) .button-container .button-bg.accessibility-button {
+        display: inline-flex;
+        margin: 0;
+        padding: 0;
+        width: 0;
+        overflow: hidden;
+    }
+    .social-bar.accessibility-visible .button-container .button-bg.accessibility-visible {
+        height: 32px;
+        padding: 2px 5px 0;
+        margin: 0 1px;
+        color: ${ft.E.var};
+        fill: ${ft.E.var};
+        border: none;
+        align-items: center;
+        width: auto;
+    }
+
+    .cwt-hide {
+        display: none;
+    }
+
+    /* Top-Comment *****/
+    .icon-wrapper.has-top-comment-marker { 
+        background: no-repeat url(${"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuNjYyIDMuNDAzQTMuOTYyIDMuOTYyIDAgMDE1LjUwMi41OGMtLjE0LjA1NC0uMjc2LjExOC0uNDA4LjE5YTMuMjU0IDMuMjU0IDAgMDAtMS4xNiA0LjQ1MWwuMTg3LjMxN2ExLjI3NyAxLjI3NyAwIDExLTIuMDEgMS41NzVMMS4wNDcgNS45MzVhNC41IDQuNSAwIDEwNy4xMjctMS4wNEw2LjY2MiAzLjQwNHoiIGZpbGw9InVybCgjcGFpbnQwX2xpbmVhcikiLz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXIiIHgxPSIzIiB5MT0iNS41OCIgeDI9IjEwIiB5Mj0iMTIuNTgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjRkE4ODZGIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRjdCMTJCIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9zdmc+"});
+        background-position: 11px 2px;
+        padding: 6px 3px;
+        margin: -5px -3px;
+    }
+    .has-top-comment-marker .cwt-icon-vector { 
+        clip-path: polygon(25% 0%, 100% 60%, 100% 100%, 0 100%, 0 0);
+    }
+
+    /* Top-Stories *****/
+    .social-bar.no-select.${st} {
+        background-color: ${ft.t.var};
+    }
+
+    /* THEMES *****/
+    .social-bar.${ot}{}
+
+    /* THEME: REDESIGN */
+    .social-bar.${nt} .button-bg{
+        --social-button-radius: 64px;
+        color: unset;
+        background-color: ${ft.t.var};
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .social-bar.${ct} .button-bg {
+        --social-button-radius: 64px;
+        color: unset;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .social-bar.${nt} .reaction-emoji-button {
+        padding: 8px 6px;
+        align-items: center;
+    }
+
+    /* THEME: SUPERAPP ARTICLE CARD */
+    .social-bar.${it} .button-bg{
+        --social-button-radius: 64px;
+        color: unset;
+        background-color: ${ft.t.var};
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .social-bar.${it} .reaction-emoji-button {
+        padding: 8px 6px;
+        align-items: center;
+    }
+
+    /* THEME: SUPERAPP ListCard / CarouselCard */
+    .social-bar.${at} *:focus-visible,
+    .social-bar.${rt} *:focus-visible {
+        outline: none;
+    }
+    .social-bar.${at} .button-bg,
+    .social-bar.${rt} .button-bg {
+        background: none;
+        padding-left: unset;
+        padding-right: unset;
+    }
+    .social-bar.${at} .button-container.like-visible ~ .reactions-count-button:before,
+    .social-bar.${rt} .button-container.like-visible ~ .reactions-count-button:before {
+        content: "|";
+        display: inline-block;
+        margin-top: -1px;
+        padding: 0 10px;
+        font-size: 12px;
+        color: ${ft.E.var};
+        opacity: .8;
+    }
+    .social-bar.${at} .button-container .button-bg:not,
+    .social-bar.${rt} .button-container .button-bg:not {
+        background: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+`.withBehaviors(ft.t,ft.F,ft.E,new V.a($t,Ut));let Wt=class extends Dt{};Wt=Object(c.e)([Object(z.b)({name:"msn-social-bar",template:gt,styles:zt})],Wt);const Vt=y.b`
+    ${t=>y.b`
+<msn-social-bar
+    part="msn-social-bar"
+    exportparts="social-bar, like-button-container, active-button-container, button-bg, reaction-menu-container"
+    :socialBarData=${t=>t.selfFetchedSocialBarData||t.socialBarData}
+    :market=${t=>t.locale}
+    :destinationUrl=${t=>t.destinationUrl}
+    :localizedStrings=${t=>t.config}
+    :overwriteShowLikeButton=${t=>t.config.likeButtonAlwaysVisible||t.likeButtonAlwaysVisible}
+    @on-reaction=${(t,e)=>t.onReaction&&t.onReaction(e.event.detail.id,e.event.detail.reactionType,e.event.detail.reset)}
+    :socialBarTelemetryTag=${t=>t.telemetryContext&&t.telemetryContext.socialBar&&t.telemetryContext.socialBar.getMetadataTag()}
+    :commentsButtonTelemetryTag=${t=>t.telemetryContext&&t.telemetryContext.commentsButton&&t.telemetryContext.commentsButton.getMetadataTag()}
+    :reactionsCountButtonTelemetryTag=${t=>t.telemetryContext&&t.telemetryContext.reactionsCountButton&&t.telemetryContext.reactionsCountButton.getMetadataTag()}
+    :reactionMenuTelemetryTag=${t=>t.telemetryContext&&t.telemetryContext.reactionMenu&&t.telemetryContext.reactionMenu.getMetadataTag()}
+    :reactionsParentTelemetryTag=${t=>t.telemetryContext&&t.telemetryContext.reactionsParent&&t.telemetryContext.reactionsParent.getMetadataTag()}
+    :reactionTelemetryTags=${t=>t.telemetryContext&&t.telemetryContext.reactionTelemetryObjects&&Object.keys(t.telemetryContext.reactionTelemetryObjects).reduce((e,o)=>(e[o]=t.telemetryContext.reactionTelemetryObjects[o].getMetadataTag(),e),{})}
+    :undoReactionTelemetryTags=${t=>t.telemetryContext&&t.telemetryContext.undoReactionTelemetryObjects&&Object.keys(t.telemetryContext.undoReactionTelemetryObjects).reduce((e,o)=>(e[o]=t.telemetryContext.undoReactionTelemetryObjects[o].getMetadataTag(),e),{})}
+    :topCommentIconTelemetryTag=${t=>t.telemetryContext&&t.telemetryContext.topCommentIcon&&t.telemetryContext.topCommentIcon.getMetadataTag()}
+    :topCommentTelemetryTag=${t=>t.telemetryContext&&t.telemetryContext.topCommentTelemetryContext&&t.telemetryContext.topCommentTelemetryContext.getMetadataTag()}
+    :hideReactions=${t=>t.config.socialbarCommentsOnly}
+    :theme=${t=>t.theme}
+    :likeButtonShowWhenHoverReaction=${t=>t.config.likeButtonShowWhenHoverReaction}
+    :enableReactionEmojiButton=${t=>t.config.enableReactionEmojiButton}
+    :visibleOnlyReactions=${t=>t.config.visibleOnlyReactions}
+    :hideComments=${t=>t.hideComments}
+/>
+
+<style>
+    @media (-ms-high-contrast:active) {
+
+        msn-social-bar::part(button-bg),
+        msn-social-bar::part(reactions-count-button),
+        msn-social-bar::part(comments-count-button) {
+            color: buttontext;
+            background-color: buttonface;
+        }
+
+        msn-social-bar::part(button-bg):hover,
+        msn-social-bar::part(button-bg):focus-visible,
+        msn-social-bar::part(reactions-count-button):hover,
+        msn-social-bar::part(reactions-count-button):focus-visible,
+        msn-social-bar::part(comments-count-button):hover,
+        msn-social-bar::part(comments-count-button):focus-visible {
+            color: buttonface;
+            background-color: highlight;
+        }
+    }
+</style>
+`}
+`,Yt=Y.a``,Gt={experienceConfigSchema:s}},HAaN:function(t,e,o){"use strict";o.d(e,"a",(function(){return u})),o.d(e,"b",(function(){return f}));var n=o("D57K"),i=o("Kpu7");function a(){return Object(n.b)(this,void 0,void 0,(function*(){return new Promise((t,e)=>{if(window.AzureStorage)return t(window.AzureStorage);!function(t,e,o){const n=document,i="script";if(!n.getElementById(e)){const a=n.getElementsByTagName(i)[0],r=n.createElement(i);r.id=e,r.src=t,r.onload=o,a.parentNode.insertBefore(r,a)}}("https://assets.msn.com/labs/views/CommentWidget/js/azure-storage.blob.min.js","azure-storage-blob-jssdk",()=>window.AzureStorage?t(window.AzureStorage):e())})}))}var r=o("HxRh");const s={unknown:r.ki,contents:r.ji,users:r.li,comments:r.ii};var c=o("tMmC");const l=new class{constructor(){this.onAppError=void 0}log(t){if(this.onAppError)try{this.onAppError(t)}catch(t){c.a.logError(t)}}setOnAppError(t){this.onAppError=t}};var u,d,m=o("dTwT"),p=o("rvYQ"),h=(o("gvPr"),o("RIQ7")),b=o("q77S"),g=o("TRvk"),y=o("9y7U");o("XgsJ");!function(t){t.contents="contents",t.comments="comments",t.users="users"}(u||(u={})),function(t){t.article="article",t.slideshow="slideshow",t.video="video"}(d||(d={}));const v=(t,e,o,n)=>{if(n)n(t,o?null:e);else if(Object(m.a)().supported)if(o){Object(m.a)().setItem(`${b.b}${t}`,""),Object(m.a)().removeItem(`${b.b}${t}`);const e=Object(m.a)().getItem(b.a);let o=e?e.split(","):[];o=o.filter(e=>e!=t),Object(m.a)().setItem(b.a,o.join(","))}else if(e){const o=Object(m.a)().getItem(b.a);let n=o?o.split(","):[];n.length>200&&(n=n.filter((t,e)=>!(e<100)||(Object(m.a)().removeItem(`${b.b}${t}`),!1))),n.push(t),Object(m.a)().setItem(`${b.b}${t}`,e),Object(m.a)().setItem(b.a,n.join(","))}};class f{constructor(t){f.sendAuthHeader=t}static get msaAccessToken(){return Object(i.c)("msaAccessToken")}static get muid(){return Object(i.c)("muid")}static get fdhead(){return Object(i.c)("fdhead")||p.b.CurrentRequestTargetScope&&p.b.CurrentRequestTargetScope.pageExperiments&&p.b.CurrentRequestTargetScope.pageExperiments.join()}static get ocid(){return Object(i.c)("ocid")||Object(h.b)()}static setDomain(t){this.domain=t,this.endpoints=Object.assign(Object.assign({},this.endpoints),{contents:f.domain.concat("urls/"),providerContents:f.domain.concat("contents"),comments:f.domain.concat("comments/"),users:f.domain.concat("users/")})}static fetchMe(t){return Object(n.b)(this,void 0,void 0,(function*(){return f.getUserById("me",t)}))}static deleteMyData(t){return Object(n.b)(this,void 0,void 0,(function*(){const e=Object.assign(Object.assign({},t),{profile:"social"});return f.DELETE(f.endpoints.users+"me/",e)}))}static getUserById(t,e=!1){return Object(n.b)(this,void 0,void 0,(function*(){return f.GET(f.endpoints.users+t,{version:"1.1",profile:"social",verify:e}).then(t=>g.a.convertUser(t||null))}))}static getXPayTokenInfo(){return Object(n.b)(this,void 0,void 0,(function*(){return f.GET(f.domain+"xpaytoken")}))}static getUserProfile(t){return Object(n.b)(this,void 0,void 0,(function*(){let e={followers:void 0,following:void 0,comments:void 0};return Promise.all([f.GET(f.endpoints.users+t,{version:"1.1",profile:"social"}).then(t=>{e=Object.assign(Object.assign({},e),g.a.convertUser(t||null))}),f.getFollowersByUserId(t).then(t=>{e.followers=t}),f.getFollowingsByUserId(t).then(t=>{e.following=t}),f.getCommentsByUserId(t).then(t=>{e.comments=t})]).then(t=>e).catch(t=>{c.a.logError("Error getting user profile: "+t.statusText)})}))}static getUserContents(t,e,o,i={}){return Object(n.b)(this,void 0,void 0,(function*(){const n={market:e,$top:i.top||20,$skip:i.skip||0,$orderby:i.orderBy||"Time"};return o&&(n.productType="premium"),f.GET(f.endpoints.users+t+"/contents",n)}))}static appealMe(){return Object(n.b)(this,void 0,void 0,(function*(){return f.POST(f.endpoints.users+"me/appeals",{})}))}static appealMyPicture(){return Object(n.b)(this,void 0,void 0,(function*(){return f.POST(f.endpoints.users+"me/pictureAppeals",{})}))}static getFollowersByUserId(t,e=10,o=0){return Object(n.b)(this,void 0,void 0,(function*(){const n={$top:e,$skip:o};return f.GET(f.endpoints.users+t+"/followers",n).then(t=>g.a.convertUserList(t))}))}static getFollowingsByUserId(t,e=10,o=0){return Object(n.b)(this,void 0,void 0,(function*(){const n={$top:e,$skip:o};return f.GET(f.endpoints.users+t+"/followings",n).then(t=>g.a.convertUserList(t))}))}static createUser(t){return Object(n.b)(this,void 0,void 0,(function*(){const e={notUseAvatar:t||!1};return f.POST(f.endpoints.users+"me",e,{profile:"social"},void 0).then(t=>g.a.convertUser(t||null)).catch(t=>t.json().then(t=>{throw t}))}))}static updateUserSettings(t,e){return Object(n.b)(this,void 0,void 0,(function*(){const o={};return o[t]={isPrivateProfile:e},f.PUT(f.endpoints.users+t+"/settings",o,{},t)}))}static followUser(t,e){return Object(n.b)(this,void 0,void 0,(function*(){return f.POST(f.endpoints.users+e+"/followers/"+t,{},{},t)}))}static unfollowUser(t,e){return Object(n.b)(this,void 0,void 0,(function*(){return f.DELETE(f.endpoints.users+e+"/followers/"+t,{},t)}))}static getUserIsFollowed(t,e){return Object(n.b)(this,void 0,void 0,(function*(){return new Promise((o,n)=>{t?f.GET(f.endpoints.users+e+"/followers/"+t,{}).then(t=>o(!0)).catch(t=>o(!1)):o(null)})}))}static reportUser(t,e,o,i){return Object(n.b)(this,void 0,void 0,(function*(){const n="ProfilePicture"==e?"PictureAbusereports":"NameAbusereports",{reportMessage:a,intellectualPropertyDetails:r}=i||{},s={ReportType:o,ReportMessage:a||"",IntellectualPropertyDetails:r};try{return f.POST(f.endpoints.users+t+"/"+n,s,{})}catch(t){c.a.logError(t)}}))}static getUserNotifications(){return Object(n.b)(this,void 0,void 0,(function*(){return f.GET(f.endpoints.users+"me/activities",{onlynotification:!0,read:!1,$top:5,$skip:0}).then(t=>g.a.convertUserActivities(t||null))}))}static getUserActivities(t,e){return Object(n.b)(this,void 0,void 0,(function*(){const o={$top:t||50,$skip:e||0};return f.GET(f.endpoints.users+"me/activities",o).then(t=>g.a.convertUserActivities(t||null))}))}static updateUserActivityStatus(t,e=!0){return Object(n.b)(this,void 0,void 0,(function*(){const o={id:t,read:e};return f.POST(f.endpoints.users+"me/activities",o)}))}static getContentById(t,e){return Object(n.b)(this,void 0,void 0,(function*(){const o=this.isURL(t)?{url:t,market:e,version:"1.1"}:{cmsid:t,market:e,version:"1.1"};return e||delete o.market,f.GET(f.endpoints.contents,o).then(t=>g.a.convertContent(t||null))}))}static getProviderContents(t,e,o,n,i={}){const a={providerId:t,market:e,apiKey:p.b.OneServiceApiKey,$top:i.top||20,$skip:i.skip||0,$orderby:i.orderBy||"Time desc"};return o&&(a.contentType=o),n&&(a.partnerTag=n),f.GET(f.endpoints.providerContents,a)}static isURL(t){return/^(?:(?:(?:https?|ftp):)?\/\/)(?:\S+(?::\S*)?@)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:[/?#]\S*)?$/i.test(t)}static getCommentById(t){return Object(n.b)(this,void 0,void 0,(function*(){return f.GET(f.endpoints.comments+t).then(t=>g.a.convertComment(t||null))}))}static getCommentsByContentId(t,e){return Object(n.b)(this,void 0,void 0,(function*(){const o={contentId:t,$top:e.top||50,$skip:e.skip||0,$orderby:e.orderBy||e.sortType||"Rating"};return f.GET(f.endpoints.comments,o).then(t=>{let e="On";try{e=t.links.find(t=>"Content"==t.type).item.commentStatus||e}catch(t){c.a.logError("Invalid content data in comments response.")}try{const o=g.a.convertCommentList(t||null);return o.commentStatus=e,o}catch(t){return c.a.logError("Invalid comment list data in comments response."),{commentStatus:"Off",list:[]}}})}))}static getCommentsByParentId(t,e){return Object(n.b)(this,void 0,void 0,(function*(){const o={parentId:t,$top:e.top||10,$skip:e.skip||0,$orderby:e.orderBy||"Time"};return f.GET(f.endpoints.comments,o).then(t=>g.a.convertCommentList(t||null))}))}static getCommentsByAnchorCommentId(t,e){return Object(n.b)(this,void 0,void 0,(function*(){const o={anchorId:t,$top:e.top||10,$skip:e.skip||0,$orderby:e.orderBy||"Time"};return f.GET(f.endpoints.comments,o).then(t=>g.a.convertCommentList(t||null))}))}static getCommentsByUserId(t,e=10,o=0,i="Time"){return Object(n.b)(this,void 0,void 0,(function*(){const n={userId:t,$top:e,$skip:o,$orderby:i};return f.GET(f.endpoints.comments,n).then(t=>g.a.convertCommentList(t||null))}))}static postComment(t,e,o,i,a){return Object(n.b)(this,void 0,void 0,(function*(){const n={ContentId:t,Body:o,parentId:i&&i!=t?i:void 0,mentionReply:a};return new Promise((t,o)=>{f.POST(f.endpoints.comments,n,{},e).then(e=>{t(g.a.convertComment(e||null))},t=>{t.json().then(t=>{o(t)}).catch(e=>{c.a.logError("Error getting comment info: "+t.statusText),o()})})})}))}static deleteComment(t){return Object(n.b)(this,void 0,void 0,(function*(){return f.DELETE(f.endpoints.comments+t,{})}))}static appealComment(t){return Object(n.b)(this,void 0,void 0,(function*(){return f.POST(f.endpoints.comments+t+"/appeals",{})}))}static reportComment(t,e,o){return Object(n.b)(this,void 0,void 0,(function*(){const{reportMessage:n,intellectualPropertyDetails:i}=o||{},a={ReportType:e,ReportMessage:n||"",IntellectualPropertyDetails:i};try{return f.POST(f.endpoints.comments+t+"/abusereports",a,{})}catch(t){c.a.logError(t)}}))}static uploadCopyrightFile(t){return Object(n.b)(this,void 0,void 0,(function*(){const e=yield f.GET(f.endpoints.users+"me/UploadSasToken",{type:"ContentReport"}),o=yield a(),i="https://"+e.accountUrl.split("?")[0],r=o.Blob.createBlobServiceWithSas(i,e.sasString);return new Promise((o,i)=>{r.createBlockBlobFromBrowserFile(e.container,e.blobName,t,(t,a,r)=>Object(n.b)(this,void 0,void 0,(function*(){return t?i(t):o(e.id)})))})}))}static rate(t,e,o,i=!1,a){return Object(n.b)(this,void 0,void 0,(function*(){const n={},i={subType:o};try{const r=yield f.POST(f.endpoints[t]+e+"/reactions",i,n);return v(e,o,!1,a),g.a.convertRatingToRateValue(r||null)}catch(t){return c.a.logError(t),o}}))}static resetRating(t,e,o){return Object(n.b)(this,void 0,void 0,(function*(){try{return v(e,null,!0,o),f.DELETE(f.endpoints[t]+e+"/reactions",{})}catch(t){c.a.logError(t)}}))}static getFriendRatings(t,e){return Object(n.b)(this,void 0,void 0,(function*(){return f.GET(f.endpoints[t]+e+"/reactions",{friends:!0,$top:2})}))}static getRating(t,e){return Object(n.b)(this,void 0,void 0,(function*(){return f.GET(f.endpoints[t]+e+"/reactions",{}).then(t=>g.a.convertRatingToRateValue(t||null))}))}static getRatingBreakdown(t,e){return Object(n.b)(this,void 0,void 0,(function*(){return f.GET(f.endpoints[t]+e+"/reactions",{others:!0}).then(t=>g.a.convertReactionsResponseToReactionBreakdownData(t||null))}))}static prepareHubString(t){return t.replace(/-/g,"_")}static getSignalRConnectionInfo(t){return Object(n.b)(this,void 0,void 0,(function*(){const e=this.prepareHubString(t);return f.POST(f.endpoints.typingUpdates+"RealtimeTypingNegotiate",{},{hub:e})}))}static broadcastCommentNotification(t,e,o){return Object(n.b)(this,void 0,void 0,(function*(){const n=this.prepareHubString(t),i={type:"comment-notification",data:{commentId:e,commentParentId:o}};return f.POST(f.endpoints.typingUpdates+"RealtimeTypingBroadcast",i,{hub:n}).then(t=>{},t=>{})}))}static broadcastTypingNotification(t,e,o,i){return Object(n.b)(this,void 0,void 0,(function*(){const n=this.prepareHubString(t),a={type:"typing-notification",data:{id:e,name:o,profileImageUrl:i}};return f.POST(f.endpoints.typingUpdates+"RealtimeTypingBroadcast",a,{hub:n},e).then(t=>{},t=>{})}))}static GET(t,e,o){return Object(n.b)(this,void 0,void 0,(function*(){const n={queryParams:e=e||{},authHeader:void 0,body:void 0,method:"GET"};return o&&f.sendAuthHeader&&(n.authHeader=o),this.xhr(t,n)}))}static POST(t,e,o,i,a="POST"){return Object(n.b)(this,void 0,void 0,(function*(){const n={method:a,queryParams:o=o||{},body:e,authHeader:void 0};return i&&f.sendAuthHeader&&(n.authHeader=i),this.xhr(t,n)}))}static PUT(t,e,o,i){return Object(n.b)(this,void 0,void 0,(function*(){return f.POST(t,e,o,i,"PUT")}))}static DELETE(t,e,o){return Object(n.b)(this,void 0,void 0,(function*(){const n={method:"DELETE",queryParams:e=e||{},authHeader:void 0,body:void 0};return o&&f.sendAuthHeader&&(n.authHeader=o),this.xhr(t,n)}))}static clearCache(){f.cachedResponses={}}static fetchRetry(t,e,o=2){return Object(n.b)(this,void 0,void 0,(function*(){try{const o=yield fetch(t,e);if(o.status>=500)throw new Error("Retry API error");return o}catch(n){if(o<=1)throw n;return yield f.fetchRetry(t,e,o-1)}}))}static fetchCachedResponse(t,e){if(e&&"GET"==e.method&&t in f.cachedResponses)return f.cachedResponses[t];e&&"GET"!=e.method&&f.clearCache();const o=f.fetchRetry(t,e);return e&&"GET"==e.method&&(f.cachedResponses[t]=o,setTimeout(()=>{t in f.cachedResponses&&delete f.cachedResponses[t]},500)),o}static xhr(t,e={queryParams:void 0,method:void 0,authHeader:void 0,body:void 0}){return Object(n.b)(this,void 0,void 0,(function*(){e.queryParams.scn="windowsShell"===p.b.AppType?"APP_ANON":"MSNRPSAuth",e.queryParams.wrapodata="false";const o="GET"!==e.method?{"Content-Type":"application/json"}:{};e.authHeader&&(o["X-MSN-SCP-Auth"]=e.authHeader),f.msaAccessToken&&(o.UserTicketType="2",o.UserAuthToken=f.msaAccessToken,o.SiteName="api.msn.com"),f.muid&&(o.muid="m-"+f.muid),f.fdhead&&(e.queryParams.fdhead=f.fdhead),!e.queryParams.ocid&&f.ocid&&(e.queryParams.ocid=f.ocid);const n=Object(i.a)(e.queryParams),a={method:e.method||"GET",headers:o,credentials:"include"};return e.body&&(a.body=JSON.stringify(e.body)),f.fetchCachedResponse(t+n,a).then(o=>{if(!(o.status>=200&&o.status<300||401==o.status))throw(o.status>499||400==o.status)&&this.onRequestError(t,e),o;if(204==o.status)return{};try{return o.clone().json().then(t=>(t.value&&(t=t.value[0]),t))}catch(n){throw this.onRequestError(t,e),{status:o.status,statusText:"INVALID_RESPONSE"}}})}))}static onRequestError(t,e){const o=this.resourceForUrl(t),n=s[o]||s.unknown;l.log(Object.assign(Object.assign({},n),{message:"Request failed",pb:Object.assign(Object.assign({},n.pb),{customMessage:o,url:t,method:e.method})}))}static resourceForUrl(t){for(const[e,o]of Object.entries(u))if(t.indexOf("/"+o)>0)return o;return"unknown"}static getPublisherFeed(t,e){return Object(n.b)(this,void 0,void 0,(function*(){const t={contentType:"article,video,slideshow,webcontent",market:e,apikey:p.b.OneServiceApiKey,ocid:"Peregrine"};return f.GET(f.endpoints.publisherFeed,t).then(t=>g.a.convertPublisherFeed(t||null))}))}}f.domain=y.a.externalUrls.api,f.endpoints={contents:f.domain.concat("urls/"),providerContents:f.domain.concat("contents"),comments:f.domain.concat("comments/"),users:f.domain.concat("users/"),systags:"https://api.msn.com/graph/systags",typingUpdates:"https://assets.msn.com/labs/api/",publisherFeed:"https://api.msn.com/news/feed/pages/publisherfeed"},f.cachedResponses={}},Kpu7:function(t,e,o){"use strict";function n(t,e=null){return function(t){const e=window.location.hash.substring(1).split("&");for(let o=0;o<e.length;o++){const n=e[o].split("=");if(n[0].toLowerCase()==t.toLowerCase())return decodeURIComponent(n[1])}return null}(t)||i(t)||e}function i(t){const e=window.location.search.substring(1).split("&");for(let o=0;o<e.length;o++){const n=e[o].split("=");if(n[0].toLowerCase()==t.toLowerCase())return decodeURIComponent(n[1])}return null}function a(t){return t&&Object.keys(t).length>0?"?"+Object.keys(t).map((function(e){return`${e}=${encodeURIComponent(t[e])}`})).join("&"):""}function r(t,e,o){const n={};["fdhead","item","rt","theme","ocid"].map(t=>{const e=i(t);e&&(n[t]=e)});const r=a(n);e&&t.indexOf("/en-us/")>0&&(t=t.replace("/en-us/",`/${e}/`));const s=[t];return r&&-1!=t.indexOf("?")?s.push("&"+r.substring(1)):r&&s.push(r),s.push(o?"#comments&commentId="+o:""),s.join("")}o.d(e,"c",(function(){return n})),o.d(e,"a",(function(){return a})),o.d(e,"b",(function(){return r}))},Oa3u:function(t,e,o){"use strict";o.d(e,"c",(function(){return r})),o.d(e,"a",(function(){return c})),o.d(e,"d",(function(){return l})),o.d(e,"b",(function(){return u}));var n=o("m2Vd");const i=new RegExp("\\:([\\d]{2})");function a(){return new Date}function r(t){return(a().getTime()-t.getTime())/1e3}function s(t,e){return new Date(t.getFullYear(),t.getMonth(),t.getDate()+e,t.getHours(),t.getMinutes(),t.getSeconds(),t.getMilliseconds())}function c(t,e){return new Date(t.valueOf()+60*e*60*1e3)}function l(t,e){const o=parseInt(e),n=parseInt(i.exec(e)[1]),a=o<0?-1:1,r=new Date(t.getTime()+60*(60*o+a*n)*1e3),s=("0"+Math.abs(o)).substr(-2)+":"+("0"+Math.abs(n)).substr(-2);return r.toISOString().replace("Z",(a<0?"-":"+")+s)}function u(t){const e=r(t),o=function(){const t=a();return t.setHours(0,0,0,0),t}(),i=s(o,-1),c=s(o,-6),l=function(){const t=a();return new Date(t.getFullYear(),0,0,0,0,0,0)}();return e>=-3300&&e<-60?n.a.InMinutes:e<0?n.a.None:e<120?n.a.JustNow:e<3600?n.a.LessThanOneHour:t>=o?n.a.Today:t>=i?n.a.Yesterday:t>=c?n.a.ThisWeek:t>=l?n.a.ThisYear:n.a.FullDate}},S7gc:function(t,e,o){"use strict";o.d(e,"b",(function(){return n})),o.d(e,"a",(function(){return a}));var n,i=o("dMmp");!function(t){t[t.Default=0]="Default",t[t.Medium=1]="Medium",t[t.MonthDate=2]="MonthDate",t[t.Weekday=3]="Weekday",t[t.Time=4]="Time"}(n||(n={}));class a{constructor(){this.dateFormatOptionsMap=new Map,this.setSupportsLocaleSpecifiers(),this.dateFormatOptionsMap.set(n.Medium,{year:"numeric",month:"short",day:"numeric"}),this.dateFormatOptionsMap.set(n.MonthDate,{month:"short",day:"numeric"}),this.dateFormatOptionsMap.set(n.Weekday,{weekday:"short"}),this.dateFormatOptionsMap.set(n.Time,{hour:"numeric",minute:"numeric"})}overrideDateFormat(t,e){t&&e&&this.dateFormatOptionsMap.set(t,e)}localizedDateString(t,e){return this.formatDate(t,n.Default,e)}localizedDateStringMedium(t,e){return this.formatDate(t,n.Medium,e)}localizedMonthDate(t,e){return this.formatDate(t,n.MonthDate,e)}localizedWeekday(t,e){return this.formatDate(t,n.Weekday,e)}formatTimeFromDate(t,e){return this.supportsLocaleSpecifiers&&this.dateFormatOptionsMap?t.toLocaleTimeString(e,this.dateFormatOptionsMap.get(n.Time)):t.toTimeString()}format(t,...e){return t?i.String.Format(t,...e):""}localizedNumberString(t,e){return this.supportsLocaleSpecifiers?t.toLocaleString(e):t.toString()}formatDate(t,e,o){let i=null;if(this.supportsLocaleSpecifiers)if(e===n.Default)i=t.toLocaleDateString(o);else if(this.dateFormatOptionsMap){const n=this.dateFormatOptionsMap.get(e);i=t.toLocaleDateString(o,n)}return null===i&&(i=t.toDateString()),null!==i?i.replace(/\u200E/g,"").replace(/\u200F/g,""):i}setSupportsLocaleSpecifiers(){this.supportsLocaleSpecifiers=(()=>{try{(0).toLocaleString("i")}catch(t){return"RangeError"===t.name}return!1})()}}},TRvk:function(t,e,o){"use strict";o.d(e,"a",(function(){return l}));var n=o("dTwT"),i=o("XgsJ"),a=o("q77S"),r=o("9y7U"),s=o("WO7E"),c=o("Kpu7");class l{static convertContent(t){const e={};return r.a.reactionOrder.map(o=>{t&&(t.reactionSummary?e[o]=(t.reactionSummary.subReactionSummaries.find(t=>t.type.toLowerCase()==o)||{totalCount:0}).totalCount:e[o]=0)}),t?Object.assign(Object.assign({comments:{skip:0,top:0,moreCount:0,list:[]}},t),{totalCommentCount:t.commentSummary?t.commentSummary.totalCount:0,reactionCounts:e}):null}static convertUser(t){if(t){let e;e=t.isSocialUser?r.a.userStateType.existingUser:t.id&&!t.id.startsWith("m-")?r.a.userStateType.newUser:r.a.userStateType.anonymous;let o=t.nameStatus||r.a.userNameStatusType.normal;return e!=r.a.userStateType.newUser||null!=t.primaryName&&""!==t.primaryName.trim()||(o=r.a.userNameStatusType.notAllow),Object.assign(Object.assign({},t),{name:t.primaryName,avatarUrl:t.notUseAvatar||!t.primaryAvatar?void 0:t.primaryAvatar,likesCount:t.reactionSummary?t.reactionSummary.totalCount:0,postsCount:t.commentSummary?t.commentSummary.totalCount:0,followersCount:(t.followSummary&&t.followSummary.subFollowSummaries.find(t=>"FollowBy"==t.type)||{totalCount:0}).totalCount,followingCount:(t.followSummary&&t.followSummary.subFollowSummaries.find(t=>"Follow"==t.type)||{totalCount:0}).totalCount,reactionsCount:t.reactionSummary&&t.reactionSummary.totalCount||0,badge:"Commenter",state:e,avatarStatus:t.avatarStatus||r.a.userAvatarStatusType.normal,nameStatus:o,ageGroup:t.ageGroup||r.a.userAgeGroup.above18})}return{state:r.a.userStateType.anonymous}}static convertUserList(t){return t?{skip:t.skip,top:t.top,hasMore:t.hasMore,moreCount:t.totalCount-(t.top+t.skip),totalCount:t.totalCount,list:t.items.map(t=>this.convertUser(t.links.find(t=>"User"==t.type).item||null))}:null}static convertComment(t){if(!t)return null;let e=null,o=null;if(t.links){const n=t.links.find(e=>"User"==e.type&&e.item.id==t.createdBy);e=n?l.convertUser(n.item):null;const i=t.links.find(t=>"Content"==t.type);o=i?l.convertContent(i.item):null}const n=t.visibleStatus!=r.a.visibleStatusType.Normal,i=t.visibleStatus==r.a.visibleStatusType.InReview,a=[r.a.visibleStatusType.DeletedByAI,r.a.visibleStatusType.DeletedByHI,r.a.visibleStatusType.DeletedByUser].includes(t.visibleStatus),s=i,c={};return r.a.reactionOrder.map(e=>{t.reactionSummary?c[e]=(t.reactionSummary.subReactionSummaries.find(t=>t.type.toLowerCase()==e)||{totalCount:0}).totalCount:c[e]=0}),Object.assign(Object.assign({},t),{ownerId:t.createdBy,text:t.body.replace(/(?:\r\n|\r|\n)/g,"<br>"),createDatetime:t.createdTime,reactionCounts:c,user:e,content:o,isHidden:n,isInReview:i,isDeleted:a,skipRender:s,replies:[],replyCount:t.commentSummary?t.commentSummary.totalCount:0})}static convertCommentList(t){return t?{commentStatus:"On",skip:t.skip,top:t.top,hasMore:t.hasMore,hasPrevious:t.hasPrevious,asc:t.asc,moreCount:t.totalCount-(t.top-1+t.skip-1+2),totalCount:t.totalCount,list:t.items.map(t=>l.convertComment(t))}:null}static convertReactionsResponseToReactionBreakdownData(t){if(!t)return null;const e=t.items;let o;try{o=t.links.find(t=>"Content"==t.type||"Comment"==t.type).item.reactionSummary.subReactionSummaries}catch(t){o=null}const n={reactionCounts:{all:0},items:{all:[]}};return r.a.reactionOrder.map(t=>{n.reactionCounts[t]=0,n.items[t]=[]}),o&&o.map(t=>{n.reactionCounts[t.type.toLowerCase()]=t.totalCount,n.reactionCounts.all+=t.totalCount}),e&&e.map(t=>{const e=t.subType.toLowerCase(),o=t.links.find(t=>"User"==t.type)?t.links.find(t=>"User"==t.type).item:{state:r.a.userStateType.anonymous,primaryName:"You"};o.isFollowingFetched=!0,o.isFollowing=!!t.links.find(t=>"Follow"==t.type),n.items[t.subType.toLowerCase()].push({user:o,rateValue:e}),n.items.all.push({user:o,rateValue:e})}),n}static convertRatingToRateValue(t){t&&t.items&&(t=t.items[0]);return t&&t.subType?t.subType.toLowerCase():null}static convertUserActivities(t){return t?{skip:t.skip,top:t.top,hasMore:t.hasMore,moreCount:t.totalCount-(t.top-1+t.skip-1+2),totalCount:t.totalCount,list:t.items.map(t=>this.convertUserActivity(t))}:null}static convertUserActivity(t){if(!t)return null;const e={id:t.id,type:t.type,datetime:t.createdDateTime,isSeen:t.read,notification:t.notification};switch(t.type){case r.a.activityType.follow:{const o=t.links.find(t=>"User"==t.type);return Object.assign(Object.assign({},e),{user:this.convertUser(o&&o.item)})}case r.a.activityType.badge:{const o=t.links.find(t=>"Achievement"==t.type);return Object.assign(Object.assign({},e),{badgeType:o&&o.item.subType})}case r.a.activityType.reply:{const o=t.links.find(t=>"User"==t.type),n=t.links.find(t=>"Content"==t.type),i=t.links.find(t=>"Comment"==t.type);return Object.assign(Object.assign({},e),{user:this.convertUser(o&&o.item),target:{url:n&&n.item.url,body:i&&i.item.body.replace(/(?:\r\n|\r|\n)/g,"<br>"),comment:i&&this.convertComment(i.item)}})}case r.a.activityType.reaction:{const o=t.links.find(t=>"User"==t.type),n=t.links.find(t=>"Content"==t.type),i=t.links.find(t=>"Comment"==t.type),a=t.links.find(t=>"Reaction"==t.type),r=a&&"Comment"==a.item.targetType?this.convertSubReactionSummariesToReactionCounts(i&&i.item.reactionSummary&&i.item.reactionSummary.subReactionSummaries):this.convertSubReactionSummariesToReactionCounts(n&&n.item.reactionSummary&&n.item.reactionSummary.subReactionSummaries),s=a&&"Comment"==a.item.targetType?i&&i.item.body:n&&n.item.title;return Object.assign(Object.assign({},e),{user:this.convertUser(o&&o.item),target:{url:n&&n.item.url,reactionCounts:r,body:s.replace(/(?:\r\n|\r|\n)/g,"<br>"),comment:i&&this.convertComment(i.item)}})}case r.a.activityType.moderation:{const o=t.links.find(t=>"Comment"==t.type),n=t.links.find(t=>"ModerationRecord"==t.type),i=n&&n.item.subType;let a;switch(i){case r.a.moderationErrorType.takedown:a="This comment was removed because it didn't meet our guidelines.";break;case r.a.moderationErrorType.ban:a="You've been banned due to violations of our guidelines.";break;case r.a.moderationErrorType.notAllowName:a="Your profile name didn't meet our guidelines.";break;case r.a.moderationErrorType.notAllowPicture:a="Your profile picture didn't meet our guidelines.";break;case r.a.moderationErrorType.approveUserAppeal:a="At your request, we've reviewed your case and reversed the prior decision. You should be able to post again soon. Thank you.";break;case r.a.moderationErrorType.approveCommentAppeal:a="At your request, we've reviewed your post and reversed the decision to remove it. This post will be restored shortly. Thank you.";break;case r.a.moderationErrorType.approveProfilePicAppeal:a="At your request, we've reviewed your profile picture and reversed the decision to remove it. Your profile picture will be restored shortly. Thank you.";break;case r.a.moderationErrorType.rejectUserAppeal:a="At your request, we've reviewed your case and found that your posts violated our community guidelines.";break;case r.a.moderationErrorType.rejectCommentAppeal:a="At your request, we've reviewed your post that was removed and found it violated our community guidelines.";break;case r.a.moderationErrorType.rejectProfilePicAppeal:a="At your request, we've reviewed your case and found that your profile picture violated our community guidelines.";break;default:a=""}return Object.assign(Object.assign({},e),{moderationErrorType:i,message:a,target:o&&{id:o.item.id,body:o.item.body}})}}return e}static convertSubReactionSummariesToReactionCounts(t){if(!t)return null;const e={all:0};return r.a.reactionOrder.map(t=>{e[t]=0}),t.map(t=>{e[t.type.toLowerCase()]=t.totalCount}),e}static mapFeedResponseToSocialBarData(t,e,o,n,a,r){const c=Object(i.l)();if(c&&c.indexOf("reactionstest")>-1){try{n={totalCount:0,subCommentSummaries:[]},(o={totalCount:0,subReactionSummaries:[]}).totalCount=Math.floor(1e4*Math.random()),n.totalCount=Math.floor(1e4*Math.random());["angry","like","love","sad","surprised","thinking"].sort(()=>.5-Math.random()).slice(0,Math.floor(3*Math.random())).forEach(t=>o.subReactionSummaries.push({totalCount:Math.floor(10*Math.random()),type:t}))}catch(t){}if(n.totalCount>0)try{const t=[{id:"82ccfa9b-56ac-41ca-9546-9f3910ec3cec"},{id:"f21a5f91-a6a9-4e80-bb59-3839e296773f"},{id:"c400d1c0-2f0d-469f-986c-8bebe2de1060"},{id:"1be1cb2b-6210-43b4-b962-ce1df9b524d0"},{id:"4e19e02f-f6fc-405d-8f99-1f007ce7f5df"}],e=Math.floor(5*Math.random());a=t.slice(e,e+1)}catch(t){}}const u=o&&o.subReactionSummaries?o.subReactionSummaries:[],d=t=>{if(Array.isArray(u)){const e=u.filter(e=>{var o,n;return(null===(o=e.type)||void 0===o?void 0:o.toLowerCase())===(null===(n=t)||void 0===n?void 0:n.toLowerCase())});return e&&e.length>0?e[0].totalCount:0}},m={angry:d(s.a.angry),like:d(s.a.like),love:d(s.a.love),sad:d(s.a.sad),surprised:d(s.a.surprised),thinking:d(s.a.thinking)},p=!e&&l.getLocalContentReaction(t,r);return p&&m[e=p]++,{myReaction:e,id:t,totalCommentsCount:n&&n.totalCount,reactionCounts:m,topComments:a}}static getLocalContentReaction(t,e){return e?e(t):Object(n.a)().supported&&Object(n.a)().getItem(`${a.b}${t}`)?Object(n.a)().getItem(`${a.b}${t}`):null}static convertCommentToTopCommentData(t,e,o){return t&&t.user?{market:o,username:t.user.primaryName,avatarUrl:t.user.notUseAvatar||!t.user.primaryAvatar?void 0:t.user.primaryAvatar,profileUrl:Object(c.b)(`${r.a.externalUrls.profilePage}${t.user.id}`,o),commentUrl:Object(c.b)(e,o,t.id),commentBody:t.text,replyCount:t.replyCount,reactionCounts:t.reactionCounts,createDatetime:t.createDatetime}:null}static convertPublisherFeed(t){var e,o,n;if(!(null==t?void 0:t.sections))return;const i=null===(e=null==t?void 0:t.sections[0])||void 0===e?void 0:e.cards;if(!i&&i.length<1)return;const a=null===(o=i[0])||void 0===o?void 0:o.provider;return{items:null===(n=i[0])||void 0===n?void 0:n.subCards.map(t=>Object.assign(Object.assign({},t),{provider:a}))}}}},WO7E:function(t,e,o){"use strict";var n;o.d(e,"a",(function(){return n})),function(t){t.like="like",t.love="love",t.surprised="surprised",t.thinking="thinking",t.sad="sad",t.angry="angry"}(n||(n={}))},dMmp:function(t,e,o){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var n=function(){function t(){}return t.IsNullOrWhiteSpace=function(t){try{return null==t||"undefined"==t||t.toString().replace(/\s/g,"").length<1}catch(t){return console.log(t),!1}},t.Join=function(e){for(var o=[],n=1;n<arguments.length;n++)o[n-1]=arguments[n];try{var i=o[0];if(Array.isArray(i)||i instanceof Array){for(var a=t.Empty,r=0;r<i.length;r++){var s=i[r];r<i.length-1?a+=s+e:a+=s}return a}if("object"==typeof i){var c=t.Empty,l=i;return Object.keys(i).forEach((function(t){c+=l[t]+e})),c=c.slice(0,c.length-e.length)}var u=o;return t.join.apply(t,[e].concat(u))}catch(e){return console.log(e),t.Empty}},t.Format=function(e){for(var o=[],n=1;n<arguments.length;n++)o[n-1]=arguments[n];try{return e.match(t.regexNumber)?t.format(t.regexNumber,e,o):e.match(t.regexObject)?t.format(t.regexObject,e,o,!0):t.Empty}catch(e){return console.log(e),t.Empty}},t.format=function(e,o,n,i){return void 0===i&&(i=!1),o.replace(e,(function(e,o){var a,r=e.split(":");return r.length>1&&(o=r[0].replace("{",""),e=r[1].replace("}","")),null==(a=i?n[0][o]:n[o])||null==a||e.match(/{\d+}/)||void 0!==(a=t.parsePattern(e,a))&&null!=a?a:t.Empty}))},t.parsePattern=function(e,o){switch(e){case"L":return o.toLowerCase();case"U":return o.toUpperCase();case"d":if("string"==typeof o)return t.getDisplayDateFromString(o);if(o instanceof Date)return t.Format("{0:00}.{1:00}.{2:0000}",o.getDate(),o.getMonth(),o.getFullYear());break;case"s":if("string"==typeof o)return t.getSortableDateFromString(o);if(o instanceof Date)return t.Format("{0:0000}-{1:00}-{2:00}",o.getFullYear(),o.getMonth(),o.getDate());break;case"n":"string"!=typeof o&&(o=o.toString());var n=o.replace(/,/g,".");if(isNaN(parseFloat(n))||n.length<=3)break;var i=n.split(/[^0-9]+/g),a=i;i.length>1&&(a=[t.join.apply(t,[""].concat(i.splice(0,i.length-1))),i[i.length-1]]);var r=a[0],s=r.length%3,c=s>0?r.substring(0,s):t.Empty,l=r.substring(s).match(/.{3}/g);return(c=c+"."+t.Join(".",l))+(a.length>1?","+a[1]:"")}return"number"!=typeof o&&isNaN(o)||isNaN(+e)||t.IsNullOrWhiteSpace(o)?o:t.formatNumber(o,e)},t.getDisplayDateFromString=function(t){var e;if((e=t.split("-")).length<=1)return t;var o=e[e.length-1],n=e[e.length-2],i=e[e.length-3];return(o=(o=o.split("T")[0]).split(" ")[0])+"."+n+"."+i},t.getSortableDateFromString=function(e){var o=e.replace(",","").split(".");if(o.length<=1)return e;var n=o[o.length-1].split(" "),i=t.Empty;n.length>1&&(i=n[n.length-1]);var a=o[o.length-1].split(" ")[0]+"-"+o[o.length-2]+"-"+o[o.length-3];return!t.IsNullOrWhiteSpace(i)&&i.length>1?a+="T"+i:a+="T00:00:00",a},t.formatNumber=function(t,e){var o=e.length,n=t.toString();if(o<=n.length)return n;var i=o-n.length;return new Array(i+=1).join("0")+n},t.join=function(e){for(var o=[],n=1;n<arguments.length;n++)o[n-1]=arguments[n];for(var i=t.Empty,a=0;a<o.length;a++)if(!("string"==typeof o[a]&&t.IsNullOrWhiteSpace(o[a])||"number"!=typeof o[a]&&"string"!=typeof o[a])){i+=""+o[a];for(var r=a+1;r<o.length;r++)if(!t.IsNullOrWhiteSpace(o[r])){i+=e,a=r-1;break}}return i},t.regexNumber=/{(\d+(:\w*)?)}/g,t.regexObject=/{(\w+(:\w*)?)}/g,t.Empty="",t}();e.String=n;var i=function(){function t(t){void 0===t&&(t=n.Empty),this.Values=[],this.Values=new Array(t)}return t.prototype.ToString=function(){return this.Values.join("")},t.prototype.Append=function(t){this.Values.push(t)},t.prototype.AppendFormat=function(t){for(var e=[],o=1;o<arguments.length;o++)e[o-1]=arguments[o];this.Values.push(n.Format.apply(n,[t].concat(e)))},t.prototype.Clear=function(){this.Values=[]},t}();e.StringBuilder=i},m2Vd:function(t,e,o){"use strict";var n;o.d(e,"a",(function(){return n})),function(t){t[t.None=0]="None",t[t.JustNow=1]="JustNow",t[t.LessThanOneHour=2]="LessThanOneHour",t[t.Today=3]="Today",t[t.Yesterday=4]="Yesterday",t[t.ThisWeek=5]="ThisWeek",t[t.ThisYear=6]="ThisYear",t[t.FullDate=7]="FullDate",t[t.InMinutes=8]="InMinutes"}(n||(n={}))},q77S:function(t,e,o){"use strict";o.d(e,"a",(function(){return n})),o.d(e,"b",(function(){return i}));const n="myReactionIds",i="myReaction"},uHPB:function(t,e,o){"use strict";function n(t){document.body.style["-webkit-touch-callout"]=t,document.body.style["-webkit-user-select"]=t,document.body.style["-khtml-user-select"]=t,document.body.style["-moz-user-select"]=t,document.body.style["-ms-user-select"]=t,document.body.style["user-select"]=t}function i(t){let e;if("touchstart"==t.type||"touchmove"==t.type||"touchend"==t.type||"touchcancel"==t.type){const o=void 0===t.originalEvent?t:t.originalEvent,n=o.touches[0]||o.changedTouches[0];e={x:n.clientX,y:n.clientY}}else"mousedown"!=t.type&&"mouseup"!=t.type&&"mousemove"!=t.type&&"mouseover"!=t.type&&"mouseout"!=t.type&&"mouseenter"!=t.type&&"mouseleave"!=t.type||(e={x:t.clientX,y:t.clientY});return e}function a(t,e){if(!t||!e)return;const o=e.getBoundingClientRect(),n=i(t);return o.left<=n.x&&o.right>=n.x&&o.top<=n.y&&o.bottom>=n.y}function r(t,e={}){try{e=Object.assign({type:t},e),window.ReactNativeWebView&&window.ReactNativeWebView.postMessage(JSON.stringify({type:"community",data:e}))}catch(t){}}o.d(e,"a",(function(){return u}));const s=()=>r("unlock-touch");var c=o("9y7U");class l{constructor(t,e){this.longPressTimeout=250,this.reopenTimeout=50,this.slideDisabled=!1,this.longpressDisabled=!1,this.listenLongpress=t=>{if(this.hasLongpressed)return;let e=!1;const o=()=>e=!0;setTimeout(()=>{e||(this.hasLongpressed=!0,this.callbacks.onLongpress&&this.callbacks.onLongpress(t),document.addEventListener("touchstart",()=>{this.hasLongpressed=!1,document.addEventListener("touchend",this.callbacks.onLongpressEnd,{once:!0}),document.addEventListener("touchmove",this.callbacks.onLongpressEnd,{once:!0})},{once:!0}))},this.longPressTimeout),t.addEventListener("touchend",o,{once:!0}),t.addEventListener("touchmove",o,{once:!0})},this.listenSlideStart=t=>{const e=()=>{this.triggerElement.removeEventListener("touchend",this.triggerClickHandler),this.callbacks.onSlideStart&&this.callbacks.onSlideStart(t),this.listenSliding()};document.addEventListener("touchmove",e,{once:!0}),document.addEventListener("touchend",()=>{document.removeEventListener("touchmove",e)},{once:!0})},this.callbacks=t,this.triggerTouchStartHandler=this.triggerTouchStartHandler.bind(this),this.triggerClickHandler=this.triggerClickHandler.bind(this),this.touchEndHandler=this.touchEndHandler.bind(this),this.slideDisabled=e&&e.slideDisabled,this.longpressDisabled=e&&e.longpressDisabled}setupTrigger(t){this.triggerElement!=t&&(this.unregisterTriggerEventHandlers(),this.triggerElement=t),this.registerTriggerEventHandlers()}setupTriggerAtTouchStart(t){this.setupTrigger(t.currentTarget),this.triggerTouchStartHandler(t)}dispose(){this.unregisterTriggerEventHandlers(),this.triggerElement=null}releaseTouchEvents(){s(),this.unregisterTriggerEventHandlers()}triggerTouchStartHandler(t){!this.longpressDisabled&&this.listenLongpress(t.currentTarget),!this.slideDisabled&&this.listenSlideStart(t.currentTarget),this.callbacks.onTouchStart&&this.callbacks.onTouchStart(t),function(t){n("none");const e=()=>n("unset");document.body.addEventListener("click",e,{once:!0}),document.body.addEventListener("mouseup",e,{once:!0}),document.body.addEventListener("touchend",e,{once:!0})}(),r("lock-touch"),this.enoughTimePassedSinceLastTouchEnd(t.timeStamp)}triggerClickHandler(t){this.hasLongpressed&&a(t,this.triggerElement)?t.stopPropagation():a(t,this.triggerElement)&&(this.triggerElement.click(),this.triggerElement.blur(),s(),this.callbacks.onTriggerClick&&this.callbacks.onTriggerClick(t))}touchEndHandler(t){this.callbacks.onTouchEnd&&this.callbacks.onTouchEnd(t),this.releaseTouchEvents()}listenSliding(){this.hasLongpressed=!1;let t=0;const e=e=>{if(e.stopPropagation(),e.cancelable&&e.preventDefault(),e.timeStamp-t<l.trackingPeriod)return;t=e.timeStamp;const o=i(e);this.callbacks.onSlide&&this.callbacks.onSlide(o,e)};document.addEventListener("touchmove",e,{capture:!0,passive:!1}),document.addEventListener("touchend",()=>{document.removeEventListener("touchmove",e,{capture:!0}),this.callbacks.onSlideEnd&&this.callbacks.onSlideEnd()},{capture:!0,once:!0})}registerTriggerEventHandlers(){setTimeout(()=>{this.triggerElement&&!this.isHandled&&(this.isHandled=!0,this.triggerElement.addEventListener("touchstart",this.triggerTouchStartHandler),this.triggerElement.addEventListener("touchend",this.triggerClickHandler),document.addEventListener("touchend",this.touchEndHandler))},10)}unregisterTriggerEventHandlers(){this.triggerElement&&this.isHandled&&(this.isHandled=!1,this.triggerElement.removeEventListener("touchstart",this.triggerTouchStartHandler),this.triggerElement.removeEventListener("touchend",this.triggerClickHandler),document.removeEventListener("touchend",this.touchEndHandler))}enoughTimePassedSinceLastTouchEnd(t){return t-l.lastTouchEndTime>this.reopenTimeout}}l.trackingPeriod=16,l.lastTouchEndTime=0;class u extends l{constructor(t,e,o,n){super(Object.assign(Object.assign({},t),{onSlide:(e,o)=>{this.reactionMenuSlideHandler(e,o),t.onSlide&&t.onSlide(e,o)},onSlideEnd:()=>{this.reactionHandler(),t.onSlideEnd&&t.onSlideEnd()},onLongpressEnd:e=>{a(e,this.containerElement)||a(e,this.triggerElement)||t.onLongpressEnd&&t.onLongpressEnd(e)}}),n),this.virtualTray={height:140,width:100,hMargin:20},this.reactioMenuCallbacks=e,this.emojiElementSelector=o}setReactionMenuContainer(t){this.containerElement=t}dispose(){this.containerElement=null,super.dispose()}reactionHandler(){this.touchFocusedEmojiElement&&this.touchFocusedEmojiElement.click()}reactionMenuSlideHandler(t,e){if(!this.containerElement)return;const o=this.containerElement.getBoundingClientRect(),n=o.top-this.virtualTray.height/2,i=o.bottom+this.virtualTray.height/2,a=o.left,r=o.left+o.width,s=(r-a)/c.a.reactionOrder.length,l=Math.min(Math.max(Math.floor((t.x-a)/s),0),c.a.reactionOrder.length-1);if(t.x<a-this.virtualTray.hMargin||t.x>r+this.virtualTray.hMargin||t.y<n||t.y>i)this.touchFocusedEmojiElement&&this.reactioMenuCallbacks.onEmojiBlur(this.touchFocusedEmojiElement),this.touchFocusedEmojiElement=null;else{const t=this.containerElement.querySelectorAll(this.emojiElementSelector)[l];this.touchFocusedEmojiElement!=t&&(this.touchFocusedEmojiElement&&this.reactioMenuCallbacks.onEmojiBlur(this.touchFocusedEmojiElement),this.touchFocusedEmojiElement=t,this.reactioMenuCallbacks.onEmojiFocus(this.touchFocusedEmojiElement))}}}},vjdx:function(t,e,o){"use strict";o.d(e,"a",(function(){return u})),o.d(e,"b",(function(){return d}));var n=o("S7gc"),i=o("m2Vd"),a=o("Oa3u");class r{constructor(t,e,o){this.timeLocStrings=t,this.locale=e,this.locUtility=o}transform(t,e,o){if(!t)return"";if(!this.locUtility.supportsLocaleSpecifiers)return e;const n=Object(a.c)(t);switch(Object(a.b)(t)){case i.a.None:return"";case i.a.JustNow:return this.timeLocStrings.JustNow;case i.a.LessThanOneHour:return this.timespanString(n,n<120?this.timeLocStrings.NumberMinuteAgo:this.timeLocStrings.NumberMinutesAgo,60);case i.a.Today:return this.timespanString(n,n<7200?this.timeLocStrings.NumberHourAgo:this.timeLocStrings.NumberHoursAgo,3600);case i.a.Yesterday:if(0===o){const e=this.timeLocStrings.TimeYesterday;return this.locUtility.format(e,this.locUtility.formatTimeFromDate(t,this.locale))}return n<86400?this.timespanString(n,n<7200?this.timeLocStrings.NumberHourAgo:this.timeLocStrings.NumberHoursAgo,3600):this.timespanString(n,n<172800?this.timeLocStrings.NumberDayAgo:this.timeLocStrings.NumberDaysAgo,86400);case i.a.ThisWeek:return 0===o?this.locUtility.format(this.timeLocStrings.TimeDayOfWeek,this.locUtility.localizedWeekday(t,this.locale),this.locUtility.formatTimeFromDate(t,this.locale)):this.timespanString(n,n<172800?this.timeLocStrings.NumberDayAgo:this.timeLocStrings.NumberDaysAgo,86400);case i.a.ThisYear:return this.locUtility.localizedMonthDate(t,this.locale);default:return this.locUtility.localizedDateStringMedium(t,this.locale)}}timespanString(t,e,o){const n=Math.floor(t/o);return this.locUtility.format(e,this.locUtility.localizedNumberString(n,this.locale))}}const s={JustNow:"Just Now",NumberMinuteAgo:"{0} minute ago",NumberMinutesAgo:"{0} minutes ago",NumberHourAgo:"{0} hour ago",NumberHoursAgo:"{0} hours ago",NumberDayAgo:"{0} day ago",NumberDaysAgo:"{0} days ago",NumberWeekAgo:"{0} week",NumberWeeksAgo:"{0} weeks",NumberMonthAgo:"{0} month",NumberMonthsAgo:"{0} months",NumberYearAgo:"{0} year",NumberYearsAgo:"{0} years",TimeYesterday:"Yesterday at {0}",TimeDayOfWeek:"{0} at {1}"},c={Minute:{one:"{0} دقيقة",two:"دقيقتان",threeToTen:"{0} دقائق",elevenPlus:"{0} دقيقة"},Hour:{one:"{0} ساعة",two:"ساعتان",threeToTen:"{0} ساعات",elevenPlus:"{0} ساعة"},Day:{one:"{0} يوم",two:"يومان",threeToTen:"{0} أيام",elevenPlus:"{0} يوما"},Week:{one:"{0} أسبوع",two:"{0} أسبوع",threeToTen:"{0} أسابيع",elevenPlus:"{0} أسبوعا"},Month:{one:"{0} شهر",two:"{0} شهر",threeToTen:"{0} أشهر",elevenPlus:"{0} شهرا"},Year:{one:"{0} عام",two:"{0} عام",threeToTen:"{0} أعوام",elevenPlus:"{0} عاما"}},l={Week:{one:"{0} שבוע",two:"{0} שבועיים",three:"{0} שבועות"},Month:{one:"{0} חודש",two:"{0} חודשיים",three:"{0} חודשים"},Year:{one:"{0} שנה",two:"{0} שנתיים",three:"{0} שנים"}};function u(t,e,o,i,a,u){const d=e&&e.toLowerCase();if(!(t instanceof Date)||isNaN(t.valueOf()))return"";if(u&&o)return function(t,e,o,n){if(!(t instanceof Date)||isNaN(t.valueOf()))return"";const i=m.MsPerMinute,a=m.MsPerHour,r=m.MsPerDay,s=m.MsPerWeek,u=m.MsPerMonth,d=m.MsPerYear,p=e.getTime()-t.getTime();if(p<i)return o.JustNow||"";let h=d,b="Year";p<a?(h=i,b="Minute"):p<r?(h=a,b="Hour"):p<s?(h=r,b="Day"):p<u?(h=s,b="Week"):p<d&&(h=u,b="Month");const g=/^[Aa][Rr]-/.test(n),y=/^[Hh][Ee]-/.test(n),v=Math.floor(p/h);let f=null;f=g?function(t,e){if(t<2)return c[e].one;if(t<3)return c[e].two;if(t<11)return c[e].threeToTen;return c[e].elevenPlus}(v,b):y?function(t,e,o){if("Minute"==o||"Hour"==o||"Day"==o)return t[`Number${o}${e>1?"s":""}Ago`];if(e<2)return l[o].one;if(e<3)return l[o].two;return l[o].three}(o,v,b):o[`Number${b}${v>1?"s":""}Ago`];return f?f.replace("{0}",v):""}(t,new Date,o,d);if(!o&&"zh-cn"===d)return"";o||(o=s);const p=(a=a||new n.a).localizedDateString(t,d);i||(i=0);return new r(o,d,a).transform(t,p,i)}function d(t){return t.toLocaleString("ja-JP",{hour12:!1,hour:"2-digit",minute:"2-digit",day:"2-digit",month:"2-digit",timeZone:"Asia/Tokyo"}).replace("午後","").replace("午前","")}const m={MsPerMinute:6e4,MsPerHour:36e5,MsPerDay:864e5,MsPerWeek:6048e5,MsPerMonth:2592e6,MsPerYear:31104e6}}}]);

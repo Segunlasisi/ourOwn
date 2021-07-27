@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+   /* flex-direction:column; */
+   /* flex-wrap: wrap; */
+   flex-grow: inherit;
+
+}
+
+.one,.two,.three{
+    width: 30%;
+}
+.one{
+    background-color: hotpink;
+}
+
+.two{
+    background-color: indigo;
+}
+
+.three{
+    background-color: lawngreen;
+}
+nav{
+    font-size: 50px;
+    background-color: lightcoral;
+    color: lightseagreen;
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+}
+li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+

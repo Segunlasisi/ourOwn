@@ -1,0 +1,22 @@
+body{
+    background-color: brown;
+    
+}
+
+@media ( max-width: 768px) {
+
+body{ 
+    background-color: lightsalmon;
+}
+    
+}
+
+
+@media ( max-width: 468px) {
+
+    body{ 
+        background-color: olivedrab;
+    }
+        
+}
+

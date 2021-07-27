@@ -1,0 +1,133 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["toast-wc"],{"+qLX":function(t,e,o){"use strict";var s,n,a,i,r,c,l;o.d(e,"a",(function(){return i})),function(t){t.Article="article",t.Gallery="gallery",t.Video="video",t.Win32="win32",t.UWP="uwp",t[t.Module=8]="Module",t[t.ActionButton=11]="ActionButton",t[t.Navigation=14]="Navigation",t[t.WebView=31]="WebView",t[t.SmartList=35]="SmartList"}(s||(s={})),function(t){t[t.Taboola=0]="Taboola",t[t.Outbrain=1]="Outbrain",t[t.MediaNet=2]="MediaNet",t[t.Editor=3]="Editor",t[t.Personalization=4]="Personalization",t[t.Autocuration=5]="Autocuration"}(n||(n={})),function(t){t[t.MUID=0]="MUID",t[t.ANID=1]="ANID",t[t.AAD=2]="AAD"}(a||(a={})),function(t){t.StartPage="startpage",t.SpartanDhp="default",t.SpartanNtp="default",t.ArticleVnext="article_vnext",t.GalleryVnext="gallery_vnext",t.GalleryClassic="gallery_classic",t.GalleryFlex="gallery_flex",t.ArticleFlex="article_flex",t.StockDetailsPage="stockdetails",t.TeamStatsPage="teamstats",t.Xfeed="xfeed",t.Interests="cinterests"}(i||(i={})),function(t){t.DHP="dhp",t.NTP="ntp",t.Article="article",t.Gallery="gallery",t.Video="video"}(r||(r={})),function(t){t.Emmx="emmx",t.Prime="prime",t.Spartan="spartan",t.ChromeExt="chromeext",t.IEExt="ieext"}(c||(c={})),function(t){t[t.Empty=0]="Empty",t[t.SearchBox=1]="SearchBox",t[t.TopSites=2]="TopSites",t[t.Suggested=4]="Suggested",t[t.ContentFeed=8]="ContentFeed",t[t.WinFRE=16]="WinFRE"}(l||(l={}))},"8ntK":function(t,e,o){"use strict";var s;o.d(e,"a",(function(){return s})),function(t){t.Save="Save",t.Mute="Mute",t.Follow="Follow",t.Unfollow="Unfollow",t.InterestFailure="InterestFailure",t.ShowMore="ShowMore",t.ShowFewer="ShowFewer",t.Hide="Hide",t.DisableNotification="DisableNotification",t.EnableNotification="EnableNotification"}(s||(s={}))},JzSW:function(t,e,o){"use strict";o.d(e,"a",(function(){return a}));var s=o("HxRh"),n=o("u5KZ");class a extends Map{constructor(t){super(),this.identifier=t,this.subscriptions=new Map}set(t,e){super.set(t,e);const o=this.subscriptions.get(t)||[];return o.length?(o.forEach((o,a)=>{try{o&&o(e)}catch(e){n.a.sendAppErrorEvent(Object.assign(Object.assign({},s.Ei),{message:"Failed to exceute subscription callback",pb:Object.assign(Object.assign({},s.Ei.pb),{customMessage:`Error executing subscription callback for key [${t}] at handler index [${a}]`,instanceId:this.identifier,errorMessage:e&&e.message})}))}}),this):this}subscribe(t,e){const o=this.subscribeInternal(t,e);return this.has(t)&&this.tryExecuteSubscriptionCallback(t,o.index,this.get(t)),{unsubscribe:o.unsubscribe}}subscribeInternal(t,e){const o=this.subscriptions.get(t)||[];this.subscriptions.set(t,[...o,e]);const s=o.length;return{unsubscribe:()=>{const e=this.subscriptions.get(t)||[];e[s]&&(e[s]=null),this.subscriptions.set(t,e)},index:s}}tryExecuteSubscriptionCallback(t,e,o){const s=this.subscriptions.get(t);if(!s||!s.length)return;const n=s[e];"function"==typeof n&&n(o)}}},P6f5:function(t,e,o){"use strict";o.r(e),o.d(e,"ToolingInfo",(function(){return st})),o.d(e,"ToastWC",(function(){return b})),o.d(e,"ToastWCTemplate",(function(){return _})),o.d(e,"ToastWCStyles",(function(){return ot}));var s=o("A03o"),n=o("C49W"),a=o("sydv"),i=o("akWC"),r=o("Zn5T");const c=Object(s.a)(r.a.toastWC,"A sample Peregrine Web Component experience",Object.assign(Object.assign(Object.assign({},Object(n.c)("savedStoriesWithinPersonalize","Set to true when Saved Stories is within personalize.")),Object(n.f)("OneRiverInterestsPivotInfo","OneRiverInterestsPivotInfo","Information for the interests pivot",Object.assign(Object.assign(Object.assign({},Object(a.c)("pivotId","Pivot Id","The ID of the interests pivot")),Object(a.c)("configIndexHref","Config Index Link","The config index href for the interests experience")),Object(a.c)("displayName","Interests Pivot Display Name","The display string for the interests pivot")))),Object(i.a)({toastCloseButtonTitle:"Toast Close Button Title ",saveStoryToastText:"Save toast content text (i.e. Story saved in {0}) ",personalizeTabName:"Save toast personalize tab name (i.e. Personalize) ",muteToastBodyText:"Mute toast content text (i.e. Stories from {0} have been hidden) ",interestErrorMessage:" Interest error message (i.e. We can't update your feed right now. Please try again later.)",followSuccessMessage:"Follow success content text (i.e. Great! You are now following {0}.)",unfollowSuccessMessage:"Unfollow success content text (i.e. You've unfollowed {bold}.)",showFewerToastText:"Show Fewer toast text (i.e. You'll see fewer stories like this) ",showMoreToastText:"Show More toast text (i.e. You'll see more stories like this) ",showMoreFewerToastButtonText:"Undo button for show more/fewer toast text (i.e. Undo) ",hideToastText:"Hide toast text (i.e. The {0} card has been hidden. {1}.)",undoHideToastButtonText:"Undo button for hide toast text (i.e. Undo)",manageHideToastButtonText:"Manage button for hide toast text (i.e. Manage)"})));var l=o("D57K"),u=o("IqCT"),d=o("oePG"),h=o("Qo3E");class b extends u.a{experienceConnected(){h.a.setRenderToastCallback(t=>{this.toastDataProps=t,this.timer=window.setTimeout(()=>this.closeToast(t.id),t.expirationInMs||5e3)}),h.a.setExpireToastCallback(t=>this.closeToast(t))}forceCloseToast(){this.timer&&window.clearTimeout(this.timer),this.toastDataProps=null}getExperienceType(){return r.a.toastWC}closeToast(t){var e;(null===(e=this.toastDataProps)||void 0===e?void 0:e.id)===t&&(this.timer&&window.clearTimeout(this.timer),this.toastDataProps=null)}dismissToast(t){var e;(null===(e=this.toastDataProps)||void 0===e?void 0:e.onClick)&&this.toastDataProps.onClick(t),this.toastDataProps=null}}Object(l.e)([d.d],b.prototype,"toastDataProps",void 0);var g=o("u5KZ"),p=o("Am8i"),f=o("W+kI"),m=o("rvYQ"),T=o("AxnZ"),w=o("6BDD"),v=o("UNqU"),x=o("m1Vi"),C=o("OI02"),I=o("+qLX");const k={telemetryContracts:{toastCloseButton:{name:"Close",behavior:p.c.Close,action:p.b.Click,type:p.f.ActionButton}},savedStoriesWithinPersonalizeUrl:"/{locale}/feed/personalize#saves",standaloneSavedStoriesUrl:"/{locale}/feed/personalize/saves",urlBase:"https://www.msn.com",locale:"{locale}",defaultBottomPosition:32};var S=o("8ntK"),y=o("Gsg7");const{telemetryContracts:M}=k,j=t=>new y.a(Object.assign(Object.assign({},M.toastCloseButton),{content:{headline:t.toastCloseButtonTitle}})).getMetadataTag(),O=t=>{const e=Object(f.a)(),o=new URL("/personalize",window.location.origin);return o.search=e.toString(),new y.a({name:"ToastButton",type:p.f.Interaction,content:{headline:t.personalizeTabName},action:p.b.Click,destinationUrl:o.href}).getMetadataTag()},P=t=>new y.a({name:"ToastButton",type:p.f.ActionButton,behavior:p.c.Unlike,content:{headline:[t.showMoreFewerToastButtonText,S.a.ShowMore].join(" ")},action:p.b.Click}).getMetadataTag(),$=t=>new y.a({name:"ToastButton",type:p.f.ActionButton,behavior:p.c.Undislike,content:{headline:[t.showMoreFewerToastButtonText,S.a.ShowFewer].join(" ")},action:p.b.Click}).getMetadataTag(),R=t=>new y.a({name:"ToastButton",type:p.f.ActionButton,behavior:p.c.Hide,content:{headline:[t.hideToastText,S.a.Hide].join(" ")},action:p.b.Click}).getMetadataTag(),D=t=>{const e=Object(f.a)(),o=new URL("/personalize",window.location.origin);return o.search=e.toString(),new y.a({name:"ManageToastButton",type:p.f.ActionButton,behavior:p.c.Navigate,content:{headline:[t.manageHideToastButtonText,S.a.Hide].join(" ")},action:p.b.Click,destinationUrl:o.href}).getMetadataTag()};var B=o("w0HK"),U=o("qxGE"),E=o("eUhr");C.a,x.b;const N=w.b`${t=>t}`,A=(t,e)=>w.b`
+<fluent-button
+    class = "lightweight toast-navigation-button"
+    aria-label="${e?t.strings.manageHideToastButtonText:t.strings.personalizeTabName}"
+     ${Object(E.b)(()=>e?D(t.strings):O(t.strings))}
+    @click ="${(o,{event:s})=>{const{config:n}=t;g.a.sendActionEvent(s.target,p.b.Click);const a={isRequestFromSavedStoryToast:!0,noScroll:!0};if(U.a.getRouteById("my-saves"))return void U.a.navigate("my-saves",a);const i={isRequestFromSdCardAddRemoveClick:!0};if(n.oneRiverInterestsPivotInfo)Object(B.a)().switchPivot({pivotId:n.oneRiverInterestsPivotInfo.pivotId,configIndexHref:n.oneRiverInterestsPivotInfo.configIndexHref,configIndexRef:n.oneRiverInterestsPivotInfo.configIndexRef,context:e?i:a,telemetryPageName:I.a.Interests,display:n.oneRiverInterestsPivotInfo.displayName});else{const t=Object(f.a)();let e;e=n.savedStoriesWithinPersonalize?k.savedStoriesWithinPersonalizeUrl:k.standaloneSavedStoriesUrl;const o=new URL(e.replace(k.locale,m.b.CurrentMarket),k.urlBase);o.search=t.toString(),window.open(o.href,"_blank")}}}">
+    ${e?t.strings.manageHideToastButtonText:t.strings.personalizeTabName}
+</fluent-button>`,F=w.b`
+    <span class="toast-middle-align">
+        ${Object(v.c)(t=>Object(T.a)(t.strings.saveStoryToastText,A(t,!1)),N)}
+    </span>`,L=w.b`
+    <span class="toast-middle-align">
+      ${Object(v.c)(t=>Object(T.a)(t.strings.muteToastBodyText,w.b`<b key="muteToastContent">${t.toastDataProps.inputText}</b>`),N)}
+    </span>
+`,z=w.b`
+    <span class="toast-middle-align">
+      ${Object(v.c)(t=>Object(T.a)(t.strings.followSuccessMessage,w.b`<b key="interestToastContent">${t.toastDataProps.inputText}</b>`),N)}
+    </span>
+`,W=w.b`
+    <span class="toast-middle-align">
+      ${Object(v.c)(t=>Object(T.a)(t.strings.unfollowSuccessMessage,w.b`<b key="interestToastContent">${t.toastDataProps.inputText}</b>`),N)}
+    </span>
+`,H=w.b`
+    <span class="toast-middle-align">
+      ${Object(v.c)(t=>Object(T.a)(t.toastDataProps.toastType===S.a.ShowMore?t.strings.showMoreToastText:t.strings.showFewerToastText,w.b`
+            <fluent-button
+                ${Object(E.b)(()=>t.toastDataProps.toastType===S.a.ShowMore?P(t.strings):$(t.strings))}
+                key="showMoreFewerToastContent"
+                class="lightweight toast-navigation-button"
+                @click=${(e,o)=>t.dismissToast(o.event)}
+            >
+                ${t.strings.showMoreFewerToastButtonText}
+            </fluent-button>`),N)}
+    </span>
+`,G=t=>w.b`
+    <span class="toast-middle-align toast-hide-sdcard">
+      ${Object(v.c)(t=>Object(T.a)(t.strings.hideToastText,t.toastDataProps.inputText,w.b`
+        <fluent-button
+            ${Object(E.b)(R(t.strings))}
+            key="undoHideSDCard"
+            class="lightweight toast-navigation-button"
+            @click=${(e,o)=>t.dismissToast(o.event)}
+        >
+            ${t.strings.undoHideToastButtonText}
+        </fluent-button>`,A(t,!0)),N)}
+    </span>
+`,V=w.b`<span>${t=>t.strings.interestErrorMessage}</span>`,q=w.b`<span>${t=>t.toastDataProps.inputText}</span>`,K=t=>{var e;return w.b`<div
+        class="toast-root-wrapper"
+        style="bottom: ${!t.useRouter&&(()=>{const t=document.querySelectorAll("div[class^='footer']");if(t&&t.length){const e=parseInt(window.getComputedStyle(t[0]).marginTop)||0,o=t[0].getBoundingClientRect().height+e;return o?o+10:null}return null})()||k.defaultBottomPosition}px ;">
+        <msn-toast>
+            <output role="alert">${(t=>{const{toastDataProps:e}=t;if(e)switch(e.toastType){case S.a.Save:return F;case S.a.Mute:return L;case S.a.Follow:return z;case S.a.Unfollow:return W;case S.a.InterestFailure:return V;case S.a.ShowMore:case S.a.ShowFewer:return H;case S.a.Hide:return G;case S.a.DisableNotification:return q;default:return}})(t)}</output>
+            ${(null===(e=t.toastDataProps)||void 0===e?void 0:e.buttonText)?w.b`
+            <fluent-button class="lightweight toast-navigation-button"
+            slot = "actions"
+            @click=${(e,o)=>t.dismissToast(o.event)}
+            > ${t.toastDataProps.buttonText}</fluent-button>`:""}
+            <fluent-button
+                ${Object(E.b)(j(t.strings))}
+                class="toast-close-button"
+                slot = "close-button"
+                appearance = "stealth"
+                @click=${(e,o)=>t.forceCloseToast(o.event)}
+                title = "${t.strings.toastCloseButtonTitle}"
+                aria-label="${t.strings.toastCloseButtonTitle}" >
+                <svg width="12" height = "12" viewBox = "0 0 12 12" xmlns = "http://www.w3.org/2000/svg" > <path d="M6.84961 6L12 11.1504L11.1504 12L6 6.84961L0.849609 12L0 11.1504L5.15039 6L0 0.849609L0.849609 0L6 5.15039L11.1504 0L12 0.849609L6.84961 6Z" /> </svg>
+            </fluent-button>
+        </msn-toast>
+    </div>`},_=w.b`${t=>t.toastDataProps?K(t):""}`;var J=o("3KaK"),Y=o("MZhw"),Z=o("HzrG"),Q=o("fuIx"),X=o("e8jz"),tt=o("kL0l");const et=()=>{const t=Object(Y.b)(()=>J.e)(Z.b);return Object(J.f)()?t:J.d},ot=o("4X57").a`
+    ms-toast::host {
+        box-sizing: border-box;
+        display: block;
+        height: 100%;
+    }
+
+    .toast-middle-align {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    b {
+        margin: 0 5px;
+    }
+
+    .toast-root-wrapper {
+        position: fixed;
+        left: 50%;
+        --neutral-foreground-rest: ${(()=>{if(Object(Q.b)()){const t=Object(X.b)();return t&&t.isDarkMode?J.g:J.a}const t=Object(Y.b)(()=>J.e)(Z.b);return Object(J.f)()?J.d:t})()};
+        --accent-foreground-rest: #63ADE5;
+        transform: translate(-50%, 0);
+        width: fit-content;
+        max-width: 95%;
+    }
+
+    msn-toast::part(toast-root){
+        color: ${et()};
+        background: var(--neutral-foreground-rest);
+    }
+
+    .toast-close-button {
+        background: transparent;
+    }
+
+    .stealth:hover {
+        }
+
+    svg {
+        fill: ${et()};
+        forced-color-adjust: auto;
+    }
+
+    @media (-ms-high-contrast:active) {
+        .toast-navigation-button {
+            -ms-high-contrast-adjust: none;
+            color: LinkText
+        }
+
+    }
+
+    .toast-navigation-button {
+        margin-inline-start: 4px;
+        background: transparent;
+        color: var(--accent-foreground-rest);
+    }
+
+    .toast-hide-sdcard .toast-navigation-button:not(:first-of-type) {
+        margin-inline-start: -10px;
+    }
+
+    fluent-button::part(control) {
+        padding: 0;
+    }
+`.withBehaviors(tt.t,tt.q),st={experienceConfigSchema:c}},Qo3E:function(t,e,o){"use strict";o.d(e,"a",(function(){return s}));class s{static renderToast(t){this.renderToastCallback&&this.renderToastCallback(t)}static setRenderToastCallback(t){this.renderToastCallback=t}static expireToast(t){this.expireToastCallback&&this.expireToastCallback(t)}static setExpireToastCallback(t){this.expireToastCallback=t}static setCurrentToast(t,e){this.currentToastId!==t&&(this.currentToastId=t,this.renderToastCallback=e,this.currentToastIdChangeCallbacks.forEach(e=>e(t)),this.renderToast())}static addCurrentToastIdChangeCallback(t){t&&this.currentToastIdChangeCallbacks.push(t)}}s.currentToastIdChangeCallbacks=[]},mJTN:function(t,e,o){"use strict";o.d(e,"b",(function(){return s})),o.d(e,"a",(function(){return n}));const s=new(o("JzSW").a)("AppState");var n;!function(t){t[t.IsSignedIn=1]="IsSignedIn",t[t.CookieConsentStatus=2]="CookieConsentStatus",t[t.CookieConsentProvider=3]="CookieConsentProvider",t[t.IsDarkMode=4]="IsDarkMode",t[t.ColumnArrangement=5]="ColumnArrangement",t[t.CurrentRoute=6]="CurrentRoute",t[t.TopicData=7]="TopicData",t[t.AboveTheFoldVisuallyReady=8]="AboveTheFoldVisuallyReady",t[t.IsDocumentVisible=9]="IsDocumentVisible"}(n||(n={}))},qxGE:function(t,e,o){"use strict";o.d(e,"a",(function(){return i}));var s,n=o("rvYQ"),a=o("mJTN");!function(t){t[t.Router=0]="Router",t[t.ExternalLink=2]="ExternalLink",t[t.PrimeExternalLink=3]="PrimeExternalLink"}(s||(s={}));const i=new class{constructor(){this.routeMap=new Map,this.market=n.b.CurrentMarket}init(t){if(!this.options&&t){if(this.options=t,this.config=t.config,this.baseUrl=`${location.origin}/${this.market}${t.basePath}`,this.setRoutes(this.config),!a.b.get(a.a.CurrentRoute)){const t=this.routeMap.get(this.config.homeNavigationItem.id);a.b.set(a.a.CurrentRoute,t),window.history.replaceState(t,"",t.destinationUrl)}window.addEventListener("popstate",t=>{const e=this.routeMap.get(t.state.id);a.b.set(a.a.CurrentRoute,e||this.config.homeNavigationItem)})}}navigate(t,e){const o=a.b.get(a.a.CurrentRoute);if(o&&o.id===t)return;const s=this.routeMap.get(t);if(!s)return;const n=Object.assign(Object.assign({},s),{dynamicContext:e});window.history.pushState(n,s.display,s.destinationUrl),a.b.set(a.a.CurrentRoute,n)}navigateToExternalUrl(t,e=!1){e?window.open(t,"_blank"):location.href=decodeURIComponent(t)}getRouteById(t){return this.routeMap.get(t)}updateMarket(t){location.replace(location.href.replace(`/${this.market}/`,`/${t}/`))}getUrl(t){if(t.id===this.config.homeNavigationItem.id)return`${this.baseUrl}${location.search}`;const{context:e,renderType:o,path:n,externalUrl:a}=t.renderInfo;if(o===s.Router){let t=this.baseUrl;return e&&e.excludeFeedPrefix&&(t=`${location.origin}/${this.market}/`),`${t}${0===n.indexOf("personalize")?"":"/interest"}/${n}${location.search}`}const i=new URL(a).pathname,r=new URL(`${i}${location.search}`,location.origin);return!r.searchParams.get("ocid")&&this.options.ocid&&r.searchParams.set("ocid",this.options.ocid),decodeURIComponent(r.toString())}setRoutes(t){if(!t)return;const{contextualNavItems:e=[],hamburgerMenuItems:o=[],homeNavigationItem:s,interestsNavigationItem:n}=t;s&&o.length&&e.length&&(this.buildNavMap(s),this.buildNavMap(n),this.mapChildItems(o),this.mapChildItems(e))}processRoute(t,e){if(!t.renderInfo)return;const o=Object.assign(Object.assign({},t),{destinationUrl:this.getUrl(t),experienceInfo:Object.assign(Object.assign({},t.renderInfo.experienceConfigRef),{instanceId:t.id}),parentId:e});return a.b.get(a.a.CurrentRoute)||t.renderInfo.renderType===s.Router&&location.pathname.endsWith(t.renderInfo.path)&&(a.b.set(a.a.CurrentRoute,o),window.history.replaceState(o,"",o.destinationUrl)),o}buildNavMap(t){if(!t||this.routeMap.get(t.id))return;const{id:e,children:o=[]}=t;this.routeMap.set(e,this.processRoute(t)),this.mapChildItems(o,t.id)}mapChildItems(t=[],e){t.forEach(t=>{this.routeMap.get(t.id)||this.routeMap.set(t.id,this.processRoute(t,e));const{children:o}=t;o&&o.length&&this.mapChildItems(o,t.id)})}}}}]);

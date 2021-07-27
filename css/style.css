@@ -1,0 +1,23 @@
+body{ background-color: blue;
+background-image: url(../imagefolder/logo4.jpg);
+/* background-size: 150px 90px; */
+background-size:contain;
+/* background-repeat: no-repeat */
+}
+      
+p{
+    color:white;
+    margin:10% ;
+    outline: 50px ;
+    font-size: 20px;
+    border: 30px solid hsl(180, 20%, 89%);
+    padding: 5%; ;
+    background-color: rgb(red, green, rgb(125, 125, 151));
+}
+.one{color: #e4d1d1;}
+.two {color: #e7e0df;}
+.three {color: red;}
+
+
+h1 {background-color: rgb(188, 185, 212);}
+
